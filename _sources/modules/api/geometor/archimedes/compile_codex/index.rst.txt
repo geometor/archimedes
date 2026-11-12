@@ -1,0 +1,74 @@
+geometor.archimedes.compile_codex
+=================================
+
+.. py:module:: geometor.archimedes.compile_codex
+
+.. autoapi-nested-parse::
+
+   Apparatus RST generator and Book Codex structural verifier for GEOMETOR • archimedes.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.archimedes.compile_codex.FORBIDDEN_CODE_PATTERNS
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.archimedes.compile_codex.sync_root_apparatus_json
+   geometor.archimedes.compile_codex.render_concordance_rst
+   geometor.archimedes.compile_codex.render_bibliography_rst
+   geometor.archimedes.compile_codex.render_persons_rst
+   geometor.archimedes.compile_codex.render_glossary_rst
+   geometor.archimedes.compile_codex.compile_apparatus
+   geometor.archimedes.compile_codex.verify_codex_integrity
+
+
+Module Contents
+---------------
+
+.. py:data:: FORBIDDEN_CODE_PATTERNS
+   :type:  tuple[re.Pattern[str], ...]
+
+.. py:function:: sync_root_apparatus_json(repo_root: pathlib.Path | None = None) -> None
+
+   Keep root ``resources/*.json`` synchronized with ``resources/works/*.json``.
+
+
+.. py:function:: render_concordance_rst(repo_root: pathlib.Path | None = None) -> str
+
+   Render ``docsrc/works/concordance.rst`` from ``concordance.json``.
+
+
+.. py:function:: render_bibliography_rst(repo_root: pathlib.Path | None = None) -> str
+
+   Render ``docsrc/works/bibliography.rst`` from ``citations.json``.
+
+
+.. py:function:: render_persons_rst(repo_root: pathlib.Path | None = None) -> str
+
+   Render ``docsrc/works/persons.rst`` from ``persons.json``.
+
+
+.. py:function:: render_glossary_rst(repo_root: pathlib.Path | None = None) -> str
+
+   Render ``docsrc/works/glossary.rst`` from ``glossary.json``.
+
+
+.. py:function:: compile_apparatus(repo_root: pathlib.Path | None = None) -> list[pathlib.Path]
+
+   Synchronize root apparatus JSONs and write the four RST apparatus tables in ``docsrc/works/``.
+
+
+.. py:function:: verify_codex_integrity(repo_root: pathlib.Path | None = None) -> list[str]
+
+   Verify full Book Codex structural, provenance, SVG, and zero-embedded-Python invariants.
+
+

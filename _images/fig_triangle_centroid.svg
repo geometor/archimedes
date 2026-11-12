@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 298" width="580" height="298" class="euclid-graphic" data-graphic-id="fig_triangle_centroid" data-proposition="Equilibrium I.6-7, 13-14">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+  </defs>
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+      }
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      background-color: var(--geom-bg);
+    }
+    .geom-line {
+      stroke: var(--geom-fg);
+      stroke-width: 1.7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-bold {
+      stroke: var(--geom-fg);
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-dashed {
+      stroke: var(--geom-fg);
+      stroke-width: 1.3;
+      stroke-dasharray: 5, 3.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      opacity: 0.72;
+    }
+    .geom-accent-line {
+      stroke: var(--geom-accent);
+      stroke-width: 2.1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-assert-line {
+      stroke: var(--geom-assert);
+      stroke-width: 2.1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-circle {
+      stroke: var(--geom-fg);
+      stroke-width: 1.65;
+      fill: none;
+    }
+    .geom-circle-accent {
+      stroke: var(--geom-accent);
+      stroke-width: 2.1;
+      fill: var(--geom-accent);
+      fill-opacity: 0.10;
+    }
+    .geom-circle-assert {
+      stroke: var(--geom-assert);
+      stroke-width: 2.0;
+      stroke-dasharray: 6, 3;
+      fill: var(--geom-assert);
+      fill-opacity: 0.08;
+    }
+    .geom-arc {
+      stroke: var(--geom-fg);
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-ang-arc {
+      stroke: var(--geom-assert);
+      stroke-width: 2.0;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-polygon {
+      fill: var(--geom-poly-fill);
+      fill-opacity: 0.05;
+      stroke: none;
+    }
+    .geom-polygon-accent {
+      fill: var(--geom-accent);
+      fill-opacity: 0.14;
+      stroke: none;
+    }
+    .geom-polygon-assert {
+      fill: var(--geom-assert);
+      fill-opacity: 0.14;
+      stroke: none;
+    }
+    .geom-point {
+      fill: var(--geom-fg);
+      stroke: var(--geom-point-stroke);
+      stroke-width: 1.1;
+    }
+    .geom-point-accent {
+      fill: var(--geom-accent);
+      stroke: var(--geom-point-stroke);
+      stroke-width: 1.1;
+    }
+    .geom-point-assert {
+      fill: var(--geom-assert);
+      stroke: var(--geom-point-stroke);
+      stroke-width: 1.1;
+    }
+    .geom-label {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 13.5px;
+      font-weight: 700;
+      fill: var(--geom-fg);
+      user-select: none;
+    }
+    .geom-label-sm {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 11.5px;
+      font-weight: 700;
+      fill: var(--geom-fg);
+      opacity: 0.88;
+      user-select: none;
+    }
+    .geom-label-accent {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: var(--geom-accent);
+      user-select: none;
+    }
+    .geom-label-assert {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: var(--geom-assert);
+      user-select: none;
+    }
+  </style>
+  <g id="elements">
+    <polygon points="98.00,118.00 88.00,136.00 108.00,136.00" class="geom-polygon-accent" />
+    <polygon points="18.00,152.00 58.00,152.00 58.00,202.00 18.00,202.00" class="geom-polygon-accent" />
+    <polygon points="204.00,152.00 232.00,152.00 232.00,187.00 204.00,187.00" class="geom-polygon-assert" />
+    <polygon points="392.00,44.00 274.00,242.00 548.00,242.00" class="geom-polygon" data-ref="&lt; A B C &gt;" />
+  </g>
+  <g id="graphics">
+    <path d="M 38.00 118.00 L 128.00 118.00 L 218.00 118.00" class="geom-bold" data-ref="/ H K /" />
+    <path d="M 98.00 118.00 L 93.00 127.00 L 88.00 136.00" class="geom-accent-line" />
+    <path d="M 88.00 136.00 L 98.00 136.00 L 108.00 136.00" class="geom-accent-line" />
+    <path d="M 108.00 136.00 L 103.00 127.00 L 98.00 118.00" class="geom-accent-line" />
+    <path d="M 38.00 118.00 L 38.00 135.00 L 38.00 152.00" class="geom-dashed" />
+    <path d="M 218.00 118.00 L 218.00 135.00 L 218.00 152.00" class="geom-dashed" />
+    <path d="M 18.00 152.00 L 38.00 152.00 L 58.00 152.00" class="geom-accent-line" />
+    <path d="M 58.00 152.00 L 58.00 177.00 L 58.00 202.00" class="geom-accent-line" />
+    <path d="M 58.00 202.00 L 38.00 202.00 L 18.00 202.00" class="geom-accent-line" />
+    <path d="M 18.00 202.00 L 18.00 177.00 L 18.00 152.00" class="geom-accent-line" />
+    <path d="M 204.00 152.00 L 218.00 152.00 L 232.00 152.00" class="geom-assert-line" />
+    <path d="M 232.00 152.00 L 232.00 169.50 L 232.00 187.00" class="geom-assert-line" />
+    <path d="M 232.00 187.00 L 218.00 187.00 L 204.00 187.00" class="geom-assert-line" />
+    <path d="M 204.00 187.00 L 204.00 169.50 L 204.00 152.00" class="geom-assert-line" />
+    <path d="M 362.50 93.50 L 396.75 93.50 L 431.00 93.50" class="geom-dashed" />
+    <path d="M 333.00 143.00 L 401.50 143.00 L 470.00 143.00" class="geom-dashed" />
+    <path d="M 303.50 192.50 L 406.25 192.50 L 509.00 192.50" class="geom-dashed" />
+    <path d="M 392.00 44.00 L 333.00 143.00 L 274.00 242.00" class="geom-bold" data-ref="/ A B /" />
+    <path d="M 274.00 242.00 L 342.50 242.00 L 411.00 242.00" class="geom-bold" data-ref="/ B D /" marker-mid="url(#geom-tick-1)" />
+    <path d="M 411.00 242.00 L 479.50 242.00 L 548.00 242.00" class="geom-bold" data-ref="/ D C /" marker-mid="url(#geom-tick-1)" />
+    <path d="M 548.00 242.00 L 470.00 143.00 L 392.00 44.00" class="geom-bold" data-ref="/ C A /" />
+    <path d="M 392.00 44.00 L 401.50 143.00 L 411.00 242.00" class="geom-accent-line" data-ref="/ A D /" />
+    <path d="M 274.00 242.00 L 372.00 192.50 L 470.00 143.00" class="geom-assert-line" data-ref="/ B E /" />
+    <path d="M 548.00 242.00 L 440.50 192.50 L 333.00 143.00" class="geom-assert-line" data-ref="/ C F /" />
+  </g>
+  <g id="highlights" style="pointer-events: none;"></g>
+  <g id="points">
+    <circle cx="38.00" cy="118.00" r="3.20" class="geom-point" data-ref="H" />
+    <circle cx="98.00" cy="118.00" r="3.20" class="geom-point-accent" data-ref="L" />
+    <circle cx="218.00" cy="118.00" r="3.20" class="geom-point" data-ref="K" />
+    <circle cx="392.00" cy="44.00" r="3.20" class="geom-point" data-ref="A" />
+    <circle cx="274.00" cy="242.00" r="3.20" class="geom-point" data-ref="B" />
+    <circle cx="548.00" cy="242.00" r="3.20" class="geom-point" data-ref="C" />
+    <circle cx="411.00" cy="242.00" r="3.20" class="geom-point" data-ref="D" />
+    <circle cx="470.00" cy="143.00" r="3.20" class="geom-point" data-ref="E" />
+    <circle cx="333.00" cy="143.00" r="3.20" class="geom-point" data-ref="F" />
+    <circle cx="404.67" cy="176.00" r="4.40" class="geom-point-accent" data-ref="G" />
+  </g>
+  <g id="labels">
+    <text x="125.00" y="24.00" text-anchor="middle" class="geom-label-sm">I.6–7: Law of the Lever</text>
+    <text x="415.00" y="24.00" text-anchor="middle" class="geom-label-sm">I.13–14: Triangle Centroid G = X(2)</text>
+    <text x="38.00" y="108.00" text-anchor="middle" class="geom-label">H</text>
+    <text x="98.00" y="108.00" text-anchor="middle" class="geom-label-accent">L</text>
+    <text x="218.00" y="108.00" text-anchor="middle" class="geom-label">K</text>
+    <text x="38.00" y="182.00" text-anchor="middle" class="geom-label-accent">2W</text>
+    <text x="218.00" y="174.00" text-anchor="middle" class="geom-label-assert">1W</text>
+    <text x="68.00" y="112.00" text-anchor="middle" class="geom-label-sm">1</text>
+    <text x="158.00" y="112.00" text-anchor="middle" class="geom-label-sm">2</text>
+    <text x="125.00" y="255.00" text-anchor="middle" class="geom-label-accent">W₁ : W₂ = LK : HL</text>
+    <text x="392.00" y="34.00" text-anchor="middle" class="geom-label">A</text>
+    <text x="262.00" y="247.00" text-anchor="middle" class="geom-label">B</text>
+    <text x="560.00" y="247.00" text-anchor="middle" class="geom-label">C</text>
+    <text x="411.00" y="260.00" text-anchor="middle" class="geom-label">D</text>
+    <text x="483.00" y="141.00" text-anchor="middle" class="geom-label">E</text>
+    <text x="320.00" y="141.00" text-anchor="middle" class="geom-label">F</text>
+    <text x="422.67" y="169.00" text-anchor="start" class="geom-label-accent">G = X(2)</text>
+    <text x="415.00" y="282.00" text-anchor="middle" class="geom-label-assert">Barycentric (1 : 1 : 1) · AG : GD = 2 : 1</text>
+  </g>
+</svg>

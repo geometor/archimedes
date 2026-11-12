@@ -1,0 +1,129 @@
+geometor.archimedes.concordance
+===============================
+
+.. py:module:: geometor.archimedes.concordance
+
+.. autoapi-nested-parse::
+
+   Concordance and provenance loader for GEOMETOR • archimedes.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.archimedes.concordance.REQUIRED_EUCLID_CITATION_KEYS
+   geometor.archimedes.concordance.CANONICAL_UNIT_SLUGS
+   geometor.archimedes.concordance.TRACK_SUFFIXES
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.archimedes.concordance.ConcordanceEntry
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.archimedes.concordance.get_repo_root
+   geometor.archimedes.concordance.load_json_resource
+   geometor.archimedes.concordance.load_concordance
+   geometor.archimedes.concordance.verify_sources_manifest
+   geometor.archimedes.concordance.verify_euclid_citation_coverage
+
+
+Module Contents
+---------------
+
+.. py:data:: REQUIRED_EUCLID_CITATION_KEYS
+   :type:  tuple[str, ...]
+   :value: ('archimedes:conoids-and-spheroids', 'archimedes:equilibrium-of-planes:i-7',...
+
+
+.. py:data:: CANONICAL_UNIT_SLUGS
+   :type:  tuple[str, ...]
+   :value: ('measurement-of-a-circle', 'equilibrium-of-planes', 'quadrature-of-parabola',...
+
+
+.. py:data:: TRACK_SUFFIXES
+   :type:  tuple[str, ...]
+   :value: ('-en.rst', '-summary.rst', '-notes.rst')
+
+
+.. py:function:: get_repo_root() -> pathlib.Path
+
+   Return the root directory of the geometor/archimedes repository.
+
+
+.. py:class:: ConcordanceEntry
+
+   Single canonical proposition or treatise locus in Archimedes' Opera.
+
+
+   .. py:attribute:: id
+      :type:  str
+
+
+   .. py:attribute:: unit
+      :type:  int
+
+
+   .. py:attribute:: unit_slug
+      :type:  str
+
+
+   .. py:attribute:: treatise
+      :type:  str
+
+
+   .. py:attribute:: proposition
+      :type:  str
+
+
+   .. py:attribute:: title
+      :type:  str
+
+
+   .. py:attribute:: heiberg
+      :type:  str
+
+
+   .. py:attribute:: heath
+      :type:  str
+
+
+   .. py:attribute:: euclid_keys
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: ecosystem_links
+      :type:  dict[str, str]
+
+
+.. py:function:: load_json_resource(name: str, repo_root: pathlib.Path | None = None) -> dict[str, Any]
+
+   Load a JSON resource from ``resources/works/<name>``.
+
+
+.. py:function:: load_concordance(repo_root: pathlib.Path | None = None) -> list[ConcordanceEntry]
+
+   Load all structured ``ConcordanceEntry`` records from ``concordance.json``.
+
+
+.. py:function:: verify_sources_manifest(repo_root: pathlib.Path | None = None) -> list[str]
+
+   Verify SHA-256 digests and byte lengths of all archival provenance files.
+
+
+.. py:function:: verify_euclid_citation_coverage(repo_root: pathlib.Path | None = None) -> list[str]
+
+   Verify that every Archimedes citation key used in geometor/euclid is covered.
+
+

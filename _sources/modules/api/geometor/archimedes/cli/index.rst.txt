@@ -1,0 +1,51 @@
+geometor.archimedes.cli
+=======================
+
+.. py:module:: geometor.archimedes.cli
+
+.. autoapi-nested-parse::
+
+   Command-line interface for GEOMETOR • archimedes.
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.archimedes.cli.cmd_summary
+   geometor.archimedes.cli.cmd_compile_apparatus
+   geometor.archimedes.cli.cmd_verify
+   geometor.archimedes.cli.build_parser
+   geometor.archimedes.cli.main
+
+
+Module Contents
+---------------
+
+.. py:function:: cmd_summary(repo_root: pathlib.Path) -> int
+
+   Print summary statistics of the Archimedes Book Codex.
+
+
+.. py:function:: cmd_compile_apparatus(repo_root: pathlib.Path) -> int
+
+   Regenerate apparatus RST files and sync root JSON resources.
+
+
+.. py:function:: cmd_verify(repo_root: pathlib.Path) -> int
+
+   Verify SHA-256 provenance manifest, euclid keys, 21 tracks, and SVG schema.
+
+
+.. py:function:: build_parser() -> argparse.ArgumentParser
+
+   Construct the CLI argument parser.
+
+
+.. py:function:: main(argv: list[str] | None = None) -> int
+
+   CLI entry point.
+
+
