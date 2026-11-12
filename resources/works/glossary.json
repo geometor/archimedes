@@ -1,0 +1,232 @@
+{
+  "arbelos": {
+    "headword": "arbelos (ἄρβηλος)",
+    "translation": "shoemaker's knife",
+    "term": "arbelos",
+    "greek": "ἄρβηλος",
+    "latin": "scalprum sutorium",
+    "english": "shoemaker's knife",
+    "definition": "Curvilinear plane region bounded by three mutually tangent semicircles with collinear diameters AB = AC + CB on the same side of line AB; its area equals the circle whose diameter is the common internal tangent perpendicular CD (Book of Lemmas Prop. 4).",
+    "archimedes_loci": "Book of Lemmas Props. 4–6 (Heath 1897, pp. 304–308); Pappus IV.14"
+  },
+  "twin-circles": {
+    "headword": "Archimedes' Twin Circles",
+    "translation": "equal circles inscribed in the partitioned arbelos",
+    "term": "twin circles of Archimedes",
+    "greek": "δίδυμοι κύκλοι",
+    "latin": "circuli aequales in arbelo",
+    "english": "Archimedes' Twin Circles",
+    "definition": "The two circles inscribed on opposite sides of the perpendicular CD dividing the arbelos, each tangent to CD, the outer semicircle AB, and one inner semicircle (AC or CB); Archimedes proves they are strictly equal with radius r = (r1·r2)/(r1 + r2) (Book of Lemmas Prop. 5).",
+    "archimedes_loci": "Book of Lemmas Prop. 5 (Heath 1897, pp. 305–306)"
+  },
+  "salinon": {
+    "headword": "salinon (σάλινον)",
+    "translation": "salt-cellar",
+    "term": "salinon",
+    "greek": "σάλινον",
+    "latin": "salinum",
+    "english": "salt-cellar",
+    "definition": "Symmetric curvilinear figure formed by four semicircles on collinear segments with AD = EB: an outer semicircle AB and central opposite semicircle DE bridged by two inward equal semicircles AD, EB; its area equals the circle on the axial symmetry segment CF (Book of Lemmas Prop. 14).",
+    "archimedes_loci": "Book of Lemmas Prop. 14 (Heath 1897, pp. 316–317)"
+  },
+  "neusis": {
+    "headword": "neusis (νεῦσις)",
+    "translation": "verging / inclination construction",
+    "term": "neusis",
+    "greek": "νεῦσις",
+    "latin": "inclinatio",
+    "english": "verging / marked-straightedge insertion",
+    "definition": "Geometric construction inserting a line segment of given length between two given curves or lines such that the extended line 'verges' (νεύει) toward a given point; used by Archimedes to trisect an arbitrary angle (Book of Lemmas Prop. 8) and construct spiral tangents (On Spirals Props. 5–9).",
+    "archimedes_loci": "On Spirals Props. 5–9 (pp. 156–161); Book of Lemmas Prop. 8 (p. 309)"
+  },
+  "kentron-barous": {
+    "headword": "kentron tou bareos (κέντρον τοῦ βάρεος)",
+    "translation": "center of gravity / barycenter",
+    "term": "kentron tou bareos",
+    "greek": "κέντρον τοῦ βάρεος",
+    "latin": "centrum gravitatis",
+    "english": "center of gravity / centroid",
+    "definition": "Unique point of a plane figure or solid body such that if suspended therefrom it remains in equilibrium in any orientation; proved in Equilibrium of Planes I.13–14 to coincide for any triangle with the concurrency of its medians (Kimberling center X(2)).",
+    "archimedes_loci": "Equilibrium I Post. 1–7, Props. 13–14 (pp. 189–202); Method Postulates"
+  },
+  "isorropia": {
+    "headword": "isorropia (ἰσορροπία)",
+    "translation": "equilibrium / equal balance",
+    "term": "isorropia",
+    "greek": "ἰσορροπία",
+    "latin": "aequilibrium",
+    "english": "static equilibrium",
+    "definition": "State in which magnitudes suspended at distances along a lever balance one another about a fulcrum; governed by Archimedes' seven postulates of plane statics.",
+    "archimedes_loci": "Equilibrium of Planes I.Post.1–7, Props. 1–7 (pp. 189–194)"
+  },
+  "antipeponthos": {
+    "headword": "antipeponthos (ἀντιπεπονθέναι)",
+    "translation": "reciprocal / inversely proportional",
+    "term": "antipeponthos",
+    "greek": "ἀντιπεπονθέναι",
+    "latin": "reciproce proportionalia",
+    "english": "inverse proportionality (Law of the Lever)",
+    "definition": "Fundamental law proved for both commensurable (I.6) and incommensurable (I.7) magnitudes: two magnitudes balance at distances reciprocally proportional to their weights (A : B = d_B : d_A).",
+    "archimedes_loci": "Equilibrium of Planes I.6–7 (pp. 192–194); Method Prop. 1"
+  },
+  "ephodion": {
+    "headword": "ephodos / ephodion (ἔφοδος / ἐφόδιον)",
+    "translation": "method of mechanical discovery",
+    "term": "ephodos",
+    "greek": "ἔφοδος",
+    "latin": "methodus mechanica",
+    "english": "heuristic mechanical method",
+    "definition": "Archimedes' analytic art of investigating unknown areas, volumes, and centroids by decomposing figures into parallel line or plane elements and balancing them on a virtual lever against known comparison solids prior to synthetic proof by exhaustion.",
+    "archimedes_loci": "The Method (Heath 1912, pp. 12–51; Heiberg II, 426–507)"
+  },
+  "archimedes-lemma": {
+    "headword": "Archimedes' Lemma (Axiom of Archimedes)",
+    "translation": "continuity / comparability postulate",
+    "term": "Archimedes' Lemma",
+    "greek": "λῆμμα Ἀρχιμήδους",
+    "latin": "axioma Archimedis",
+    "english": "Axiom of Archimedes",
+    "definition": "Of unequal lines, unequal surfaces, and unequal solids, the greater exceeds the less by such a magnitude as, when added to itself, can be made to exceed any assigned magnitude among those which are comparable with one another (credited by Archimedes to earlier geometers / Eudoxus; formalized as Hilbert Axiom V 1).",
+    "archimedes_loci": "Sphere & Cyl. I Assump. 5 (p. 4); Spirals Pref.; Quadrature Pref. (p. 234)"
+  },
+  "concave-same-way": {
+    "headword": "epi ta auta koila (ἐπὶ τὰ αὐτὰ κοῖλα)",
+    "translation": "concave in the same direction",
+    "term": "epi ta auta koila",
+    "greek": "ἐπὶ τὰ αὐτὰ κοῖλα",
+    "latin": "ad easdem partes concava",
+    "english": "convexity / monotonic curvature condition",
+    "definition": "Rigorous geometric definition of convexity for curves and surfaces in Sphere and Cylinder I: a curve or surface is concave in the same direction if the segment joining any two points on it lies wholly on one side (or on) the curve/surface, guaranteeing that an included convex perimeter/surface is strictly less than the enveloping one.",
+    "archimedes_loci": "Sphere & Cylinder I Defs. & Assump. 1–4 (Heath 1897, pp. 2–4)"
+  },
+  "exhaustion": {
+    "headword": "Method of Exhaustion",
+    "translation": "double indirect compression",
+    "term": "method of exhaustion",
+    "greek": "δι᾽ ἐγγραφομένων καὶ περιγραφομένων",
+    "latin": "methodus exhaustionis",
+    "english": "method of exhaustion",
+    "definition": "Rigorous Greek proof paradigm compressing an unknown curvilinear magnitude X between inscribed and circumscribed rectilinear/polygonal sequences (P_n < X < Q_n with Q_n - P_n < ε or Q_n / P_n < 1 + ε) and refuting both X > M and X < M by double reductio ad absurdum.",
+    "archimedes_loci": "Measurement Prop. 1; Quadrature Props. 20–24; Sphere & Cyl. I.33–34"
+  },
+  "helix": {
+    "headword": "helix (ἕλιξ)",
+    "translation": "Archimedean spiral",
+    "term": "helix (Archimedean spiral)",
+    "greek": "ἕλιξ",
+    "latin": "linea spiralis",
+    "english": "Archimedean spiral",
+    "definition": "Plane kinematic locus traced by a point moving uniformly along a straight ray while the ray revolves uniformly in a plane about its fixed extremity O (polar equation r = aθ).",
+    "archimedes_loci": "On Spirals Def. 1 & Props. 12–28 (Heath 1897, pp. 151–188)"
+  },
+  "subtangent": {
+    "headword": "polar subtangent of the spiral",
+    "translation": "rectifying segment OT = 2πr",
+    "term": "polar subtangent",
+    "greek": "ἡ πρὸς ὀρθὰς τᾷ ἀρχᾷ τᾶς περιφορᾶς",
+    "latin": "subtangens spiralis",
+    "english": "spiral subtangent",
+    "definition": "Segment cut off on the perpendicular to the radius vector at the origin by the tangent to the spiral; in On Spirals Props. 18–20 Archimedes proves that at the end of the n-th turn its length equals n times the circumference of the corresponding circle, achieving the kinematic rectification of the circle.",
+    "archimedes_loci": "On Spirals Props. 18–20 (Heath 1897, pp. 171–176)"
+  },
+  "tmema-paraboles": {
+    "headword": "tmema orthogoniou konou tomes (τμῆμα ὀρθογωνίου κώνου τομῆς)",
+    "translation": "parabolic segment",
+    "term": "parabolic segment",
+    "greek": "τμῆμα ὀρθογωνίου κώνου τομῆς",
+    "latin": "segmentum parabolae",
+    "english": "segment of a parabola",
+    "definition": "Region comprehended by a straight chord AC and a 'section of a right-angled cone' (Archimedes' pre-Apollonian term for a parabola); its area equals 4/3 of the inscribed triangle of greatest area having the same base AC and vertex B where the tangent is parallel to AC.",
+    "archimedes_loci": "Quadrature Props. 17, 24 (pp. 246, 252); Method Prop. 1 (1912, p. 15)"
+  },
+  "orthogonion-konoeides": {
+    "headword": "orthogonion konoeides (ὀρθογώνιον κωνοειδές)",
+    "translation": "right-angled conoid (paraboloid of revolution)",
+    "term": "orthogonion konoeides",
+    "greek": "ὀρθογώνιον κωνοειδές",
+    "latin": "conoides rectangulum",
+    "english": "paraboloid of revolution",
+    "definition": "Solid generated by revolving a parabola about its axis; Archimedes proves any segment cut off by a plane equals 3/2 of the cone having the same base and axis (half of the enveloping cylinder).",
+    "archimedes_loci": "On Conoids and Spheroids Props. 21–22 (pp. 131–134); Method Prop. 4"
+  },
+  "amblygonion-konoeides": {
+    "headword": "amblygonion konoeides (ἀμβλυγώνιον κωνοειδές)",
+    "translation": "obtuse-angled conoid (hyperboloid of revolution)",
+    "term": "amblygonion konoeides",
+    "greek": "ἀμβλυγώνιον κωνοειδές",
+    "latin": "conoides obtusangulum",
+    "english": "hyperboloid of revolution",
+    "definition": "Solid generated by revolving one branch of a hyperbola ('section of an obtuse-angled cone') about its transverse diameter.",
+    "archimedes_loci": "On Conoids and Spheroids Props. 25–26 (pp. 137–140); Method Prop. 5"
+  },
+  "sphairoeides": {
+    "headword": "sphairoeides (σφαιροειδές)",
+    "translation": "spheroid (ellipsoid of revolution)",
+    "term": "sphairoeides",
+    "greek": "σφαιροειδές",
+    "latin": "sphaeroides",
+    "english": "prolate or oblate spheroid",
+    "definition": "Solid generated by revolving an ellipse ('section of an acute-angled cone') about its major axis (elongate/prolate spheroid, παραμᾶκες) or minor axis (flat/oblate spheroid, ἐπιπλατύ).",
+    "archimedes_loci": "On Conoids and Spheroids Defs. & Props. 27–32 (pp. 101, 140–150); Method Prop. 3"
+  },
+  "bicylinder": {
+    "headword": "bicylinder (Steinmetz solid)",
+    "translation": "intersection of two orthogonal equal cylinders",
+    "term": "bicylinder",
+    "greek": "τὸ ἐξ ἀμφοτέρων τῶν κυλίνδρων κοινὸν σχῆμα",
+    "latin": "solidum commune duorum cylindrorum",
+    "english": "Archimedean bicylinder",
+    "definition": "Solid common to two right circular cylinders inscribed in a cube with perpendicular intersecting axes; in the concluding theorem of The Method Archimedes discovers and proves that its volume equals 2/3 of the cube (16/3 r³), matching an exclusively planar cross-sectional square construction.",
+    "archimedes_loci": "The Method Preface & Prop. 15 (Heath 1912, pp. 14, 46–51)"
+  },
+  "ungula": {
+    "headword": "cylindrical ungula (hoof)",
+    "translation": "wedge cut from a cylinder by an oblique plane",
+    "term": "cylindrical ungula",
+    "greek": "τμῆμα κυλίνδρου",
+    "latin": "ungula cylindrica",
+    "english": "cylindrical hoof / wedge",
+    "definition": "Solid cut from a right circular cylinder inscribed in a rectangular prism by a plane through a diameter of one base and a parallel edge of the opposite face; Archimedes proves both mechanically (Prop. 12–13) and purely geometrically via triangular cross-sections (Prop. 14) that its volume is 1/6 of the prism (2/3 r²h).",
+    "archimedes_loci": "The Method Props. 12–14 (Heath 1912, pp. 38–46)"
+  },
+  "semi-regular-polyhedra": {
+    "headword": "Thirteen Archimedean Semi-Regular Solids",
+    "translation": "vertex-transitive polyhedra with regular faces of two or three kinds",
+    "term": "Archimedean semi-regular solids",
+    "greek": "τρισκαίδεκα σχήματα ἰσόπλευρα μὲν καὶ ἰσογώνια, οὐχ ὅμοια δέ",
+    "latin": "corpora semiregularia Archimedis",
+    "english": "Archimedean solids",
+    "definition": "The complete finite family of 13 convex non-prismatic, non-Platonic polyhedra bounded by regular polygons of two or three species meeting in congruent vertex configurations, discovered by Archimedes and catalogued in Pappus's Synagoge V.19.",
+    "archimedes_loci": "Pappus Synagoge V.19; Heath 1897 Ch. V; Pacioli De Divina Proportione"
+  },
+  "myriad-octads": {
+    "headword": "myriad-octads (μυριάδες / ὀκτάδες)",
+    "translation": "orders and periods of large numbers",
+    "term": "myriad-octads",
+    "greek": "ἀριθμοὶ πρῶτοι καὶ δεύτεροι / περίοδοι",
+    "latin": "ordines et periodi numerorum",
+    "english": "Archimedean octad exponential notation",
+    "definition": "Positional naming system constructed in The Sand-Reckoner taking 10^8 (a myriad myriads) as the base of successive 'orders' up to the (10^8)-th order (First Period = 10^(8·10^8)) and iterating through 10^8 Periods up to 10^(8·10^16), accompanied by the law of exponents A_m · A_n = A_(m+n-1).",
+    "archimedes_loci": "Sand-Reckoner III.1–6 (Heath 1897, pp. 227–230)"
+  },
+  "stomachion": {
+    "headword": "Stomachion / Ostomachion (Στομάχιον)",
+    "translation": "fourteen-piece geometric dissection puzzle",
+    "term": "Stomachion",
+    "greek": "Στομάχιον",
+    "latin": "Loculus Archimedius",
+    "english": "Archimedes' Stomachion",
+    "definition": "Combinatorial and areal dissection of a 12 × 12 square into 14 rational-area polygonal tiles (areas 3, 6, 9, 12, 14, 21 out of 144) admitting 17,152 (536 distinct modulo dihedral symmetry) square assemblies.",
+    "archimedes_loci": "Heiberg Vol. II (1913, pp. 416–424); Palimpsest fol. 177"
+  },
+  "quadrea": {
+    "headword": "Archimedes' Function / Quadrea",
+    "translation": "polynomial area-squared invariant",
+    "term": "Archimedes' function (quadrea)",
+    "greek": "τετραπλάσιον ἐμβαδόν",
+    "latin": "functio Archimedis",
+    "english": "quadrea A(Q1, Q2, Q3)",
+    "definition": "Symmetric quadratic polynomial A(Q1, Q2, Q3) = (Q1 + Q2 + Q3)^2 - 2(Q1^2 + Q2^2 + Q3^2) = 16·Area^2 in the three side quadrances of a triangle (attributed to Archimedes via Arabic Heron tradition and central to Rational Trigonometry in geometor/wildberger).",
+    "archimedes_loci": "geometor/wildberger; Book of Lemmas & Heron Metrica I.8"
+  }
+}

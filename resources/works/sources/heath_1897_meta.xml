@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <title>The works of Archimedes</title>
+  <creator>Archimedes</creator>
+  <creator>Heath, Thomas Little, Sir, 1861-1940</creator>
+  <subject>Mathematics, Greek</subject>
+  <subject>Geometry</subject>
+  <subject>Mechanics</subject>
+  <description>Introduction: I. Archimedes. II. Manuscripts and principal editions, order of composition, dialect, lost works. III. Relation of Archimedes to his predecessors. IV. Arithmetic in Archimedes. V. On the problems known as [neuseis] VI. Cubic equations. VII. Anticipations by Archimedes of the integral calculus. VIII. The terminology of Archimedes.--Works: On the sphere and cylinder, books I-II. Measurement of a circle. On conoids and spheroids. On spirals. On the equilibrium of planes, books I-II. The sand-reckoner. Quadrature of the parabola. On floating bodies, books I-II. Book of lemmas. The cattle-problem [including the solution of Wurm's problem by Amthor in Zeitschrift für math. u. phys. [Hist. litt. abth.] v. 25, 1880]</description>
+  <description>List of the principal works consulted: p. [xi]-xii</description>
+  <publisher>Cambridge, University Press</publisher>
+  <date>1897</date>
+  <language>eng</language>
+  <language>grc</language>
+  <page-progression>lr</page-progression>
+  <sponsor>Wellesley College Library</sponsor>
+  <contributor>Wellesley College Library</contributor>
+  <scanningcenter>boston</scanningcenter>
+  <mediatype>texts</mediatype>
+  <call_number>b13151022</call_number>
+  <updatedate>2009-06-08 18:38:30</updatedate>
+  <updater>francesca@archive.org</updater>
+  <identifier>worksofarchimede00arch</identifier>
+  <uploader>francesca@archive.org</uploader>
+  <addeddate>2009-06-08 18:38:33</addeddate>
+  <publicdate>2009-06-08 18:38:47</publicdate>
+  <ppi>400</ppi>
+  <camera>Canon 5D</camera>
+  <operator>scanner-david-burke@archive.org</operator>
+  <scanner>scribe5.boston.archive.org</scanner>
+  <scandate>20090610002337</scandate>
+  <imagecount>528</imagecount>
+  <foldoutcount>0</foldoutcount>
+  <identifier-access>http://www.archive.org/details/worksofarchimede00arch</identifier-access>
+  <identifier-ark>ark:/13960/t46q2cw7b</identifier-ark>
+  <repub_state>4</repub_state>
+  <sponsordate>20090630</sponsordate>
+  <curation>[curator]melissa@archive.org[/curator][date]20091201161519[/date][state]approved[/state]</curation>
+  <collection>Wellesley_College_Library</collection>
+  <collection>blc</collection>
+  <collection>americana</collection>
+  <collection>greekclassicslist</collection>
+  <backup_location>ia903603_7</backup_location>
+  <openlibrary_edition>OL14118937M</openlibrary_edition>
+  <openlibrary_work>OL5681640W</openlibrary_work>
+  <external-identifier>urn:oclc:record:1158470909</external-identifier>
+  <filesxml>Sat Dec 26 19:23:35 UTC 2020</filesxml>
+  <page_number_confidence>99</page_number_confidence>
+  <lccn>03002208</lccn>
+  <associated-names>Heath, Thomas Little, Sir, 1861-1940</associated-names>
+  <ocr>tesseract 5.1.0-1-ge935</ocr>
+  <ocr_parameters>-l eng+grc</ocr_parameters>
+  <ocr_module_version>0.0.16</ocr_module_version>
+  <ocr_detected_script>Latin</ocr_detected_script>
+  <ocr_detected_script_conf>1.0000</ocr_detected_script_conf>
+  <ocr_detected_lang>en</ocr_detected_lang>
+  <ocr_detected_lang_conf>1.0000</ocr_detected_lang_conf>
+  <pdf_module_version>0.0.18</pdf_module_version>
+  <page_number_module_version>1.0.5</page_number_module_version>
+</metadata>

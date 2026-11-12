@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <title>Archimedis Opera omnia, cum commentariis Eutocii. E codice florentino recensuit</title>
+  <volume>2</volume>
+  <creator>Archimedes</creator>
+  <creator>Eutocius, of Ascalon</creator>
+  <creator>Heiberg, J. L. (Johan Ludvig), 1854-1928</creator>
+  <subject>Mathematics, Greek</subject>
+  <subject>Geometry</subject>
+  <subject>Mechanics</subject>
+  <description>27</description>
+  <publisher>Lipsiae, in aedibus B. G, Teubneri</publisher>
+  <date>1880</date>
+  <language>lat</language>
+  <language>grc</language>
+  <page-progression>lr</page-progression>
+  <sponsor>University of Toronto</sponsor>
+  <contributor>PIMS - University of Toronto</contributor>
+  <scanningcenter>uoft</scanningcenter>
+  <mediatype>texts</mediatype>
+  <collection>pimslibrary</collection>
+  <collection>toronto</collection>
+  <collection>university_of_toronto</collection>
+  <call_number>AKL-8202</call_number>
+  <repub_state>4</repub_state>
+  <updatedate>2011-08-09 21:12:42</updatedate>
+  <updater>AlexAitken</updater>
+  <identifier>archimedisoperao02arch</identifier>
+  <uploader>alexaitken@archive.org</uploader>
+  <addeddate>2011-08-09 21:12:44</addeddate>
+  <publicdate>2011-08-09 21:12:47</publicdate>
+  <scanner>scribe19.toronto.archive.org</scanner>
+  <foldout_seconds>369</foldout_seconds>
+  <ppi>400</ppi>
+  <camera>Canon EOS 5D Mark II</camera>
+  <operator>scanner-dan-gorman@archive.org</operator>
+  <scandate>20110818164321</scandate>
+  <imagecount>490</imagecount>
+  <foldoutcount>1</foldoutcount>
+  <identifier-access>http://www.archive.org/details/archimedisoperao02arch</identifier-access>
+  <identifier-ark>ark:/13960/t81k0bt21</identifier-ark>
+  <scanfee>105</scanfee>
+  <curation>[curator]andrea@archive.org[/curator][date]20110906031006[/date][state]approved[/state]</curation>
+  <sponsordate>20110831</sponsordate>
+  <backup_location>ia903702_14</backup_location>
+  <external-identifier>urn:oclc:record:1039968719</external-identifier>
+  <filesxml>Wed Dec 23 6:47:42 UTC 2020</filesxml>
+  <lccn>34010802</lccn>
+  <oclc-id>9021533</oclc-id>
+  <associated-names>Eutocius, of Ascalon; Heiberg, J. L. (Johan Ludvig), 1854-1928</associated-names>
+  <ocr>tesseract 5.0.0-1-g862e</ocr>
+  <ocr_parameters>-l lat+grc</ocr_parameters>
+  <ocr_module_version>0.0.15</ocr_module_version>
+  <ocr_detected_script>Greek</ocr_detected_script>
+  <ocr_detected_script_conf>0.5754</ocr_detected_script_conf>
+  <ocr_detected_lang>el</ocr_detected_lang>
+  <ocr_detected_lang_conf>1.0000</ocr_detected_lang_conf>
+  <page_number_confidence>96</page_number_confidence>
+  <pdf_module_version>0.0.18</pdf_module_version>
+  <page_number_module_version>1.0.5</page_number_module_version>
+</metadata>
