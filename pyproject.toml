@@ -23,7 +23,7 @@ geometor-archimedes = "geometor.archimedes.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["geometor"]
+include = ["geometor*"]
 namespaces = true
 
 [tool.setuptools.dynamic]
