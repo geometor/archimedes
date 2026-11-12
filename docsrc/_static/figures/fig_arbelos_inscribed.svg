@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 306" width="560" height="306" class="euclid-graphic" data-graphic-id="fig_arbelos_inscribed" data-proposition="Liber Assumptorum 6">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+  </defs>
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+      }
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      background-color: var(--geom-bg);
+    }
+    .geom-line {
+      stroke: var(--geom-fg);
+      stroke-width: 1.7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-bold {
+      stroke: var(--geom-fg);
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-dashed {
+      stroke: var(--geom-fg);
+      stroke-width: 1.3;
+      stroke-dasharray: 5, 3.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      opacity: 0.72;
+    }
+    .geom-accent-line {
+      stroke: var(--geom-accent);
+      stroke-width: 2.1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-assert-line {
+      stroke: var(--geom-assert);
+      stroke-width: 2.1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-circle {
+      stroke: var(--geom-fg);
+      stroke-width: 1.65;
+      fill: none;
+    }
+    .geom-circle-accent {
+      stroke: var(--geom-accent);
+      stroke-width: 2.1;
+      fill: var(--geom-accent);
+      fill-opacity: 0.10;
+    }
+    .geom-circle-assert {
+      stroke: var(--geom-assert);
+      stroke-width: 2.0;
+      stroke-dasharray: 6, 3;
+      fill: var(--geom-assert);
+      fill-opacity: 0.08;
+    }
+    .geom-arc {
+      stroke: var(--geom-fg);
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-ang-arc {
+      stroke: var(--geom-assert);
+      stroke-width: 2.0;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-polygon {
+      fill: var(--geom-poly-fill);
+      fill-opacity: 0.05;
+      stroke: none;
+    }
+    .geom-polygon-accent {
+      fill: var(--geom-accent);
+      fill-opacity: 0.14;
+      stroke: none;
+    }
+    .geom-polygon-assert {
+      fill: var(--geom-assert);
+      fill-opacity: 0.14;
+      stroke: none;
+    }
+    .geom-point {
+      fill: var(--geom-fg);
+      stroke: var(--geom-point-stroke);
+      stroke-width: 1.1;
+    }
+    .geom-point-accent {
+      fill: var(--geom-accent);
+      stroke: var(--geom-point-stroke);
+      stroke-width: 1.1;
+    }
+    .geom-point-assert {
+      fill: var(--geom-assert);
+      stroke: var(--geom-point-stroke);
+      stroke-width: 1.1;
+    }
+    .geom-label {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 13.5px;
+      font-weight: 700;
+      fill: var(--geom-fg);
+      user-select: none;
+    }
+    .geom-label-sm {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 11.5px;
+      font-weight: 700;
+      fill: var(--geom-fg);
+      opacity: 0.88;
+      user-select: none;
+    }
+    .geom-label-accent {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: var(--geom-accent);
+      user-select: none;
+    }
+    .geom-label-assert {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: var(--geom-assert);
+      user-select: none;
+    }
+  </style>
+  <g id="elements">
+    <path d="M 40.00 264.00 A 240.00 240.00 0 0 1 520.00 264.00 A 96.00 96.00 0 0 0 328.00 264.00 A 144.00 144.00 0 0 0 40.00 264.00 Z" class="geom-polygon" />
+    <circle cx="343.16" cy="112.42" r="75.79" class="geom-circle-accent" data-ref="( P T )" />
+  </g>
+  <g id="graphics">
+    <path d="M 40.00 264.00 A 240.00 240.00 0 0 1 280.00 24.00 A 240.00 240.00 0 0 1 520.00 264.00" class="geom-bold" data-ref="( O A )" />
+    <path d="M 40.00 264.00 A 144.00 144.00 0 0 1 184.00 120.00 A 144.00 144.00 0 0 1 328.00 264.00" class="geom-bold" data-ref="( O1 A )" />
+    <path d="M 328.00 264.00 A 96.00 96.00 0 0 1 424.00 168.00 A 96.00 96.00 0 0 1 520.00 264.00" class="geom-bold" data-ref="( O2 C )" />
+    <path d="M 40.00 264.00 L 280.00 264.00 L 520.00 264.00" class="geom-bold" data-ref="/ A B /" />
+    <path d="M 184.00 264.00 L 263.58 188.21 L 343.16 112.42" class="geom-dashed" data-ref="/ O1 P /" />
+    <path d="M 424.00 264.00 L 383.58 188.21 L 343.16 112.42" class="geom-dashed" data-ref="/ O2 P /" />
+    <path d="M 343.16 112.42 L 343.16 74.53 L 343.16 36.63" class="geom-assert-line" data-ref="/ P H /" />
+  </g>
+  <g id="highlights" style="pointer-events: none;"></g>
+  <g id="points">
+    <circle cx="40.00" cy="264.00" r="3.20" class="geom-point" data-ref="A" />
+    <circle cx="184.00" cy="264.00" r="3.20" class="geom-point" data-ref="O1" />
+    <circle cx="328.00" cy="264.00" r="3.20" class="geom-point" data-ref="C" />
+    <circle cx="424.00" cy="264.00" r="3.20" class="geom-point" data-ref="O2" />
+    <circle cx="520.00" cy="264.00" r="3.20" class="geom-point" data-ref="B" />
+    <circle cx="343.16" cy="112.42" r="3.20" class="geom-point-accent" data-ref="P" />
+  </g>
+  <g id="labels">
+    <text x="280.00" y="22.00" text-anchor="middle" class="geom-label-sm">Book of Lemmas (Prop. 6): Circle Inscribed in the Arbelos &amp; Pappus Chain Seed</text>
+    <text x="40.00" y="282.00" text-anchor="middle" class="geom-label">A</text>
+    <text x="184.00" y="282.00" text-anchor="middle" class="geom-label-sm">O₁</text>
+    <text x="328.00" y="282.00" text-anchor="middle" class="geom-label">C</text>
+    <text x="424.00" y="282.00" text-anchor="middle" class="geom-label-sm">O₂</text>
+    <text x="520.00" y="282.00" text-anchor="middle" class="geom-label">B</text>
+    <text x="353.16" y="117.42" text-anchor="start" class="geom-label-accent">P</text>
+    <text x="125.00" y="68.00" text-anchor="start" class="geom-label-accent">AC : CB = 3 : 2 ⇒ d_circle : AB = 6 : 19</text>
+    <text x="280.00" y="294.00" text-anchor="middle" class="geom-label-assert">General Ratio: d / AB = (r₁ r₂) / (r₁² + r₁ r₂ + r₂²)</text>
+  </g>
+</svg>

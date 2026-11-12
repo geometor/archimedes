@@ -1,0 +1,91 @@
+{
+  "codex": "geometor-archimedes",
+  "edition": "Heath (1897, 1912) & Heiberg (1880–1881, 1910–1915)",
+  "multimodal_scan_verification": {
+    "dpi": 300,
+    "heath_1897_archive_id": "worksofarchimede00arch",
+    "heath_1912_archive_id": "methodofarchimed00archiala",
+    "heiberg_vol1_archive_id": "archimedisoperao01arch",
+    "heiberg_vol2_archive_id": "archimedisoperao02arch",
+    "policy": "100% public-domain scans inspected via 300 DPI multimodal page vision (zero OCR reliance)."
+  },
+  "provenance_files": [
+    {
+      "filename": "heath_1897_meta.xml",
+      "relative_path": "resources/works/sources/heath_1897_meta.xml",
+      "bytes": 3440,
+      "sha256": "fa1a77e3d2159db893e4b6bc71d6e7b4684fedd584ec4f524739214ccf107d34",
+      "source_id": "heath-1897-meta",
+      "title": "The Works of Archimedes, ed. T. L. Heath (Cambridge, 1897) — Internet Archive Metadata",
+      "archive_item": "worksofarchimede00arch",
+      "url": "https://archive.org/details/worksofarchimede00arch",
+      "license": "Public Domain (Published 1897)"
+    },
+    {
+      "filename": "heath_1897_page_numbers.json",
+      "relative_path": "resources/works/sources/heath_1897_page_numbers.json",
+      "bytes": 88947,
+      "sha256": "10d1db2160fe9a248f81e234f781ece93395eac391d1dbc2f96e23dbe5bff12c",
+      "source_id": "heath-1897-pages",
+      "title": "The Works of Archimedes (1897) — Folio-to-Page Mapping Index",
+      "archive_item": "worksofarchimede00arch",
+      "url": "https://archive.org/details/worksofarchimede00arch",
+      "license": "Public Domain (Published 1897)"
+    },
+    {
+      "filename": "heath_1912_meta.xml",
+      "relative_path": "resources/works/sources/heath_1912_meta.xml",
+      "bytes": 2090,
+      "sha256": "5511c55755283d417aa8a698ebeb7840ccb9f6f010fe382313418d6688a02338",
+      "source_id": "heath-1912-meta",
+      "title": "The Method of Archimedes, Recently Discovered by Heiberg, ed. T. L. Heath (Cambridge, 1912) — Internet Archive Metadata",
+      "archive_item": "methodofarchimed00archiala",
+      "url": "https://archive.org/details/methodofarchimed00archiala",
+      "license": "Public Domain (Published 1912)"
+    },
+    {
+      "filename": "heiberg_vol1_meta.xml",
+      "relative_path": "resources/works/sources/heiberg_vol1_meta.xml",
+      "bytes": 2864,
+      "sha256": "c0f3025b46a14c6472995abe85805c59b4d561c8883695723a763f91c704f596",
+      "source_id": "heiberg-1880-vol1-meta",
+      "title": "Archimedis Opera Omnia, Vol. I, ed. J. L. Heiberg (Leipzig: Teubner, 1880) — Internet Archive Metadata",
+      "archive_item": "archimedisoperao01arch",
+      "url": "https://archive.org/details/archimedisoperao01arch",
+      "license": "Public Domain (Published 1880)"
+    },
+    {
+      "filename": "heiberg_vol1_page_numbers.json",
+      "relative_path": "resources/works/sources/heiberg_vol1_page_numbers.json",
+      "bytes": 88776,
+      "sha256": "66c3370fb29d34f3d496163e2498a91629de5291ef593ec0d3b2c72491617ad1",
+      "source_id": "heiberg-1880-vol1-pages",
+      "title": "Archimedis Opera Omnia, Vol. I (1880) — Folio-to-Page Mapping Index",
+      "archive_item": "archimedisoperao01arch",
+      "url": "https://archive.org/details/archimedisoperao01arch",
+      "license": "Public Domain (Published 1880)"
+    },
+    {
+      "filename": "heiberg_vol2_meta.xml",
+      "relative_path": "resources/works/sources/heiberg_vol2_meta.xml",
+      "bytes": 2729,
+      "sha256": "01d84962d96238e583f40181effcb46f02a29eec0f81ace3dcb1fffe9c4ce3ea",
+      "source_id": "heiberg-1881-vol2-meta",
+      "title": "Archimedis Opera Omnia, Vol. II, ed. J. L. Heiberg (Leipzig: Teubner, 1881) — Internet Archive Metadata",
+      "archive_item": "archimedisoperao02arch",
+      "url": "https://archive.org/details/archimedisoperao02arch",
+      "license": "Public Domain (Published 1881)"
+    },
+    {
+      "filename": "heiberg_vol2_page_numbers.json",
+      "relative_path": "resources/works/sources/heiberg_vol2_page_numbers.json",
+      "bytes": 82651,
+      "sha256": "fd6fe8b61014aeef8dcc28bdbe3ba622fe925aa04978caa280cf925b762d868a",
+      "source_id": "heiberg-1881-vol2-pages",
+      "title": "Archimedis Opera Omnia, Vol. II (1881) — Folio-to-Page Mapping Index",
+      "archive_item": "archimedisoperao02arch",
+      "url": "https://archive.org/details/archimedisoperao02arch",
+      "license": "Public Domain (Published 1881)"
+    }
+  ]
+}

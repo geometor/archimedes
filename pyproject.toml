@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geometor-archimedes"
+authors = [{name = "phi ARCHITECT", email = "phi@geometor.com"}]
+description = "Scholarly Multi-Track Book Codex and Heiberg/Heath concordance of The Works of Archimedes (1897) and The Method of Archimedes (1912)."
+readme = "README.rst"
+requires-python = ">=3.13"
+license = {text = "MIT"}
+dynamic = ["version"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[project.scripts]
+geometor-archimedes = "geometor.archimedes.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["geometor"]
+namespaces = true
+
+[tool.setuptools.dynamic]
+version = {attr = "geometor.archimedes.__version__"}
+
+[project.urls]
+"Website" = "https://geometor.github.io/archimedes"
+"Repository" = "https://github.com/geometor/archimedes"
+"Issues" = "https://github.com/geometor/archimedes/issues"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
