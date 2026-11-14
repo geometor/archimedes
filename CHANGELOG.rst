@@ -2,6 +2,11 @@
 Changelog
 =========
 
+0.1.1 (2026-11-13)
+------------------
+
+- Curated and mapped primary-source folio links across *The Works of Archimedes* and *The Method* (37/37 directives and 21/21 badges resolved).
+
 0.1.0 (2026-11-12)
 ------------------
 
