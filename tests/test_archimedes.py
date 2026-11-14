@@ -22,7 +22,7 @@ from geometor.archimedes.concordance import (
 
 def test_version_and_repo_root() -> None:
     root = get_repo_root()
-    assert __version__ == "0.1.1"
+    assert __version__ == "0.1.3"
     assert (root / "pyproject.toml").is_file()
     assert (root / "docsrc" / "works" / "index.rst").is_file()
 
