@@ -1,4 +1,6 @@
-:order: 93
+:navigation: footer
+:order: 60
+:nav_title: Glossary
 :type: apparatus
 
 .. _works-glossary:
