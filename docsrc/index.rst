@@ -42,8 +42,7 @@ Context & Architecture
 * :doc:`Using This Edition (Reader's Guide) <usage/index>`
 * :doc:`People (Biographical Register) <works/persons>`
 * :doc:`Bibliography & Critical Editions <works/bibliography>`
-* :doc:`Mission & Epistemological Scope <mission/index>`
-* :doc:`About This Critical Edition & Archival Provenance <about/index>`
+* :doc:`About This Critical Edition & GEOMETOR Mission <about/index>`
 * :doc:`Python Package & Concordance API <modules/index>`
 * :doc:`Development & Curation Log <log/index>`
 
