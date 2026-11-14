@@ -1,0 +1,321 @@
+{
+  "_meta": {
+    "codex": "geometor-archimedes",
+    "edition": "works",
+    "description": "Canonical track-aware folio map resolving Heath & Heiberg primary sources with exact line anchors."
+  },
+  "folios": {
+    "Heath (1897), p. 93 · Heiberg I, 260–263": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L1998",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L1998",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L1949",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L1949"
+    },
+    "Heath (1897), pp. 91–93 · Heiberg I, 258–261": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L1984",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L1984",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L1935",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L1935"
+    },
+    "Heath (1897), pp. 93–96 · Heiberg I, 262–267": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L1998",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L1998",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L1963",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L1963"
+    },
+    "Heath (1897), pp. 93–98 · Heiberg I, 262–271": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L1998",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L1998",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L1963",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L1963"
+    },
+    "Heath (1897), pp. 96–98 · Heiberg I, 266–271": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2019",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2019",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L1991",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L1991"
+    },
+    "Heath 1897, pp. 91–98 · Heiberg I, 258–271": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L1984",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L1984",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L1935",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L1935"
+    },
+    "Heath 1897, pp. lxxvii–lxxxiv, 91–98 · Heiberg I, 258–271": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L570",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L570",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L1935",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L1935"
+    },
+    "Heath (1897), pp. 189–190 · Heiberg II, 142–145": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2670",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2670",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1095",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1095"
+    },
+    "Heath (1897), pp. 190–192 · Heiberg II, 144–153": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2677",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2677",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1109",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1109"
+    },
+    "Heath (1897), pp. 192–194 · Heiberg II, 152–159": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2691",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2691",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1165",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1165"
+    },
+    "Heath (1897), pp. 194–198 · Heiberg II, 158–169": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2705",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2705",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1207",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1207"
+    },
+    "Heath (1897), pp. 198–201 · Heiberg II, 168–177": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2733",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2733",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1277",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1277"
+    },
+    "Heath (1897), pp. 201–202 · Heiberg II, 176–181": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2754",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2754",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1333",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1333"
+    },
+    "Heath (1897), pp. 203–220 · Heiberg II, 182–241": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2768",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2768",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1375",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1375"
+    },
+    "Heath 1897, pp. 189–220 · Heiberg II, 142–241": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2670",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2670",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1095",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1095"
+    },
+    "Heath (1897), pp. 233–235 · Heiberg II, 294–299": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2978",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2978",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L2159",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L2159"
+    },
+    "Heath (1897), pp. 235–246 · Heiberg II, 298–335": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2992",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2992",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L2187",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L2187"
+    },
+    "Heath (1897), pp. 238–244 · Heiberg II, 306–329": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L3013",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L3013",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L2243",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L2243"
+    },
+    "Heath (1897), pp. 244–246 · Heiberg II, 330–335": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L3055",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L3055",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L2411",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L2411"
+    },
+    "Heath (1897), pp. 246–252 · Heiberg II, 336–353": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L3069",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L3069",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L2453",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L2453"
+    },
+    "Heath 1897, pp. 233–252 · Heiberg II, 294–353": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2978",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2978",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L2159",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L2159"
+    },
+    "Heath (1897), pp. 1–56 · Heiberg I, 1–187": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L1352",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L1352",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L141",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L141"
+    },
+    "Heath (1897), pp. 39–44 · Heiberg I, 134–149": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L1620",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L1620",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L1067",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L1067"
+    },
+    "Heath (1897), pp. 59–79 · Heiberg I, 194–225 & III, 130–177": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L1760",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L1760",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L1487",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L1487"
+    },
+    "Heath (1897), pp. 99–150 · Heiberg I, 272–499": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2040",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2040",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L2033",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L2033"
+    },
+    "Heath (1897), pp. 151–188 · Heiberg II, 1–141": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2404",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2404",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L120",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L120"
+    },
+    "Heath (1897), pp. 171–182 · Heiberg II, 72–115": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2544",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2544",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L605",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L605"
+    },
+    "Heath 1897, pp. 1–90, 99–188 · Heiberg I, 1–255, 272–499 & II, 1–141": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L1352",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L1352",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L141",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L141"
+    },
+    "Heath 1897, pp. 1–90, 99–188 · Heiberg I & II": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L1352",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L1352",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L141",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L141"
+    },
+    "Heath 1897, pp. xxxvi, 1–90, 99–188 · Heiberg I & III": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L283",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L283",
+      "el": "resources/works/sources/heiberg_vol1_page_numbers.json#L141",
+      "grc": "resources/works/sources/heiberg_vol1_page_numbers.json#L141"
+    },
+    "Heath (1897), pp. 301–304 · Heiberg II, 426–430": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L3454",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L3454",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083"
+    },
+    "Heath (1897), pp. 304–309 · Heiberg II, 430–436": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L3475",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L3475",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3111",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3111"
+    },
+    "Heath (1897), pp. 307–309 · Heiberg II, 433–436": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L3496",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L3496",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3132",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3132"
+    },
+    "Heath (1897), pp. 309–315 · Heiberg II, 436–442": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L3510",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L3510",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3153",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3153"
+    },
+    "Heath (1897), pp. 316–318 · Heiberg II, 442–445": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L3559",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L3559",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3195",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3195"
+    },
+    "Heath 1897, pp. 301–318 · Heiberg II, 426–445": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L3454",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L3454",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083"
+    },
+    "Heath 1897, pp. xxxii, 301–318 · Heiberg II, 426–445": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L255",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L255",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083"
+    },
+    "Heath (1912), pp. 12–14 · Heiberg II², 426–431": {
+      "default": "resources/works/sources/heath_1912_meta.xml#L6",
+      "en": "resources/works/sources/heath_1912_meta.xml#L6",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083"
+    },
+    "Heath (1912), pp. 15–18 · Heiberg II², 434–439": {
+      "default": "resources/works/sources/heath_1912_meta.xml#L6",
+      "en": "resources/works/sources/heath_1912_meta.xml#L6",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3139",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3139"
+    },
+    "Heath (1912), pp. 18–21 · Heiberg II², 438–447": {
+      "default": "resources/works/sources/heath_1912_meta.xml#L6",
+      "en": "resources/works/sources/heath_1912_meta.xml#L6",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3167",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3167"
+    },
+    "Heath (1912), pp. 21–51 · Heiberg II², 446–507": {
+      "default": "resources/works/sources/heath_1912_meta.xml#L6",
+      "en": "resources/works/sources/heath_1912_meta.xml#L6",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3223",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3223"
+    },
+    "Heath 1912, pp. 12–51 · Heiberg 1907 / Vol. II (2nd ed.), pp. 426–507": {
+      "default": "resources/works/sources/heath_1912_meta.xml#L6",
+      "en": "resources/works/sources/heath_1912_meta.xml#L6",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083"
+    },
+    "Heath 1897, p. xxxviii; Heath 1912, pp. 5–11, 48–51": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L297",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L297",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083"
+    },
+    "Heath 1912, pp. 12–51 · Heiberg 1907 / II², 426–507": {
+      "default": "resources/works/sources/heath_1912_meta.xml#L6",
+      "en": "resources/works/sources/heath_1912_meta.xml#L6",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3083"
+    },
+    "Heath (1897), pp. xxxvi–xxxvii · Pappus Synagoge V.19 (Hultsch I, 350–358)": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L283",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L283",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1795",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1795"
+    },
+    "Heath (1897), pp. 319–326 · Heiberg II², 416–424": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L3580",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L3580",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L3013",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L3013"
+    },
+    "Heath (1897), pp. 221–232 · Heiberg II, 242–291": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2894",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2894",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1795",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1795"
+    },
+    "Heath (1897), pp. 223–226 · Heiberg II, 248–265": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2908",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2908",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1837",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1837"
+    },
+    "Heath (1897), pp. 227–232 · Heiberg II, 264–291": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L2936",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L2936",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1949",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1949"
+    },
+    "Heath 1897, pp. xxxvi, 221–232 · Heiberg II, 242–291, 416–424 · Pappus V.19": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L283",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L283",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1795",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1795"
+    },
+    "Heath 1897, pp. xxxvi, 221–232 · Pappus V.19 · Heiberg II": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L283",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L283",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1795",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1795"
+    },
+    "Heath 1897, pp. xxxvi, 221–232 · Pappus V.19 · Pacioli (1509)": {
+      "default": "resources/works/sources/heath_1897_page_numbers.json#L283",
+      "en": "resources/works/sources/heath_1897_page_numbers.json#L283",
+      "el": "resources/works/sources/heiberg_vol2_page_numbers.json#L1795",
+      "grc": "resources/works/sources/heiberg_vol2_page_numbers.json#L1795"
+    }
+  }
+}
