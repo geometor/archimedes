@@ -1,27 +1,29 @@
 :navigation: header
-:order: 5
+:order: 1
+:nav_title: Works & Method
 :layout: book
 :book_title: The Works & Method of Archimedes
 :book_subtitle: Archimedes of Syracuse · Heiberg (1880–1915) & Heath (1897, 1912)
+:author: Archimedes of Syracuse
+:year: c. 250 BCE / 1897, 1912
 
 .. _works-codex:
 
 Works & Method of Archimedes
 ============================
 
-.. rst-class:: title-page
+.. rubric:: Archimedes of Syracuse (c. 287–212 BC) · Critical Greek & Latin Text (Heiberg 1880–1915) · English Edition (Heath 1897, 1912)
 
-   **ΑΡΧΙΜΗΔΟΥΣ ΤΟΥ ΣΥΡΑΚΟΥΣΙΟΥ**
+.. container:: title-page
 
-   **ΤΑ ΣΩΖΟΜΕΝΑ ΑΠΑΝΤΑ ΚΑΙ ΕΦΟΔΟΣ**
-
-   *ARCHIMEDIS OPERA OMNIA CUM COMMENTARIIS EUTOCII*
-
-   *The Works of Archimedes (1897) & The Method of Archimedes (1912)*
-
-   Critical Greek & Latin Edition: :person:`Johan Ludvig Heiberg <heiberg>` (Leipzig: B. G. Teubner, 1880–1881 / 1910–1915)
-
-   Public-Domain English Edition: :person:`Sir Thomas Little Heath <heath>` (Cambridge University Press, 1897 & Supplement, 1912)
+   | **ΑΡΧΙΜΗΔΟΥΣ ΤΟΥ ΣΥΡΑΚΟΥΣΙΟΥ**
+   | **ΤΑ ΣΩΖΟΜΕΝΑ ΑΠΑΝΤΑ ΚΑΙ ΕΦΟΔΟΣ**
+   | *ARCHIMEDIS OPERA OMNIA CUM COMMENTARIIS EUTOCII*
+   |
+   | **Author**: :person:`Archimedes of Syracuse <archimedes>` (c. 287–212 BC)
+   | **Critical Greek & Latin Edition**: :person:`Johan Ludvig Heiberg <heiberg>` (Leipzig: B. G. Teubner, 1880–1881 / 1910–1915)
+   | **Public-Domain English Edition**: :person:`Sir Thomas Little Heath <heath>` (Cambridge University Press, 1897 & Supplement, 1912)
+   | **GEOMETOR Digital Edition**: Synchronized English, Summary & Commentary Tracks with Calibrated Vector Diagrams
 
 .. epigraph::
 
@@ -31,8 +33,8 @@ Works & Method of Archimedes
 
 ----
 
-Conspectus Totius Operis
-------------------------
+Table of Contents
+-----------------
 
 This **Seven-Unit Synchronized Book Codex** unites the entire classical and Palimpsest canon of :person:`Archimedes of Syracuse <archimedes>` (c. 287–212 BC) from :person:`T. L. Heath's <heath>` Cambridge editions (:cite:`heath:1897`, :cite:`heath:1912`) collated directly against 300 DPI archival scans of :person:`J. L. Heiberg's <heiberg>` critical Teubner Greek and Latin editions (:cite:`heiberg:1880`, :cite:`heiberg:1881`). Every unit provides three synchronized reading tracks: **English** (folio-anchored primary translation with calibrated ``.euclid-graphic`` vector plates), **Summary** (deductive architecture & theorem tables), and **Notes** (Doric/Koine philology, Eutocian scholia, and GEOMETOR cross-corpus concordances).
 
@@ -66,12 +68,12 @@ This **Seven-Unit Synchronized Book Codex** unites the entire classical and Pali
 
 ----
 
-Apparatus Criticus & Cross-Corpus Indices
------------------------------------------
+Scholarly Apparatus & Cross-Corpus Indices
+------------------------------------------
 
 * :doc:`Heiberg–Heath–GEOMETOR Concordance <concordance>` — Master cross-reference of all **34 canonical proposition & treatise loci** across ``euclid``, ``elements``, ``etc``, ``pappus``, ``pacioli``, ``divine``, ``wildberger``, ``proclus``, and ``hilbert``.
-* :doc:`Bibliography & Critical Editions <bibliography>` — Archival editions, ancient scholia, and GEOMETOR companion codices (covering 100% of ``geometor/euclid`` Archimedes citation keys).
-* :doc:`Prosopography (Index Personarum) <persons>` — Chronological register of **27** geometers, astronomers, Syracusan patrons, translators, and philologists.
+* :doc:`Bibliography <bibliography>` — Archival editions, ancient scholia, and GEOMETOR companion codices (covering 100% of ``geometor/euclid`` Archimedes citation keys).
+* :doc:`People <persons>` — Chronological register of **27** geometers, astronomers, Syracusan patrons, translators, and philologists.
 * :doc:`Greek–Latin–English Technical Glossary <glossary>` — Lexicon of **23** Doric, Koine, Arabic-Latin, and modern geometric terms.
 
 .. toctree::
@@ -110,9 +112,9 @@ Apparatus Criticus & Cross-Corpus Indices
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Critical Apparatus
+   :caption: Scholarly Apparatus
 
-   concordance
-   bibliography
    persons
+   bibliography
+   concordance
    glossary

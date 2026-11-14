@@ -39,7 +39,9 @@ def render_concordance_rst(repo_root: Path | None = None) -> str:
     entries = load_concordance(repo_root=root)
 
     lines: list[str] = [
-        ":order: 90",
+        ":navigation: footer",
+        ":order: 50",
+        ":nav_title: Concordance",
         ":type: apparatus",
         "",
         ".. _works-concordance:",
@@ -47,7 +49,7 @@ def render_concordance_rst(repo_root: Path | None = None) -> str:
         "Heiberg–Heath–GEOMETOR Concordance",
         "==================================",
         "",
-        "Master cross-reference of Archimedes' *Opera Omnia* across :person:`Johan Ludvig Heiberg <heiberg>`'s",
+        "Master cross-reference of Archimedes' canon across :person:`Johan Ludvig Heiberg <heiberg>`'s",
         "critical Teubner editions (:cite:`heiberg:1880`, :cite:`heiberg:1881`),",
         ":person:`Sir Thomas Little Heath <heath>`'s Cambridge editions (:cite:`heath:1897`, :cite:`heath:1912`),",
         "and the constructive & philosophical codices of the GEOMETOR Digital Scriptorium.",
@@ -121,13 +123,15 @@ def render_bibliography_rst(repo_root: Path | None = None) -> str:
     )
 
     lines: list[str] = [
-        ":order: 91",
+        ":navigation: header",
+        ":order: 6",
+        ":nav_title: Bibliography",
         ":type: apparatus",
         "",
         ".. _works-bibliography:",
         "",
-        "Bibliography & Critical Editions",
-        "================================",
+        "Bibliography",
+        "============",
         "",
         "Archival editions, ancient mathematical commentaries, and GEOMETOR companion codices",
         "referenced via the ``:cite:`` role throughout the *Works* and *Method* of Archimedes.",
@@ -139,6 +143,8 @@ def render_bibliography_rst(repo_root: Path | None = None) -> str:
         for key, item in citations.items():
             if item.get("category") != cat_key:
                 continue
+            lines.append(f".. _cite-{key}:")
+            lines.append("")
             lines.append(f"* **[{key}]** — {item['author']}, *{item['work']}* ({item['locus']}).")
             if item.get("note"):
                 lines.append(f"  {item['note']}")
@@ -156,34 +162,71 @@ def render_persons_rst(repo_root: Path | None = None) -> str:
     ordered = sorted(persons.items(), key=lambda kv: int(kv[1].get("sort_year", 0)))
 
     lines: list[str] = [
-        ":order: 92",
+        ":navigation: header",
+        ":order: 5",
+        ":nav_title: People",
         ":type: apparatus",
         "",
         ".. _works-persons:",
         "",
-        "Prosopography (Index Personarum)",
-        "================================",
+        "People",
+        "======",
+        "",
+        ".. rubric:: Biographical Register of Ancient Geometers, Translators & Commentators",
         "",
         "Chronological register of geometers, astronomers, Syracusan patrons, commentators,",
         "and philologists linked via ``:person:`` across the Archimedean corpus.",
         "",
-        ".. list-table::",
-        "   :header-rows: 1",
-        "   :widths: 22 14 24 40",
+        "Authors, Translators & Editors",
+        "------------------------------",
         "",
-        "   * - Person & Native Orthography",
-        "     - Flourished / Dates",
-        "     - Historical Role",
-        "     - Archimedean Witness & Significance",
     ]
 
-    for _slug, p in ordered:
+    top_slugs = ["archimedes", "heath", "heiberg"]
+    for slug in top_slugs:
+        p = persons.get(slug)
+        if not p:
+            continue
         lines.extend(
             [
-                f"   * - **{p['name']}** (*{p['greek']}*)",
-                f"     - {p['dates']}",
-                f"     - {p['role']}",
-                f"     - {p['summary']} (*Loci*: {p['archimedes_loci']})",
+                f".. _person-{slug}:",
+                "",
+                f"{p['name']} ({p['dates']})",
+                "~" * len(f"{p['name']} ({p['dates']})"),
+                "",
+                f"* **Original Name / Form**: *{p.get('greek', '')}*",
+                f"* **Role**: {p.get('role', '')}",
+                f"* **Archimedean Witness & Loci**: {p.get('archimedes_loci', '')}",
+                "",
+                p.get("summary", ""),
+                "",
+            ]
+        )
+
+    lines.extend(
+        [
+            "Cited Geometers, Philosophers & Scholars",
+            "----------------------------------------",
+            "",
+        ]
+    )
+
+    for slug, p in ordered:
+        if slug in top_slugs:
+            continue
+        lines.extend(
+            [
+                f".. _person-{slug}:",
+                "",
+                f"{p['name']} ({p['dates']})",
+                "~" * len(f"{p['name']} ({p['dates']})"),
+                "",
+                f"* **Original Name / Form**: *{p.get('greek', '')}*",
+                f"* **Role**: {p.get('role', '')}",
+                f"* **Archimedean Witness & Loci**: {p.get('archimedes_loci', '')}",
+                "",
+                p.get("summary", ""),
+                "",
             ]
         )
 
@@ -197,7 +240,9 @@ def render_glossary_rst(repo_root: Path | None = None) -> str:
     glossary = load_json_resource("glossary.json", repo_root=root)
 
     lines: list[str] = [
-        ":order: 93",
+        ":navigation: footer",
+        ":order: 60",
+        ":nav_title: Glossary",
         ":type: apparatus",
         "",
         ".. _works-glossary:",

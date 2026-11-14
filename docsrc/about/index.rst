@@ -1,10 +1,11 @@
 :navigation: footer
 :order: 10
+:nav_title: About
 
 .. _about-index:
 
 =====
-about
+About
 =====
 
 Historical transmission, manuscript stemma, and archival provenance for ``geometor.archimedes``.
