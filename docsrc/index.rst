@@ -9,18 +9,18 @@ Digital critical edition, **synchronized 3-track Book Codex** (**English**, **Su
 
 ----
 
-Works (*Opera Omnia & Ephodos*)
--------------------------------
+Book Codex: Works & Method
+--------------------------
 
-:doc:`The Works & Method of Archimedes (7-Unit Book Codex) <works/index>`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:doc:`Works & Method of Archimedes (7-Unit Book Codex) <works/index>`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *Ἀρχιμήδους τοῦ Συρακουσίου τὰ σωζόμενα ἅπαντα καὶ Ἔφοδος* — Critical Greek & Latin tradition edited by **J. L. Heiberg** (Teubner, Vols. I–III) paired with **Sir Thomas Little Heath's** public-domain Cambridge editions (1897 & 1912) and GEOMETOR commentary.
 
 Archimedes stands at the summit of ancient constructive, mechanical, and infinitesimal mathematics: bounding :eq:`3\frac{10}{71} < \pi < 3\frac{1}{7}` by 96-gon rational interval recurrences, founding theoretical statics and proving the concurrency of the triangle medians at ``X(2)`` in ``geometor/etc``, squaring the parabola (:eq:`\frac{4}{3}\triangle ABC`) and spiral (:eq:`\frac{1}{3}\pi r^2`), proving the :eq:`2 : 3` sphere-to-cylinder Tomb Theorem, transmitting the *Arbelos*, *Twin Circles*, *Neusis Trisection*, and *Salinon*, unveiling his private mechanical slice calculus to Eratosthenes in the Palimpsest *Method*, classifying the **13 Semi-Regular Solids** over :math:`\mathbb{Q}(\sqrt{2})` and :math:`\mathbb{Q}(\phi)` alongside ``geometor/pacioli``, and preserving Aristarchus's heliocentric universe in *The Sand-Reckoner*.
 
 * **Synchronized 3-Track Book Codex**:
-  :ref:`Conspectus Operis <works-codex>` ·
+  :ref:`Table of Contents <works-codex>` ·
   :ref:`Unit 1: Measurement of a Circle <unit-measurement-of-a-circle-en>` ·
   :ref:`Unit 2: Equilibrium of Planes I–II <unit-equilibrium-of-planes-en>` ·
   :ref:`Unit 3: Quadrature of the Parabola <unit-quadrature-of-parabola-en>` ·
@@ -30,8 +30,8 @@ Archimedes stands at the summit of ancient constructive, mechanical, and infinit
   :ref:`Unit 7: Semi-Regular Solids, Stomachion & Sand-Reckoner <unit-semi-regular-solids-arenarius-en>`.
 * **Scholarly & Cross-Corpus Apparatus**:
   :ref:`Heiberg–Heath–GEOMETOR Concordance (34 Loci) <works-concordance>` ·
-  :ref:`Bibliography & Critical Editions (30 Sources) <works-bibliography>` ·
-  :ref:`Prosopography (27 Persons) <works-persons>` ·
+  :doc:`Bibliography (30 Sources) <works/bibliography>` ·
+  :doc:`People (27 Historical Figures) <works/persons>` ·
   :ref:`Greek–Latin–English Glossary (23 Terms) <works-glossary>` with interactive ``:cite:``, ``:person:``, ``:term:``, ``:g:``, ``:eq:``, and ``:just:`` markup.
 
 ----
@@ -39,6 +39,9 @@ Archimedes stands at the summit of ancient constructive, mechanical, and infinit
 Context & Architecture
 ----------------------
 
+* :doc:`Using This Edition (Reader's Guide) <usage/index>`
+* :doc:`People (Biographical Register) <works/persons>`
+* :doc:`Bibliography & Critical Editions <works/bibliography>`
 * :doc:`Mission & Epistemological Scope <mission/index>`
 * :doc:`About This Critical Edition & Archival Provenance <about/index>`
 * :doc:`Python Package & Concordance API <modules/index>`

@@ -1,10 +1,11 @@
 :navigation: header
 :order: 10
+:nav_title: Mission
 
 .. _archimedes-mission:
 
 =======
-mission
+Mission
 =======
 
 ``geometor.archimedes`` establishes the scholarly **Digital Scriptorium Book Codex** and machine-queryable concordance of **Archimedes of Syracuse** (c. 287–212 BC) within the **GEOMETOR** ecosystem.

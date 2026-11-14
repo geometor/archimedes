@@ -1,4 +1,6 @@
-:order: 90
+:navigation: footer
+:order: 50
+:nav_title: Concordance
 :type: apparatus
 
 .. _works-concordance:
@@ -6,7 +8,7 @@
 Heiberg–Heath–GEOMETOR Concordance
 ==================================
 
-Master cross-reference of Archimedes' *Opera Omnia* across :person:`Johan Ludvig Heiberg <heiberg>`'s
+Master cross-reference of Archimedes' canon across :person:`Johan Ludvig Heiberg <heiberg>`'s
 critical Teubner editions (:cite:`heiberg:1880`, :cite:`heiberg:1881`),
 :person:`Sir Thomas Little Heath <heath>`'s Cambridge editions (:cite:`heath:1897`, :cite:`heath:1912`),
 and the constructive & philosophical codices of the GEOMETOR Digital Scriptorium.
