@@ -27,7 +27,7 @@ def cmd_summary(repo_root: Path) -> int:
 
     print(f"GEOMETOR • archimedes v{__version__}")
     print(f"  Repository root : {repo_root}")
-    print(f"  Codex units     : {len(CANONICAL_UNIT_SLUGS)} (21 synchronized track files)")
+    print(f"  Codex books     : {len(CANONICAL_UNIT_SLUGS)} (standalone treatises with atomic propositions)")
     print(f"  Concordance loci: {len(entries)}")
     print(f"  Prosopography   : {len(persons)} persons")
     print(f"  Bibliography    : {len(citations)} citations")

@@ -29,7 +29,9 @@ if "geometor.archimedes.sphinx_ext" not in extensions:  # noqa: F405
 
 configure_local_intersphinx(intersphinx_mapping, _REPO_ROOT)  # noqa: F405
 
-project = "GEOMETOR • archimedes"
+site_title = "Archimedes of Syracuse"
+project = site_title
+html_title = f"{site_title} • {org_name}"
 author = "Archimedes of Syracuse"
 copyright = (
     "c. 287–212 BC (Heiberg 1880–1915 · Heath 1897 & 1912) • Digital Edition GEOMETOR"

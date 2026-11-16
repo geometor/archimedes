@@ -1,0 +1,26 @@
+:canonical_id: LA.9-13
+:order: 7
+:type: section
+
+Propositions 9–13: Intersecting Chords & Orthogonal-Chord Quadrance Invariant
+=============================================================================
+
+.. folio:: Heath (1897), pp. 311–315 · Heiberg II, 438–442
+   :page: 311
+
+* **Proposition 9**: Intersecting chords perpendicular/secant arc-sum lemma.
+* **Proposition 10**: Secant and tangent segments from an external point (connected to Apollonius's *Tangencies*).
+* **Proposition 11** *(Orthogonal Chords Quadrance Invariant)*:
+
+  .. enunciation::
+
+     If two chords :g:`AB`, :g:`CD` in a circle intersect at right angles in a point :g:`O`, not being the centre, then:
+
+     .. math::
+
+        AO^2 + BO^2 + CO^2 + DO^2 = (\text{diameter})^2 = 4 R^2.
+
+  Proved cleanly via diameter :g:`CE` perpendicular to :g:`AB` (or through centre), :just:`Eucl. III. 31`, and :just:`Eucl. I. 47`—a pure Rational Trigonometry quadrance identity (:cite:`geometor:wildberger`)!
+
+* **Proposition 12**: Polar-orthocenter property of two tangents to a semicircle (:g:`TR \perp AB`).
+* **Proposition 13**: Equal chord segments cut off by perpendiculars onto a diameter (:eq:`CN = DM`).

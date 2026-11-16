@@ -7,6 +7,7 @@ import shutil
 from pathlib import Path
 
 from geometor.archimedes.concordance import (
+    CANONICAL_BOOK_SLUGS,
     CANONICAL_UNIT_SLUGS,
     TRACK_SUFFIXES,
     get_repo_root,
@@ -33,7 +34,7 @@ def sync_root_apparatus_json(repo_root: Path | None = None) -> None:
 
 
 def render_concordance_rst(repo_root: Path | None = None) -> str:
-    """Render ``docsrc/works/concordance.rst`` from ``concordance.json``."""
+    """Render ``docsrc/concordance.rst`` from ``concordance.json``."""
     root = repo_root or get_repo_root()
     raw = load_json_resource("concordance.json", repo_root=root)
     entries = load_concordance(repo_root=root)
@@ -54,15 +55,15 @@ def render_concordance_rst(repo_root: Path | None = None) -> str:
         ":person:`Sir Thomas Little Heath <heath>`'s Cambridge editions (:cite:`heath:1897`, :cite:`heath:1912`),",
         "and the constructive & philosophical codices of the GEOMETOR Digital Scriptorium.",
         "",
-        "Seven-Unit Codex Architecture",
+        "Seven-Book Codex Architecture",
         "-----------------------------",
         "",
         ".. list-table::",
         "   :header-rows: 1",
         "   :widths: 8 28 32 32",
         "",
-        "   * - Unit",
-        "     - Treatise Unit",
+        "   * - Book",
+        "     - Treatise Title",
         "     - Heiberg Teubner Locus",
         "     - Heath Cambridge Locus",
     ]
@@ -70,8 +71,8 @@ def render_concordance_rst(repo_root: Path | None = None) -> str:
     for u in raw.get("units", []):
         lines.extend(
             [
-                f"   * - **Unit {u['unit_number']}**",
-                f"     - :doc:`{u['title']} <{u['slug']}-en>` (*{u['greek_or_latin_title']}*)",
+                f"   * - **Book {u['unit_number']}**",
+                f"     - :doc:`{u['title']} <{u['slug']}/index>` (*{u['greek_or_latin_title']}*)",
                 f"     - {u['heiberg_locus']}",
                 f"     - {u['heath_locus']}",
             ]
@@ -85,7 +86,7 @@ def render_concordance_rst(repo_root: Path | None = None) -> str:
             "",
             ".. list-table::",
             "   :header-rows: 1",
-            "   :widths: 12 22 18 16 32",
+            "   :widths: 12 24 18 16 30",
             "",
             "   * - Locus ID",
             "     - Treatise & Proposition",
@@ -97,10 +98,11 @@ def render_concordance_rst(repo_root: Path | None = None) -> str:
 
     for entry in entries:
         eco_str = "; ".join(f"**{k}**: {v}" for k, v in entry.ecosystem_links.items()) or "—"
+        target = entry.target_doc or f"{entry.unit_slug}/index"
         lines.extend(
             [
                 f"   * - ``{entry.id}``",
-                f"     - :doc:`{entry.treatise} ({entry.proposition}) <{entry.unit_slug}-en>`",
+                f"     - :doc:`{entry.treatise} ({entry.proposition}) <{target}>`",
                 f"     - Heiberg {entry.heiberg}; Heath {entry.heath}",
                 f"     - {entry.title}",
                 f"     - {eco_str}",
@@ -124,7 +126,7 @@ def render_bibliography_rst(repo_root: Path | None = None) -> str:
 
     lines: list[str] = [
         ":navigation: header",
-        ":order: 6",
+        ":order: 8",
         ":nav_title: Bibliography",
         ":type: apparatus",
         "",
@@ -163,7 +165,7 @@ def render_persons_rst(repo_root: Path | None = None) -> str:
 
     lines: list[str] = [
         ":navigation: header",
-        ":order: 5",
+        ":order: 9",
         ":nav_title: People",
         ":type: apparatus",
         "",
@@ -278,17 +280,17 @@ def render_glossary_rst(repo_root: Path | None = None) -> str:
 
 
 def compile_apparatus(repo_root: Path | None = None) -> list[Path]:
-    """Synchronize root apparatus JSONs and write the four RST apparatus tables in ``docsrc/works/``."""
+    """Synchronize root apparatus JSONs and write the four RST apparatus tables in ``docsrc/``."""
     root = repo_root or get_repo_root()
     sync_root_apparatus_json(repo_root=root)
-    works_doc = root / "docsrc" / "works"
-    works_doc.mkdir(parents=True, exist_ok=True)
+    docsrc = root / "docsrc"
+    docsrc.mkdir(parents=True, exist_ok=True)
 
     outputs = {
-        works_doc / "concordance.rst": render_concordance_rst(repo_root=root),
-        works_doc / "bibliography.rst": render_bibliography_rst(repo_root=root),
-        works_doc / "persons.rst": render_persons_rst(repo_root=root),
-        works_doc / "glossary.rst": render_glossary_rst(repo_root=root),
+        docsrc / "concordance.rst": render_concordance_rst(repo_root=root),
+        docsrc / "bibliography.rst": render_bibliography_rst(repo_root=root),
+        docsrc / "persons.rst": render_persons_rst(repo_root=root),
+        docsrc / "glossary.rst": render_glossary_rst(repo_root=root),
     }
 
     written: list[Path] = []
@@ -306,35 +308,53 @@ def verify_codex_integrity(repo_root: Path | None = None) -> list[str]:
     errors.extend(verify_sources_manifest(repo_root=root))
     errors.extend(verify_euclid_citation_coverage(repo_root=root))
 
-    works_doc = root / "docsrc" / "works"
-    index_rst = works_doc / "index.rst"
+    docsrc = root / "docsrc"
+    index_rst = docsrc / "index.rst"
     if not index_rst.is_file():
-        errors.append("Missing docsrc/works/index.rst")
-    else:
-        idx_text = index_rst.read_text(encoding="utf-8")
-        if ":layout: book" not in idx_text:
-            errors.append("docsrc/works/index.rst must declare ':layout: book'")
+        errors.append("Missing docsrc/index.rst")
 
-    for slug in CANONICAL_UNIT_SLUGS:
-        for suffix in TRACK_SUFFIXES:
-            track_path = works_doc / f"{slug}{suffix}"
-            if not track_path.is_file():
-                errors.append(f"Missing unit track file: docsrc/works/{slug}{suffix}")
-                continue
-            text = track_path.read_text(encoding="utf-8")
-            if suffix == "-en.rst" and ".. folio::" not in text:
-                errors.append(f"Primary translation track missing '.. folio::' marker: {track_path.name}")
-            for pat in FORBIDDEN_CODE_PATTERNS:
-                if pat.search(text):
-                    errors.append(
-                        f"Forbidden embedded Python script pattern '{pat.pattern}' in {track_path.name}"
-                    )
+    for slug in CANONICAL_BOOK_SLUGS:
+        book_dir = docsrc / slug
+        if not book_dir.is_dir():
+            errors.append(f"Missing book directory: docsrc/{slug}")
+            continue
+        book_idx = book_dir / "index.rst"
+        if not book_idx.is_file():
+            errors.append(f"Missing book index: docsrc/{slug}/index.rst")
+        else:
+            text = book_idx.read_text(encoding="utf-8")
+            if ":layout: book" not in text:
+                errors.append(f"docsrc/{slug}/index.rst must declare ':layout: book'")
+        for req_track in ("summary.rst", "notes.rst"):
+            tp = book_dir / req_track
+            if not tp.is_file():
+                errors.append(f"Missing companion track in docsrc/{slug}: {req_track}")
+        leaf_files = [f for f in book_dir.glob("*.rst") if f.name not in ("index.rst", "summary.rst", "notes.rst")]
+        if not leaf_files:
+            errors.append(f"No leaf proposition/section files found in docsrc/{slug}")
+        for lf in leaf_files:
+            text = lf.read_text(encoding="utf-8")
+            if ".. enunciation::" in text and ".. folio::" not in text:
+                errors.append(f"Primary enunciation page missing '.. folio::' marker: {slug}/{lf.name}")
 
-    for rst_file in works_doc.glob("*.rst"):
+    for app_name in ("concordance.rst", "bibliography.rst", "persons.rst", "glossary.rst"):
+        ap = docsrc / app_name
+        if not ap.is_file():
+            errors.append(f"Missing root apparatus table: docsrc/{app_name}")
+
+    codex_rst_files = [docsrc / app for app in ("concordance.rst", "bibliography.rst", "persons.rst", "glossary.rst")]
+    for slug in CANONICAL_BOOK_SLUGS:
+        book_p = docsrc / slug
+        if book_p.is_dir():
+            codex_rst_files.extend(book_p.glob("*.rst"))
+
+    for rst_file in codex_rst_files:
+        if not rst_file.is_file():
+            continue
         text = rst_file.read_text(encoding="utf-8")
         for pat in FORBIDDEN_CODE_PATTERNS:
             if pat.search(text):
-                errors.append(f"Forbidden embedded Python code in {rst_file.name}")
+                errors.append(f"Forbidden embedded Python code in {rst_file.relative_to(docsrc)}")
 
     fig_dir = root / "docsrc" / "_static" / "figures"
     svg_files = sorted(fig_dir.glob("*.svg")) if fig_dir.is_dir() else []

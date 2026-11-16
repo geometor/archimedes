@@ -24,7 +24,9 @@ def test_version_and_repo_root() -> None:
     root = get_repo_root()
     assert __version__ == "0.1.5"
     assert (root / "pyproject.toml").is_file()
-    assert (root / "docsrc" / "works" / "index.rst").is_file()
+    assert (root / "docsrc" / "index.rst").is_file()
+    for slug in CANONICAL_UNIT_SLUGS:
+        assert (root / "docsrc" / slug / "index.rst").is_file()
 
 
 def test_provenance_sources_manifest() -> None:
@@ -57,19 +59,24 @@ def test_concordance_and_apparatus_counts() -> None:
     assert len(glossary) >= 20
 
 
-def test_seven_units_twenty_one_tracks_and_zero_python() -> None:
+def test_seven_books_atomic_pages_and_zero_python() -> None:
     root = get_repo_root()
-    works_dir = root / "docsrc" / "works"
+    docsrc = root / "docsrc"
     assert len(CANONICAL_UNIT_SLUGS) == 7
-    assert len(TRACK_SUFFIXES) == 3
 
-    track_files: list[Path] = []
     for slug in CANONICAL_UNIT_SLUGS:
-        for suffix in TRACK_SUFFIXES:
-            p = works_dir / f"{slug}{suffix}"
-            assert p.is_file(), f"Missing track file: {p}"
-            track_files.append(p)
-    assert len(track_files) == 21
+        book_dir = docsrc / slug
+        assert (book_dir / "index.rst").is_file()
+        assert (book_dir / "summary.rst").is_file()
+        assert (book_dir / "notes.rst").is_file()
+        leaf_files = [
+            f for f in book_dir.glob("*.rst")
+            if f.name not in ("index.rst", "summary.rst", "notes.rst")
+        ]
+        assert len(leaf_files) >= 3, f"Expected >= 3 leaf pages in {slug}, got {len(leaf_files)}"
+
+    for app_name in ("concordance.rst", "bibliography.rst", "persons.rst", "glossary.rst"):
+        assert (docsrc / app_name).is_file()
 
     errors = verify_codex_integrity(repo_root=root)
     assert errors == [], f"Codex integrity errors: {errors}"

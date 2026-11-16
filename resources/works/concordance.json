@@ -24,573 +24,708 @@
   "units": [
     {
       "unit_number": 1,
-      "slug": "measurement-of-a-circle",
+      "slug": "measurement_of_a_circle",
       "title": "Measurement of a Circle",
       "greek_or_latin_title": "Κύκλου μέτρησις (Dimensio Circuli)",
       "heiberg_locus": "Vol. I (1880), pp. 256–271; 2nd ed. (1910), pp. 232–243",
       "heath_locus": "Heath (1897), pp. 91–98",
-      "witness_languages": ["Greek", "Latin (Moerbeke / Cremonensis)", "English (Heath 1897)"]
+      "witness_languages": [
+        "Greek",
+        "Latin (Moerbeke / Cremonensis)",
+        "English (Heath 1897)"
+      ]
     },
     {
       "unit_number": 2,
-      "slug": "equilibrium-of-planes",
+      "slug": "equilibrium_of_planes",
       "title": "On the Equilibrium of Planes, Books I & II",
       "greek_or_latin_title": "Ἐπιπέδων ἰσορροπιῶν αʹ βʹ (De Planorum Aequilibriis)",
       "heiberg_locus": "Vol. II (1881), pp. 142–241; 2nd ed. (1913), pp. 124–213",
       "heath_locus": "Heath (1897), Book I pp. 189–202; Book II pp. 203–220",
-      "witness_languages": ["Syracusan Doric Greek", "English (Heath 1897)"]
+      "witness_languages": [
+        "Syracusan Doric Greek",
+        "English (Heath 1897)"
+      ]
     },
     {
       "unit_number": 3,
-      "slug": "quadrature-of-parabola",
+      "slug": "quadrature_of_the_parabola",
       "title": "Quadrature of the Parabola",
       "greek_or_latin_title": "Τετραγωνισμὸς παραβολῆς (Quadratura Parabolae)",
       "heiberg_locus": "Vol. II (1881), pp. 294–353; 2nd ed. (1913), pp. 262–315",
       "heath_locus": "Heath (1897), pp. 233–252",
-      "witness_languages": ["Syracusan Doric Greek", "English (Heath 1897)"]
+      "witness_languages": [
+        "Syracusan Doric Greek",
+        "English (Heath 1897)"
+      ]
     },
     {
       "unit_number": 4,
-      "slug": "sphere-spirals-conoids",
+      "slug": "sphere_and_spirals",
       "title": "On the Sphere and Cylinder, On Spirals & On Conoids and Spheroids",
       "greek_or_latin_title": "Περὶ σφαίρας καὶ κυλίνδρου · Περὶ ἑλίκων · Περὶ κωνοειδέων καὶ σφαιροειδέων",
       "heiberg_locus": "Vol. I (1880), pp. 1–255, 272–499; Vol. II (1881), pp. 1–141",
       "heath_locus": "Heath (1897), pp. 1–90, 99–188",
-      "witness_languages": ["Koine / Syracusan Doric Greek", "English (Heath 1897)"]
+      "witness_languages": [
+        "Koine / Syracusan Doric Greek",
+        "English (Heath 1897)"
+      ]
     },
     {
       "unit_number": 5,
-      "slug": "book-of-lemmas",
+      "slug": "book_of_lemmas",
       "title": "Book of Lemmas (Liber Assumptorum)",
       "greek_or_latin_title": "Liber Assumptorum (Kitāb al-Maʾkhūdhāt, tr. Thābit ibn Qurra)",
       "heiberg_locus": "Vol. II (1881), pp. 426–445; 2nd ed. (1913), pp. 510–525",
       "heath_locus": "Heath (1897), pp. 301–318",
-      "witness_languages": ["Arabic (Thābit ibn Qurra)", "Latin (Ecchellensis & Borelli 1661)", "English (Heath 1897)"]
+      "witness_languages": [
+        "Arabic (Thābit ibn Qurra)",
+        "Latin (Ecchellensis & Borelli 1661)",
+        "English (Heath 1897)"
+      ]
     },
     {
       "unit_number": 6,
-      "slug": "method-of-mechanical-theorems",
+      "slug": "the_method",
       "title": "The Method of Mechanical Theorems Addressed to Eratosthenes",
       "greek_or_latin_title": "Περὶ τῶν μηχανικῶν θεωρημάτων πρὸς Ἐρατοσθένην ἔφοδος (Methodus)",
       "heiberg_locus": "Hermes 42 (1907), pp. 243–297; Opera Omnia Vol. II, 2nd ed. (1913), pp. 426–507",
       "heath_locus": "Heath (1912 Supplement), pp. 12–51",
-      "witness_languages": ["Greek (Constantinople Palimpsest Codex C)", "English (Heath 1912)"]
+      "witness_languages": [
+        "Greek (Constantinople Palimpsest Codex C)",
+        "English (Heath 1912)"
+      ]
     },
     {
       "unit_number": 7,
-      "slug": "semi-regular-solids-arenarius",
+      "slug": "arenarius",
       "title": "The Thirteen Semi-Regular Solids, Stomachion & The Sand-Reckoner",
       "greek_or_latin_title": "Τρισκαίδεκα ἡμικανονικὰ στερεά (Pappus V.19) · Στομάχιον · Ψαμμίτης (Arenarius)",
       "heiberg_locus": "Pappus ed. Hultsch I (1876), pp. 350–358; Heiberg II (1881), pp. 242–293; 2nd ed. (1913), pp. 216–259, 416–424",
       "heath_locus": "Heath (1897), pp. xxxvi, 221–232; Pappus V.19 Concordance",
-      "witness_languages": ["Syracusan Doric Greek (Arenarius)", "Greek (Pappus V.19 & Palimpsest Stomachion)", "English (Heath 1897)"]
+      "witness_languages": [
+        "Syracusan Doric Greek (Arenarius)",
+        "Greek (Pappus V.19 & Palimpsest Stomachion)",
+        "English (Heath 1897)"
+      ]
     }
   ],
   "entries": [
     {
       "id": "DC.1",
       "unit": 1,
-      "unit_slug": "measurement-of-a-circle",
+      "unit_slug": "measurement_of_a_circle",
       "treatise": "Measurement of a Circle",
       "proposition": "Prop. 1",
       "title": "Area of any circle equals a right-angled triangle with legs r and C",
       "heiberg": "I, 258–261 (2nd ed. I, 232–235)",
       "heath": "1897, pp. 91–93",
-      "euclid_keys": ["heath:works-of-archimedes", "heiberg:archimedis-opera", "eutocius:in-archimedem"],
+      "euclid_keys": [
+        "heath:works-of-archimedes",
+        "heiberg:archimedis-opera",
+        "eutocius:in-archimedem"
+      ],
       "ecosystem_links": {
         "euclid": "XII.2, X.1",
         "elements": "Polygonal exhaustion & circle quadrature reduction",
         "wildberger": "Rational polygon bounding of circular area"
-      }
+      },
+      "target_doc": "measurement_of_a_circle/prop_01"
     },
     {
       "id": "DC.2",
       "unit": 1,
-      "unit_slug": "measurement-of-a-circle",
+      "unit_slug": "measurement_of_a_circle",
       "treatise": "Measurement of a Circle",
       "proposition": "Prop. 2",
       "title": "Ratio of circle area to square on diameter is approximately 11 : 14",
       "heiberg": "I, 260–263 (2nd ed. I, 234–237)",
       "heath": "1897, p. 93",
-      "euclid_keys": ["heath:works-of-archimedes"],
+      "euclid_keys": [
+        "heath:works-of-archimedes"
+      ],
       "ecosystem_links": {
         "euclid": "XII.2",
         "wildberger": "Rational area approximation 11/14"
-      }
+      },
+      "target_doc": "measurement_of_a_circle/prop_02"
     },
     {
       "id": "DC.3",
       "unit": 1,
-      "unit_slug": "measurement-of-a-circle",
+      "unit_slug": "measurement_of_a_circle",
       "treatise": "Measurement of a Circle",
       "proposition": "Prop. 3",
       "title": "Circumference-to-diameter bounds: 3 10/71 < π < 3 1/7 via 96-gons and rational √3 bounds (265/153 < √3 < 1351/780)",
       "heiberg": "I, 262–271 (2nd ed. I, 236–243)",
       "heath": "1897, pp. 93–98",
-      "euclid_keys": ["heath:works-of-archimedes", "eutocius:in-archimedem"],
+      "euclid_keys": [
+        "heath:works-of-archimedes",
+        "eutocius:in-archimedem"
+      ],
       "ecosystem_links": {
         "euclid": "I.47, VI.3",
         "elements": "Bisection recurrence on cot(θ/2) = cot θ + csc θ",
         "wildberger": "Pell-type rational convergents to √3 (x² - 3y² = ±1, -2)"
-      }
+      },
+      "target_doc": "measurement_of_a_circle/prop_03"
     },
     {
       "id": "EP.I.Post.1-7",
       "unit": 2,
-      "unit_slug": "equilibrium-of-planes",
+      "unit_slug": "equilibrium_of_planes",
       "treatise": "On the Equilibrium of Planes I",
       "proposition": "Postulates 1–7",
       "title": "Seven axiomatic postulates of static balance, symmetry, superposition, and convexity of the center of gravity",
       "heiberg": "II, 142–145 (2nd ed. II, 124–125)",
       "heath": "1897, pp. 189–190",
-      "euclid_keys": ["archimedes:equilibrium-of-planes:i-7"],
+      "euclid_keys": [
+        "archimedes:equilibrium-of-planes:i-7"
+      ],
       "ecosystem_links": {
         "etc": "Axiomatic foundation of homogeneous barycentric coordinates",
         "hilbert": "Axiomatization of statics parallel to geometric incidence/congruence"
-      }
+      },
+      "target_doc": "equilibrium_of_planes/postulates"
     },
     {
       "id": "EP.I.6-7",
       "unit": 2,
-      "unit_slug": "equilibrium-of-planes",
+      "unit_slug": "equilibrium_of_planes",
       "treatise": "On the Equilibrium of Planes I",
       "proposition": "Props. 6 & 7",
       "title": "Law of the Lever: commensurable (I.6) and incommensurable (I.7) magnitudes balance at distances reciprocally proportional to weights",
       "heiberg": "II, 152–159 (2nd ed. II, 132–139)",
       "heath": "1897, pp. 192–194",
-      "euclid_keys": ["archimedes:equilibrium-of-planes:i-7"],
+      "euclid_keys": [
+        "archimedes:equilibrium-of-planes:i-7"
+      ],
       "ecosystem_links": {
         "euclid": "V.Def.4, V.Def.5",
         "pappus": "Synagoge VIII (centers of gravity)",
         "etc": "Weighted barycentric division (w₁ : w₂)"
-      }
+      },
+      "target_doc": "equilibrium_of_planes/prop_06_07"
     },
     {
       "id": "EP.I.9-10",
       "unit": 2,
-      "unit_slug": "equilibrium-of-planes",
+      "unit_slug": "equilibrium_of_planes",
       "treatise": "On the Equilibrium of Planes I",
       "proposition": "Props. 9 & 10",
       "title": "Center of gravity of any parallelogram lies at the intersection of its diagonals",
       "heiberg": "II, 162–169 (2nd ed. II, 140–147)",
       "heath": "1897, pp. 195–198",
-      "euclid_keys": ["heath:works-of-archimedes"],
+      "euclid_keys": [
+        "heath:works-of-archimedes"
+      ],
       "ecosystem_links": {
         "euclid": "I.34",
         "elements": "Midpoint concurrency of parallelogram diagonals"
-      }
+      },
+      "target_doc": "equilibrium_of_planes/prop_08_12"
     },
     {
       "id": "EP.I.13-14",
       "unit": 2,
-      "unit_slug": "equilibrium-of-planes",
+      "unit_slug": "equilibrium_of_planes",
       "treatise": "On the Equilibrium of Planes I",
       "proposition": "Props. 13 & 14",
       "title": "Center of gravity of any triangle lies on each median (I.13) and at the concurrency of medians (I.14) — Kimberling X(2)",
       "heiberg": "II, 172–183 (2nd ed. II, 150–159)",
       "heath": "1897, pp. 198–201",
-      "euclid_keys": ["heath:works-of-archimedes"],
+      "euclid_keys": [
+        "heath:works-of-archimedes"
+      ],
       "ecosystem_links": {
         "etc": "X(2) Centroid — barycentric (1 : 1 : 1), trilinear (bc : ca : ab)",
         "euclid": "VI.2, VI.4",
         "pappus": "Synagoge VIII centroid theorems"
-      }
+      },
+      "target_doc": "equilibrium_of_planes/prop_13_14"
     },
     {
       "id": "EP.I.15",
       "unit": 2,
-      "unit_slug": "equilibrium-of-planes",
+      "unit_slug": "equilibrium_of_planes",
       "treatise": "On the Equilibrium of Planes I",
       "proposition": "Prop. 15",
       "title": "Center of gravity of a trapezium divides the segment joining midpoints of parallel sides in ratio (2b + a) : (2a + b)",
       "heiberg": "II, 182–187 (2nd ed. II, 158–163)",
       "heath": "1897, pp. 201–202",
-      "euclid_keys": ["heath:works-of-archimedes"],
+      "euclid_keys": [
+        "heath:works-of-archimedes"
+      ],
       "ecosystem_links": {
         "etc": "Barycentric decomposition of quadrilaterals into triangles"
-      }
+      },
+      "target_doc": "equilibrium_of_planes/prop_15"
     },
     {
       "id": "EP.II.8-10",
       "unit": 2,
-      "unit_slug": "equilibrium-of-planes",
+      "unit_slug": "equilibrium_of_planes",
       "treatise": "On the Equilibrium of Planes II",
       "proposition": "Props. 8–10",
       "title": "Center of gravity of any parabolic segment divides its diameter in ratio 3 : 2 from the vertex (and frustum centroid)",
       "heiberg": "II, 208–241 (2nd ed. II, 182–213)",
       "heath": "1897, pp. 208–220",
-      "euclid_keys": ["heath:works-of-archimedes"],
+      "euclid_keys": [
+        "heath:works-of-archimedes"
+      ],
       "ecosystem_links": {
         "pappus": "Pappus–Guldin centroid foundations"
-      }
+      },
+      "target_doc": "equilibrium_of_planes/book_02"
     },
     {
       "id": "QP.Pref",
       "unit": 3,
-      "unit_slug": "quadrature-of-parabola",
+      "unit_slug": "quadrature_of_the_parabola",
       "treatise": "Quadrature of the Parabola",
       "proposition": "Letter to Dositheus",
       "title": "Mourning Conon of Samos, statement of Archimedes' Lemma, and announcement of mechanical + geometric quadrature",
       "heiberg": "II, 294–297 (2nd ed. II, 262–265)",
       "heath": "1897, pp. 233–235",
-      "euclid_keys": ["archimedes:quadrature-of-parabola"],
+      "euclid_keys": [
+        "archimedes:quadrature-of-parabola"
+      ],
       "ecosystem_links": {
         "euclid": "X.1, XII.2, XII.10",
         "hilbert": "Axiom V 1 (Archimedes' Axiom)"
-      }
+      },
+      "target_doc": "quadrature_of_the_parabola/epistle"
     },
     {
       "id": "QP.6-17",
       "unit": 3,
-      "unit_slug": "quadrature-of-parabola",
+      "unit_slug": "quadrature_of_the_parabola",
       "treatise": "Quadrature of the Parabola",
       "proposition": "Props. 6–17",
       "title": "Mechanical exhaustion via trapezium lever bounds proving parabolic segment = 4/3 of inscribed triangle",
       "heiberg": "II, 304–335 (2nd ed. II, 272–299)",
       "heath": "1897, pp. 238–246",
-      "euclid_keys": ["archimedes:quadrature-of-parabola"],
+      "euclid_keys": [
+        "archimedes:quadrature-of-parabola"
+      ],
       "ecosystem_links": {
         "etc": "Triangle & trapezium centroids applied to conic quadrature"
-      }
+      },
+      "target_doc": "quadrature_of_the_parabola/part_01"
     },
     {
       "id": "QP.18-24",
       "unit": 3,
-      "unit_slug": "quadrature-of-parabola",
+      "unit_slug": "quadrature_of_the_parabola",
       "treatise": "Quadrature of the Parabola",
       "proposition": "Props. 18–24",
       "title": "Pure geometric exhaustion via triangle tree (each tier = 1/4 previous) and exact finite identity A + B + ... + Z + Z/3 = 4A/3",
       "heiberg": "II, 336–353 (2nd ed. II, 300–315)",
       "heath": "1897, pp. 246–252",
-      "euclid_keys": ["archimedes:quadrature-of-parabola"],
+      "euclid_keys": [
+        "archimedes:quadrature-of-parabola"
+      ],
       "ecosystem_links": {
         "euclid": "IX.35, X.1",
         "wildberger": "Exact algebraic quadrature of parabola without limits"
-      }
+      },
+      "target_doc": "quadrature_of_the_parabola/part_02"
     },
     {
       "id": "SC.I.Assump.1-5",
       "unit": 4,
-      "unit_slug": "sphere-spirals-conoids",
+      "unit_slug": "sphere_and_spirals",
       "treatise": "On the Sphere and Cylinder I",
       "proposition": "Defs. 1–6 & Assumptions 1–5",
       "title": "Straight line as shortest path, curves/surfaces concave in the same direction (convexity), and Archimedes' Lemma",
       "heiberg": "I, 2–11 (2nd ed. I, 2–9)",
       "heath": "1897, pp. 1–4",
-      "euclid_keys": ["archimedes:sphere-and-cylinder"],
+      "euclid_keys": [
+        "archimedes:sphere-and-cylinder"
+      ],
       "ecosystem_links": {
         "proclus": "Friedlein p. 110 (straight line shortest path)",
         "hilbert": "Grundlagen Axiom V 1 (Archimedes' Axiom)"
-      }
+      },
+      "target_doc": "sphere_and_spirals/sphere_cylinder_i"
     },
     {
       "id": "SC.I.33-34",
       "unit": 4,
-      "unit_slug": "sphere-spirals-conoids",
+      "unit_slug": "sphere_and_spirals",
       "treatise": "On the Sphere and Cylinder I",
       "proposition": "Props. 33, 34 & Corollary (Tomb Theorem)",
       "title": "Surface of sphere = 4 great circles; volume = 4 cones; circumscribed cylinder is 3/2 of sphere in both volume and total surface",
       "heiberg": "I, 134–147 (2nd ed. I, 120–131)",
       "heath": "1897, pp. 39–44",
-      "euclid_keys": ["archimedes:sphere-and-cylinder", "eutocius:in-archimedem"],
+      "euclid_keys": [
+        "archimedes:sphere-and-cylinder",
+        "eutocius:in-archimedem"
+      ],
       "ecosystem_links": {
         "euclid": "XII.10, XII.18",
         "pacioli": "Sacred invariant 3 : 2 of Archimedes' Syracuse tomb"
-      }
+      },
+      "target_doc": "sphere_and_spirals/sphere_cylinder_i"
     },
     {
       "id": "SC.I.42-43",
       "unit": 4,
-      "unit_slug": "sphere-spirals-conoids",
+      "unit_slug": "sphere_and_spirals",
       "treatise": "On the Sphere and Cylinder I",
       "proposition": "Props. 42 & 43",
       "title": "Surface of any spherical segment equals the circle whose radius is the chord from vertex of segment to base rim",
       "heiberg": "I, 172–181 (2nd ed. I, 152–161)",
       "heath": "1897, pp. 51–53",
-      "euclid_keys": ["archimedes:sphere-and-cylinder"],
+      "euclid_keys": [
+        "archimedes:sphere-and-cylinder"
+      ],
       "ecosystem_links": {
         "euclid": "I.47, VI.8"
-      }
+      },
+      "target_doc": "sphere_and_spirals/sphere_cylinder_i"
     },
     {
       "id": "SC.II.2-4",
       "unit": 4,
-      "unit_slug": "sphere-spirals-conoids",
+      "unit_slug": "sphere_and_spirals",
       "treatise": "On the Sphere and Cylinder II",
       "proposition": "Props. 2 & 4",
       "title": "Volume of spherical segment (II.2) and cutting a sphere in a given ratio via cubic equation x²(a - x) = b c² preserved by Eutocius (II.4)",
       "heiberg": "I, 194–223 (2nd ed. I, 170–195); Eutocius III, 130–176",
       "heath": "1897, pp. 59–79",
-      "euclid_keys": ["archimedes:sphere-and-cylinder:ii-2", "eutocius:in-archimedem"],
+      "euclid_keys": [
+        "archimedes:sphere-and-cylinder:ii-2",
+        "eutocius:in-archimedem"
+      ],
       "ecosystem_links": {
         "euclid": "XI.34, XII.10",
         "pappus": "Solid problems solvable by intersection of parabola and hyperbola"
-      }
+      },
+      "target_doc": "sphere_and_spirals/sphere_cylinder_ii"
     },
     {
       "id": "SP.18-20",
       "unit": 4,
-      "unit_slug": "sphere-spirals-conoids",
+      "unit_slug": "sphere_and_spirals",
       "treatise": "On Spirals",
       "proposition": "Props. 18–20",
       "title": "Polar subtangent to the Archimedean spiral r = aθ rectified to circumference 2πr of the first circle",
       "heiberg": "II, 62–83 (2nd ed. II, 56–75)",
       "heath": "1897, pp. 171–176",
-      "euclid_keys": ["heath:works-of-archimedes"],
+      "euclid_keys": [
+        "heath:works-of-archimedes"
+      ],
       "ecosystem_links": {
         "pappus": "Synagoge IV.21–25 (kinematic classification of curves)"
-      }
+      },
+      "target_doc": "sphere_and_spirals/on_spirals"
     },
     {
       "id": "SP.24",
       "unit": 4,
-      "unit_slug": "sphere-spirals-conoids",
+      "unit_slug": "sphere_and_spirals",
       "treatise": "On Spirals",
       "proposition": "Prop. 24",
       "title": "Area bounded by first turn of spiral and initial ray equals 1/3 of the first circle (via Σ k² bounds in Prop. 10)",
       "heiberg": "II, 94–101 (2nd ed. II, 84–91)",
       "heath": "1897, pp. 178–180",
-      "euclid_keys": ["heath:works-of-archimedes"],
+      "euclid_keys": [
+        "heath:works-of-archimedes"
+      ],
       "ecosystem_links": {
         "euclid": "XII.2, XII.10",
         "wildberger": "Discrete sum of squares 3(1² + ... + n²) = n(n+1)(2n+1)/2"
-      }
+      },
+      "target_doc": "sphere_and_spirals/on_spirals"
     },
     {
       "id": "CS.21-32",
       "unit": 4,
-      "unit_slug": "sphere-spirals-conoids",
+      "unit_slug": "sphere_and_spirals",
       "treatise": "On Conoids and Spheroids",
       "proposition": "Props. 21–32",
       "title": "Ellipse area = πab (Prop. 4); paraboloid segment = 3/2 inscribed cone (Props. 21–22); hyperboloid & spheroid segments (Props. 25–32)",
       "heiberg": "I, 378–499 (2nd ed. I, 342–445)",
       "heath": "1897, pp. 111–150",
-      "euclid_keys": ["archimedes:conoids-and-spheroids"],
+      "euclid_keys": [
+        "archimedes:conoids-and-spheroids"
+      ],
       "ecosystem_links": {
         "euclid": "XII.10, XII.12"
-      }
+      },
+      "target_doc": "sphere_and_spirals/conoids_spheroids"
     },
     {
       "id": "LA.1-3",
       "unit": 5,
-      "unit_slug": "book-of-lemmas",
+      "unit_slug": "book_of_lemmas",
       "treatise": "Book of Lemmas (Liber Assumptorum)",
       "proposition": "Props. 1–3",
       "title": "Homothetic collinearity on tangent circles (Prop. 1), semicircle tangent bisection (Prop. 2), and chord half-angle identity (Prop. 3)",
       "heiberg": "II, 428–431 (2nd ed. II, 510–513)",
       "heath": "1897, pp. 301–304",
-      "euclid_keys": ["archimedes:liber-assumptorum"],
+      "euclid_keys": [
+        "archimedes:liber-assumptorum"
+      ],
       "ecosystem_links": {
         "euclid": "III.31, VI.2",
         "pappus": "Synagoge IV.14"
-      }
+      },
+      "target_doc": "book_of_lemmas/prop_01_03"
     },
     {
       "id": "LA.4",
       "unit": 5,
-      "unit_slug": "book-of-lemmas",
+      "unit_slug": "book_of_lemmas",
       "treatise": "Book of Lemmas (Liber Assumptorum)",
       "proposition": "Prop. 4",
       "title": "Area of the Arbelos (shoemaker's knife) equals the circle on the internal perpendicular tangent PN",
       "heiberg": "II, 430–432 (2nd ed. II, 513–514)",
       "heath": "1897, pp. 304–305",
-      "euclid_keys": ["archimedes:liber-assumptorum"],
+      "euclid_keys": [
+        "archimedes:liber-assumptorum"
+      ],
       "ecosystem_links": {
         "euclid": "II.4, III.31, XII.2",
         "elements": "Exact circle-area cancellation (r₁+r₂)² - r₁² - r₂² = 2r₁r₂"
-      }
+      },
+      "target_doc": "book_of_lemmas/prop_04"
     },
     {
       "id": "LA.5",
       "unit": 5,
-      "unit_slug": "book-of-lemmas",
+      "unit_slug": "book_of_lemmas",
       "treatise": "Book of Lemmas (Liber Assumptorum)",
       "proposition": "Prop. 5",
       "title": "Archimedes' Twin Circles in the partitioned Arbelos have equal diameter d = AC·CB / AB = r₁r₂/(r₁+r₂)·2",
       "heiberg": "II, 432–435 (2nd ed. II, 514–516)",
       "heath": "1897, pp. 305–307",
-      "euclid_keys": ["archimedes:liber-assumptorum"],
+      "euclid_keys": [
+        "archimedes:liber-assumptorum"
+      ],
       "ecosystem_links": {
         "pappus": "Synagoge IV (p. 230 Hultsch)",
         "wildberger": "Harmonic radius invariant 1/r = 1/r₁ + 1/r₂"
-      }
+      },
+      "target_doc": "book_of_lemmas/prop_05"
     },
     {
       "id": "LA.6",
       "unit": 5,
-      "unit_slug": "book-of-lemmas",
+      "unit_slug": "book_of_lemmas",
       "treatise": "Book of Lemmas (Liber Assumptorum)",
       "proposition": "Prop. 6",
       "title": "Circle inscribed in the Arbelos touching all three semicircles has diameter ratio λ : (1 + λ + λ²) (6/19 for 3:2) & Pappus chain c_n = n·d_n",
       "heiberg": "II, 435–438 (2nd ed. II, 516–519)",
       "heath": "1897, pp. 307–309",
-      "euclid_keys": ["archimedes:liber-assumptorum"],
+      "euclid_keys": [
+        "archimedes:liber-assumptorum"
+      ],
       "ecosystem_links": {
         "pappus": "Synagoge IV.14–18 ('ancient proposition' on arbelos circle chain)",
         "wildberger": "Descartes–Soddy rational curvature relation"
-      }
+      },
+      "target_doc": "book_of_lemmas/prop_06"
     },
     {
       "id": "LA.8",
       "unit": 5,
-      "unit_slug": "book-of-lemmas",
+      "unit_slug": "book_of_lemmas",
       "treatise": "Book of Lemmas (Liber Assumptorum)",
       "proposition": "Prop. 8",
       "title": "Angle Trisection by Neusis: inserting segment BC = r outside circle on secant through center O yields ∠AEB = (1/3)∠AOB",
       "heiberg": "II, 439 (2nd ed. II, 519–520)",
       "heath": "1897, pp. 309–310",
-      "euclid_keys": ["archimedes:liber-assumptorum"],
+      "euclid_keys": [
+        "archimedes:liber-assumptorum"
+      ],
       "ecosystem_links": {
         "euclid": "I.5, I.32",
         "pappus": "Synagoge IV.36–44 (classification of plane, solid & neusis trisections)"
-      }
+      },
+      "target_doc": "book_of_lemmas/prop_08"
     },
     {
       "id": "LA.9-13",
       "unit": 5,
-      "unit_slug": "book-of-lemmas",
+      "unit_slug": "book_of_lemmas",
       "treatise": "Book of Lemmas (Liber Assumptorum)",
       "proposition": "Props. 9–13",
       "title": "Orthogonal chords quadrance identity AO² + BO² + CO² + DO² = 4R² (Prop. 11) and polar orthocenter reciprocity (Prop. 12)",
       "heiberg": "II, 439–443 (2nd ed. II, 520–523)",
       "heath": "1897, pp. 310–316",
-      "euclid_keys": ["archimedes:liber-assumptorum"],
+      "euclid_keys": [
+        "archimedes:liber-assumptorum"
+      ],
       "ecosystem_links": {
         "wildberger": "Pure quadrance invariant Q₁ + Q₂ + Q₃ + Q₄ = D²",
         "pappus": "Pole-polar reciprocity & Apollonius On Contacts"
-      }
+      },
+      "target_doc": "book_of_lemmas/prop_09_13"
     },
     {
       "id": "LA.14",
       "unit": 5,
-      "unit_slug": "book-of-lemmas",
+      "unit_slug": "book_of_lemmas",
       "treatise": "Book of Lemmas (Liber Assumptorum)",
       "proposition": "Prop. 14",
       "title": "Area of the Salinon (salt-cellar) bounded by four symmetric semicircles equals the circle on axial segment CF",
       "heiberg": "II, 443–444 (2nd ed. II, 523–524)",
       "heath": "1897, pp. 316–317",
-      "euclid_keys": ["archimedes:liber-assumptorum"],
+      "euclid_keys": [
+        "archimedes:liber-assumptorum"
+      ],
       "ecosystem_links": {
         "euclid": "II.10, XII.2"
-      }
+      },
+      "target_doc": "book_of_lemmas/prop_14"
     },
     {
       "id": "LA.15",
       "unit": 5,
-      "unit_slug": "book-of-lemmas",
+      "unit_slug": "book_of_lemmas",
       "treatise": "Book of Lemmas (Liber Assumptorum)",
       "proposition": "Prop. 15",
       "title": "Regular pentagon & decagon chord-secant configuration cutting EC in extreme and mean ratio (golden section φ) with EM = radius",
       "heiberg": "II, 444–445 (2nd ed. II, 524–525)",
       "heath": "1897, pp. 317–318",
-      "euclid_keys": ["archimedes:liber-assumptorum"],
+      "euclid_keys": [
+        "archimedes:liber-assumptorum"
+      ],
       "ecosystem_links": {
         "euclid": "XIII.9, XIII.10",
         "divine": "Golden section φ = (1 + √5)/2 in pentagon-decagon secants",
         "pacioli": "Divine proportion in regular pentagon/decagon"
-      }
+      },
+      "target_doc": "book_of_lemmas/prop_15"
     },
     {
       "id": "METH.Pref",
       "unit": 6,
-      "unit_slug": "method-of-mechanical-theorems",
+      "unit_slug": "the_method",
       "treatise": "The Method of Mechanical Theorems",
       "proposition": "Letter to Eratosthenes & Lemmas 1–11",
       "title": "Distinction between mechanical heuristic indication (ἔφοδος) and synthetic proof; tribute to Democritus & Eudoxus on cone = 1/3 cylinder",
       "heiberg": "Hermes 42, 243–247; II (2nd ed.), 426–434",
       "heath": "1912, pp. 12–15",
-      "euclid_keys": ["archimedes:methodus", "heath:method-of-archimedes"],
+      "euclid_keys": [
+        "archimedes:methodus",
+        "heath:method-of-archimedes"
+      ],
       "ecosystem_links": {
         "euclid": "XII.7, XII.10",
         "aristotle": "Distinction between hoti (indication) and dioti (demonstrative proof)"
-      }
+      },
+      "target_doc": "the_method/epistle"
     },
     {
       "id": "METH.1-2",
       "unit": 6,
-      "unit_slug": "method-of-mechanical-theorems",
+      "unit_slug": "the_method",
       "treatise": "The Method of Mechanical Theorems",
       "proposition": "Props. 1 & 2",
       "title": "Mechanical slice-balancing of parabolic segment (Prop. 1: 4/3 ΔABC) and sphere + cone against cylinder (Prop. 2: V = (4/3)πr³ → S = 4πr²)",
       "heiberg": "II (2nd ed.), 434–446",
       "heath": "1912, pp. 15–21",
-      "euclid_keys": ["archimedes:methodus", "heath:method-of-archimedes"],
+      "euclid_keys": [
+        "archimedes:methodus",
+        "heath:method-of-archimedes"
+      ],
       "ecosystem_links": {
         "etc": "Triangle centroid W dividing median 2 : 1 (CK = 3KW) as fulcrum ratio"
-      }
+      },
+      "target_doc": "the_method/prop_01"
     },
     {
       "id": "METH.3-11",
       "unit": 6,
-      "unit_slug": "method-of-mechanical-theorems",
+      "unit_slug": "the_method",
       "treatise": "The Method of Mechanical Theorems",
       "proposition": "Props. 3–11",
       "title": "Mechanical discovery of volumes and centers of gravity of spheroids, paraboloids, hyperboloids, and spherical segments",
       "heiberg": "II (2nd ed.), 446–484",
       "heath": "1912, pp. 21–38",
-      "euclid_keys": ["archimedes:methodus"],
+      "euclid_keys": [
+        "archimedes:methodus"
+      ],
       "ecosystem_links": {
         "pappus": "Synagoge VIII solid centroids"
-      }
+      },
+      "target_doc": "the_method/props_03_15"
     },
     {
       "id": "METH.12-15",
       "unit": 6,
-      "unit_slug": "method-of-mechanical-theorems",
+      "unit_slug": "the_method",
       "treatise": "The Method of Mechanical Theorems",
       "proposition": "Props. 12–15",
       "title": "Cubature of curved solids equal to rectilinear polyhedra: cylindrical ungula = 1/6 prism (Props. 12–14) & bicylinder = 2/3 cube (Prop. 15)",
       "heiberg": "II (2nd ed.), 484–507",
       "heath": "1912, pp. 38–51",
-      "euclid_keys": ["archimedes:methodus", "heath:method-of-archimedes"],
+      "euclid_keys": [
+        "archimedes:methodus",
+        "heath:method-of-archimedes"
+      ],
       "ecosystem_links": {
         "heron": "Metrica citation of Archimedes' Method on ungula and bicylinder"
-      }
+      },
+      "target_doc": "the_method/props_03_15"
     },
     {
       "id": "SOL.1-13",
       "unit": 7,
-      "unit_slug": "semi-regular-solids-arenarius",
+      "unit_slug": "arenarius",
       "treatise": "Thirteen Semi-Regular Solids (via Pappus Synagoge V.19)",
       "proposition": "Pappus V.19 (Solids I–XIII)",
       "title": "Complete census of the 13 convex vertex-transitive non-Platonic polyhedra (8, 14, 14, 14, 26, 26, 38, 32, 32, 32, 62, 62, 92 faces)",
       "heiberg": "Pappus ed. Hultsch I (1876), 350–358; Heiberg II (2nd ed.), 535–537",
       "heath": "1897, p. xxxvi",
-      "euclid_keys": ["heath:works-of-archimedes"],
+      "euclid_keys": [
+        "heath:works-of-archimedes"
+      ],
       "ecosystem_links": {
         "euclid": "XIII.13–18 (Five Platonic Solids)",
         "pappus": "Synagoge V.19 face-species enumeration",
         "pacioli": "De Divina Proportione abscised & elevated golden polyhedra",
         "divine": "Icosidodecahedron, truncated icosahedron & snub dodecahedron over Q(φ)"
-      }
+      },
+      "target_doc": "arenarius/semi_regular_solids"
     },
     {
       "id": "STOM.1",
       "unit": 7,
-      "unit_slug": "semi-regular-solids-arenarius",
+      "unit_slug": "arenarius",
       "treatise": "Stomachion (Loculus Archimedius)",
       "proposition": "Palimpsest Fragment & Arabic Dissection",
       "title": "Fourteen-tile rational areal dissection of the 12 × 12 square (536 distinct modulo-symmetry assemblies)",
       "heiberg": "II (2nd ed., 1913), 416–424",
       "heath": "1912 Intro, p. 7",
-      "euclid_keys": ["heiberg:archimedis-opera"],
+      "euclid_keys": [
+        "heiberg:archimedis-opera"
+      ],
       "ecosystem_links": {
         "wildberger": "Rational lattice dissection & commensurable triangle areas"
-      }
+      },
+      "target_doc": "arenarius/stomachion_and_cattle"
     },
     {
       "id": "AREN.1-4",
       "unit": 7,
-      "unit_slug": "semi-regular-solids-arenarius",
+      "unit_slug": "arenarius",
       "treatise": "The Sand-Reckoner (Arenarius)",
       "proposition": "Sections I–IV",
       "title": "Aristarchus's heliocentric cosmos, solar angular diameter bounds (90°/200 < d < 90°/164), myriad-octad exponents up to 10^(8·10^16), and < 10^63 (10^51 common) cosmic sand bound",
       "heiberg": "II, 242–293 (2nd ed. II, 216–259)",
       "heath": "1897, pp. 221–232",
-      "euclid_keys": ["heath:works-of-archimedes", "heiberg:archimedis-opera"],
+      "euclid_keys": [
+        "heath:works-of-archimedes",
+        "heiberg:archimedis-opera"
+      ],
       "ecosystem_links": {
         "euclid": "IX.8–9 (geometric progressions & law of exponents)"
-      }
+      },
+      "target_doc": "arenarius/sand_reckoner"
     }
   ]
 }

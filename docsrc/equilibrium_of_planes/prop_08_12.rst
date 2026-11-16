@@ -1,0 +1,13 @@
+:canonical_id: EP.I.8-12
+:order: 4
+:type: section
+
+Book I: Propositions 8–12: Remainders, Parallelograms & Similar Triangles
+=========================================================================
+
+.. folio:: Heath (1897), pp. 194–198 · Heiberg II, 158–169
+   :page: 194
+
+* **Proposition 8**: If :g:`AB` be a magnitude whose centre of gravity is :g:`C`, and :g:`AD` a part of it whose centre of gravity is :g:`F`, then the centre of gravity :g:`G` of the remaining part :g:`DE` lies on :g:`FC` produced so that :eq:`GC : CF = AD : DE`.
+* **Propositions 9 & 10** *(with Alternative Proof)*: In any parallelogram (*Παντὸς παραλληλογράμμου τὸ κέντρον τοῦ βάρεός ἐστιν...*, Heiberg II, 162), the centre of gravity lies on the straight line joining the middle points of opposite sides (Prop. 9), and coincides with **the point of intersection of its diagonals** (Prop. 10).
+* **Propositions 11 & 12**: If two triangles be similar, and points within them be similarly situated with respect to them, if one point is the centre of gravity of the first triangle, the other point is likewise the centre of gravity of the second triangle.

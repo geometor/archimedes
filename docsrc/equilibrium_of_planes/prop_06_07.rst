@@ -1,0 +1,27 @@
+:canonical_id: EP.I.6-7
+:order: 3
+:type: section
+
+.. _ep-i-6-7:
+
+Book I: Propositions 6 & 7: The Law of the Lever
+================================================
+
+.. folio:: Heath (1897), pp. 192–194 · Heiberg II, 152–159
+   :page: 192
+
+.. enunciation::
+
+   **Proposition 6.** Commensurable magnitudes balance at distances :term:`reciprocally proportional <antipeponthos>` to the weights.
+
+Let :g:`A`, :g:`B` be commensurable magnitudes with centres of gravity :g:`A`, :g:`B`, and let :g:`DE` be a straight line divided at :g:`C` so that :eq:`A : B = DC : CE`. Place :g:`A` at :g:`E` and :g:`B` at :g:`D`. Produce :g:`ED` so that :eq:`DK = EC` and :eq:`EL = CD`; then :eq:`LK = 2 \cdot DE` has :g:`C` as its midpoint! Since :g:`A` and :g:`B` are commensurable, divide :g:`LH` (:eq:`= 2 \cdot EC`) and :g:`HK` (:eq:`= 2 \cdot CD`) into equal segments corresponding to a common measure :g:`N` of :g:`A` and :g:`B`. Placing equal unit weights :g:`N` at the midpoints of all equal segments along :g:`LK`, the first group has its centre of gravity at :g:`E` (midpoint of :g:`LH`, by :just:`Prop. 5`) and equals :g:`A`; the second group has its centre of gravity at :g:`D` (midpoint of :g:`HK`) and equals :g:`B`; while the whole uniform array on :g:`LK` balances at its midpoint :g:`C` (:just:`Post. 6`, :just:`Prop. 5`). Therefore :g:`A` at :g:`E` and :g:`B` at :g:`D` balance about :g:`C`.
+
+.. qed::
+
+.. enunciation::
+
+   **Proposition 7.** And even if the magnitudes are incommensurable, they will likewise balance at distances reciprocally proportional to the magnitudes (:cite:`archimedes:equilibrium-of-planes:i-7`).
+
+Let :eq:`(A + a) : B = DC : CE`, where :g:`A` and :g:`B` are incommensurable. If :g:`A + a` placed at :g:`E` does not balance :g:`B` placed at :g:`D`, either :g:`A + a` is too great to balance :g:`B` or not great enough. Suppose :g:`A + a` is too great. Take from :g:`A + a` a magnitude less than the excess by which it fails to balance :g:`B`, yet such that the remainder :g:`A` is **commensurable** with :g:`B` (:just:`Eucl. V. Def. 4`). Then since :g:`A`, :g:`B` are commensurable and :eq:`A : B < DC : CE`, :g:`A` at :g:`E` will *not* incline the beam at :g:`E` down, by :just:`Prop. 6`, rather :g:`D` will incline downward—contradicting that insufficient weight was removed to stop :g:`E` from inclining! Similarly :g:`B` cannot incline downward. Hence incommensurable magnitudes likewise balance at reciprocally proportional distances.
+
+.. qed::

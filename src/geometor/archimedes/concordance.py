@@ -22,17 +22,19 @@ REQUIRED_EUCLID_CITATION_KEYS: tuple[str, ...] = (
     "heiberg:archimedis-opera",
 )
 
-CANONICAL_UNIT_SLUGS: tuple[str, ...] = (
-    "measurement-of-a-circle",
-    "equilibrium-of-planes",
-    "quadrature-of-parabola",
-    "sphere-spirals-conoids",
-    "book-of-lemmas",
-    "method-of-mechanical-theorems",
-    "semi-regular-solids-arenarius",
+CANONICAL_BOOK_SLUGS: tuple[str, ...] = (
+    "measurement_of_a_circle",
+    "quadrature_of_the_parabola",
+    "equilibrium_of_planes",
+    "sphere_and_spirals",
+    "the_method",
+    "book_of_lemmas",
+    "arenarius",
 )
 
-TRACK_SUFFIXES: tuple[str, ...] = ("-en.rst", "-summary.rst", "-notes.rst")
+CANONICAL_UNIT_SLUGS: tuple[str, ...] = CANONICAL_BOOK_SLUGS
+
+TRACK_SUFFIXES: tuple[str, ...] = ("summary.rst", "notes.rst")
 
 
 def get_repo_root() -> Path:
@@ -54,6 +56,7 @@ class ConcordanceEntry:
     heath: str
     euclid_keys: tuple[str, ...]
     ecosystem_links: dict[str, str]
+    target_doc: str = ""
 
 
 def load_json_resource(name: str, repo_root: Path | None = None) -> dict[str, Any]:
@@ -80,6 +83,7 @@ def load_concordance(repo_root: Path | None = None) -> list[ConcordanceEntry]:
                 heath=item["heath"],
                 euclid_keys=tuple(item.get("euclid_keys", ())),
                 ecosystem_links=dict(item.get("ecosystem_links", {})),
+                target_doc=item.get("target_doc", f"{item['unit_slug']}/index"),
             )
         )
     return entries
