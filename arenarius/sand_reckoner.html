@@ -1,0 +1,277 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Part III: The Sand-Reckoner (Arenarius) — The Sand-Reckoner &amp; Semi-Regular Solids • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/archimedes/arenarius/sand_reckoner.html" />
+  <meta name="description" content="If be a geometric progression starting from (specifically powers of ), the product equals the term whose distance from equals the distance of from !" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Part III: The Sand-Reckoner (Arenarius) — The Sand-Reckoner &amp; Semi-Regular Solids • GEOMETOR" />
+  <meta property="og:description" content="If be a geometric progression starting from (specifically powers of ), the product equals the term whose distance from equals the distance of from !" />
+  <meta property="og:url" content="https://geometor.github.io/archimedes/arenarius/sand_reckoner.html" />
+  <meta property="og:image" content="https://geometor.github.io/archimedes/_static/social/arenarius.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Archimedes of Syracuse — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Part III: The Sand-Reckoner (Arenarius) — The Sand-Reckoner &amp; Semi-Regular Solids • GEOMETOR" />
+  <meta name="twitter:description" content="If be a geometric progression starting from (specifically powers of ), the product equals the term whose distance from equals the distance of from !" />
+  <meta name="twitter:image" content="https://geometor.github.io/archimedes/_static/social/arenarius.png" />
+  <meta name="twitter:image:alt" content="Archimedes of Syracuse — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif" data-folio="Heath (1897), pp. 221–232 · Heiberg II, 242–291">
+  <header>
+    <div class="logo">
+      <a href="../index.html" title="Home">
+        <img src="../_static/logo.png" class="logo" alt="GEOMETOR archimedes"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">archimedes</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../measurement_of_a_circle/index.html"  >Circle</a>
+        </li>
+        <li>
+          <a href="../quadrature_of_the_parabola/index.html"  >Parabola</a>
+        </li>
+        <li>
+          <a href="../equilibrium_of_planes/index.html"  >Statics</a>
+        </li>
+        <li>
+          <a href="../sphere_and_spirals/index.html"  >Sphere & Spirals</a>
+        </li>
+        <li>
+          <a href="../the_method/index.html"  >The Method</a>
+        </li>
+        <li>
+          <a href="../book_of_lemmas/index.html"  >Lemmas</a>
+        </li>
+        <li>
+          <a href="index.html" class="is-active" aria-selected="true" >Sand-Reckoner</a>
+        </li>
+        <li>
+          <a href="../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-folio="Heath (1897), pp. 221–232 · Heiberg II, 242–291" data-canonical-id="AREN">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="index.html">Sand-Reckoner & Polyhedra</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">AREN</span>
+          </nav>
+          <div class="book-provenance-badges">
+            <a class="book-badge folio-badge folio-link" href="https://github.com/geometor/archimedes/blob/main/resources/works/sources/heath_1897_page_numbers.json#L2894" target="_blank" rel="noopener" title="View Folio Heath (1897), pp. 221–232 · Heiberg II, 242–291 (p. 221)">Folio Heath (1897), pp. 221–232 · Heiberg II, 242–291 | p. 221</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="stomachion_and_cattle.html" title="Part II: Stomachion (Loculus Archimedius) &amp; The Cattle Problem">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../persons.html" title="People"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="part-iii-the-sand-reckoner-arenarius">
+        <h1>Part III: The Sand-Reckoner (Arenarius)<a class="headerlink" href="#part-iii-the-sand-reckoner-arenarius" title="Link to this heading">¶</a></h1>
+        <span class="folio-anchor" id="folio-Heath (1897), pp. 221–232 · Heiberg II, 242–291" data-folio="Heath (1897), pp. 221–232 · Heiberg II, 242–291" data-page="221"></span><section class="level-3" id="i-address-to-king-gelon-aristarchus-s-heliocentric-universe">
+        <h3>I. Address to King Gelon &amp; Aristarchus’s Heliocentric Universe<a class="headerlink" href="#i-address-to-king-gelon-aristarchus-s-heliocentric-universe" title="Link to this heading">¶</a></h3>
+        <p>“There are some, <a class="person-ref" id="occ-person-gelon-1" href="../persons.html#person-gelon" data-person="gelon" title="King Gelon II of Syracuse (c. 266–216 BC) — Co-regent of Syracuse &amp; addressee of The Sand-Reckoner">king Gelon</a>, who think that the number of the sand is infinite in multitude; and I mean by the sand not only that which exists about Syracuse and the rest of Sicily, but also that which is found in every region whether inhabited or uninhabited. Again there are some who, without regarding it as infinite, yet think that no number has been named which is great enough to exceed its multitude.”</p>
+        <p>To refute this belief—even for a sphere equal in size to the entire <strong>cosmos</strong> completely filled with finest poppy-seed sand—<a class="person-ref" id="occ-person-archimedes-1" href="../persons.html#person-archimedes" data-person="archimedes" title="Archimedes of Syracuse (c. 287–212 BC) — Supreme geometer and founder of mathematical mechanics &amp; hydrostatics">Archimedes</a> preserves the priceless sole surviving direct account of <strong>:person:`Aristarchus of Samos’s &lt;aristarchus&gt;` heliocentric system</strong> (Heath 1897, pp. 221–222):</p>
+        <blockquote class="epigraph">
+        <div><p>“Now you are aware that ‘universe’ (<em>κόσμος</em>) is the name given by most astronomers to the sphere whose centre is the centre of the earth and whose radius is equal to the straight line between the centre of the sun and the centre of the earth. This is the common account, as you have heard from astronomers. But <a class="person-ref" id="occ-person-aristarchus-1" href="../persons.html#person-aristarchus" data-person="aristarchus" title="Aristarchus of Samos (c. 310–230 BC) — Mathematician &amp; founder of ancient heliocentric astronomy">Aristarchus of Samos</a> brought out a book consisting of certain hypotheses (<em>ὑποθέσεων γράψας</em>), wherein it appears, as a consequence of the assumptions made, that the universe is many times greater than the ‘universe’ just mentioned. <strong>His hypotheses are that the fixed stars and the sun remain unmoved, that the earth revolves about the sun in the circumference of a circle, the sun lying in the middle of the orbit</strong>, and that the sphere of the fixed stars, situated about the same centre as the sun, is so great that the circle in which he supposes the earth to revolve bears such a proportion to the distance of the fixed stars as the centre of the sphere bears to its surface.”</p>
+        </div></blockquote>
+        <p>Interpreting Aristarchus’s striking point-to-surface phrase mathematically (since a geometric point has <em>no</em> ratio to a surface, <span class="justification" data-ref-target="V.def.4" title="V.def.4">Eucl. V. Def. 4</span>!), Archimedes charitably models Aristarchus’s proportion as:</p>
+        <div class="math notranslate nohighlight">
+        \[(\text{Globe of Earth}) : (\text{Traditional Sun-Orbit Sphere}) = (\text{Earth-Orbit Sphere}) : (\text{Sphere of Fixed Stars}).\]</div>
+        </section>
+        <section class="level-3" id="ii-experimental-solar-parallax-astronomical-bounds">
+        <h3>II. Experimental Solar Parallax &amp; Astronomical Bounds<a class="headerlink" href="#ii-experimental-solar-parallax-astronomical-bounds" title="Link to this heading">¶</a></h3>
+        <span class="folio-milestone" id="folio-Heath (1897), pp. 223–226 · Heiberg II, 248–265" data-folio="Heath (1897), pp. 223–226 · Heiberg II, 248–265" data-page="223"><a class="folio-link" href="https://github.com/geometor/archimedes/blob/main/resources/works/sources/heath_1897_page_numbers.json#L2908" target="_blank" rel="noopener" title="View Folio Heath (1897), pp. 223–226 · Heiberg II, 248–265 (p. 223)">f. Heath (1897), pp. 223–226 · Heiberg II, 248–265 · p. 223</a></span>
+        <p>Deliberately adopting <em>generous upper bounds</em> at every step so his sand-estimate stays a fortiori unassailable (Earth perimeter <span class="geom-eq-marker" data-assert-equal="&lt; 3{,}000{,}000" hidden></span> stadia, ten times <a class="person-ref" id="occ-person-eratosthenes-1" href="../persons.html#person-eratosthenes" data-person="eratosthenes" title="Eratosthenes of Cyrene (c. 276–194 BC) — Chief Librarian at Alexandria, geometer &amp; addressee of The Method">Eratosthenes'</a> measurement; solar diameter greater than the moon’s, citing earlier estimates including that of <strong>“Phidias my father”</strong>, <a class="person-ref" id="occ-person-phidias-1" href="../persons.html#person-phidias" data-person="phidias" title="Phidias of Syracuse (fl. c. 290 BC) — Astronomer &amp; father of Archimedes">Φειδία δὲ τοῦ ἁμοῦ πατρός</a>, who made it <span class="geom-eq-marker" data-assert-equal="12" hidden></span> times the moon’s), Archimedes measures the apparent angular diameter <span class="geom-eq-marker" data-assert-equal="d" hidden></span> of the rising sun along a sighting rod with a movable cylinder, correcting for the <strong>finite aperture of the human pupil</strong>, and establishes:</p>
+        <div class="math notranslate nohighlight">
+        \[\frac{90^\circ}{200} &lt; d &lt; \frac{90^\circ}{164}.\]</div>
+        <p>From this chord bound he proves geometrically that the diameter of the traditional cosmos is less than <span class="geom-eq-marker" data-assert-equal="10{,}000 = 10^4" hidden></span> Earth diameters (<span class="geom-eq-marker" data-assert-equal="&lt; 10^{10}" hidden></span> stadia), whence the diameter of Aristarchus’s sphere of fixed stars is less than <span class="geom-eq-marker" data-assert-equal="10^4 \times 10^{10} = 10^{14}" hidden></span> stadia!</p>
+        </section>
+        <section class="level-3" id="iii-the-myriad-octad-number-system-law-of-exponents">
+        <h3>III. The Myriad-Octad Number System &amp; Law of Exponents<a class="headerlink" href="#iii-the-myriad-octad-number-system-law-of-exponents" title="Link to this heading">¶</a></h3>
+        <span class="folio-milestone" id="folio-Heath (1897), pp. 227–232 · Heiberg II, 264–291" data-folio="Heath (1897), pp. 227–232 · Heiberg II, 264–291" data-page="227"><a class="folio-link" href="https://github.com/geometor/archimedes/blob/main/resources/works/sources/heath_1897_page_numbers.json#L2936" target="_blank" rel="noopener" title="View Folio Heath (1897), pp. 227–232 · Heiberg II, 264–291 (p. 227)">f. Heath (1897), pp. 227–232 · Heiberg II, 264–291 · p. 227</a></span>
+        <p>Recalling his earlier treatise <em>Principles</em> (<em>Ἀρχαί</em>) addressed to <a class="person-ref" id="occ-person-zeuxippus-1" href="../persons.html#person-zeuxippus" data-person="zeuxippus" title="Zeuxippus (fl. c. 230 BC) — Recipient of Archimedes&#x27; lost arithmetical treatise Principia">Zeuxippus</a>, Archimedes constructs his recursive <a class="term-ref glossary-term" id="occ-term-myriad-octads-1" href="../glossary.html#term-myriad-octads" data-term="myriad-octads" title="myriad-octads (μυριάδες / ὀκτάδες) (orders and periods of large numbers): Positional naming system constructed in The Sand-Reckoner taking 10^8 (a myriad myriads) as the base of successive &#x27;orders&#x27; up to the (10^8)-th order (First Period = 10^(8·10^8)) and iterating through 10^8 Periods up to 10^(8·10^16), accompanied by the law of exponents A_m · A_n = A_(m+n-1).">myriad-octad</a> hierarchy on base <span class="geom-eq-marker" data-assert-equal="M = 10^8" hidden></span> (<em>a myriad myriads</em>):</p>
+        <ul>
+        <li><p><strong>First Order</strong>: numbers from <span class="geom-eq-marker" data-assert-equal="1" hidden></span> up to <span class="geom-eq-marker" data-assert-equal="10^8" hidden></span>.</p></li>
+        <li><p><strong>Second Order</strong>: taking <span class="geom-eq-marker" data-assert-equal="10^8" hidden></span> as unit, up to <span class="geom-eq-marker" data-assert-equal="(10^8)^2 = 10^{16}" hidden></span>.</p></li>
+        <li><p><strong>*k*-th Order</strong> (<span class="geom-eq-marker" data-assert-equal="1 \le k \le 10^8" hidden></span>): up to <span class="geom-eq-marker" data-assert-equal="10^{8k}" hidden></span>, culminating at the <span class="geom-eq-marker" data-assert-equal="(10^8)" hidden></span>-th Order in <span class="geom-eq-marker" data-assert-equal="P = (10^8)^{10^8} = 10^{800{,}000{,}000}" hidden></span>, which closes the <strong>First Period</strong>!</p></li>
+        <li><p><strong>Second to Myriad-Myriadth Period</strong>: taking <span class="geom-eq-marker" data-assert-equal="P" hidden></span> as the unit of the First Order of the Second Period and continuing through <span class="geom-eq-marker" data-assert-equal="10^8" hidden></span> Periods reaches a myriad-myriad units of the myriad-myriadth order of the myriad-myriadth period:</p>
+        <div class="math notranslate nohighlight">
+        \[P^{10^8} = \left(10^{8 \cdot 10^8}\right)^{10^8} = 10^{8 \cdot 10^{16}}!\]</div>
+        </li>
+        </ul>
+        <p>To multiply across orders without overflowing language, Archimedes proves the <strong>Law of Exponents</strong> (Heath 1897, p. 229):</p>
+        <div class="enunciation">If <span class="geom-eq-marker" data-assert-equal="A_1, A_2, A_3, \dots, A_m, \dots, A_n, \dots" hidden></span> be a geometric progression starting from <span class="geom-eq-marker" data-assert-equal="A_1 = 1" hidden></span> (specifically powers of <span class="geom-eq-marker" data-assert-equal="10" hidden></span>), the product <span class="geom-eq-marker" data-assert-equal="A_m \cdot A_n" hidden></span> equals the term <span class="geom-eq-marker" data-assert-equal="A_{m + n - 1}" hidden></span> whose distance from <span class="geom-eq-marker" data-assert-equal="A_n" hidden></span> equals the distance of <span class="geom-eq-marker" data-assert-equal="A_m" hidden></span> from <span class="geom-eq-marker" data-assert-equal="A_1" hidden></span>!</div>
+        </section>
+        <section class="level-3" id="iv-final-cosmic-sand-upper-bounds">
+        <h3>IV. Final Cosmic Sand Upper Bounds<a class="headerlink" href="#iv-final-cosmic-sand-upper-bounds" title="Link to this heading">¶</a></h3>
+        <p>Assuming <span class="geom-eq-marker" data-assert-equal="\le 10{,}000" hidden></span> grains of sand in a poppy-seed sphere of diameter <span class="geom-eq-marker" data-assert-equal="\frac{1}{40}" hidden></span> finger-breadth and <span class="geom-eq-marker" data-assert-equal="1" hidden></span> stadium <span class="geom-eq-marker" data-assert-equal="&lt; 10{,}000" hidden></span> finger-breadths, cubing diameter ratios (<span class="justification" data-ref-target="XII.18" title="XII.18">Eucl. XII. 18</span>) and applying the Law of Exponents proves:</p>
+        <ol class="arabic simple">
+        <li><p><strong>Traditional Cosmos</strong>: Fewer than <em>one thousand units of the seventh order of numbers</em>, i.e. <span class="geom-eq-marker" data-assert-equal="&lt; 10^{51}" hidden></span> grains of sand!</p></li>
+        <li><p><strong>Aristarchus’s Heliocentric Sphere of Fixed Stars</strong>: Fewer than <em>one thousand myriads of units of the eighth order of numbers</em>, i.e. <span class="geom-eq-marker" data-assert-equal="&lt; 10^{63}" hidden></span> grains of sand!</p></li>
+        </ol>
+        <p>“I conceive that these things, <a class="person-ref" id="occ-person-gelon-2" href="../persons.html#person-gelon" data-person="gelon" title="King Gelon II of Syracuse (c. 266–216 BC) — Co-regent of Syracuse &amp; addressee of The Sand-Reckoner">king Gelon</a>, will appear incredible to the great majority of people who have not studied mathematics, but that to those who are conversant therewith and have given thought to the question of the distances and sizes of the earth and the sun and moon and the whole universe the proof will carry conviction. And it was for this reason that I thought the subject would be not inappropriate for your consideration.”</p>
+        <div class="qed"></div>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="stomachion_and_cattle.html" title="Part II: Stomachion (Loculus Archimedius) &amp; The Cattle Problem">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="index.html">Sand-Reckoner & Polyhedra</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../persons.html" title="People"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../log/26.316-120000/index.html">Initial 7-Unit Book Codex, Calibrated SVG Plates & Heiberg–Heath Concordance of Archimedes</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../tags/archimedes.html">archimedes</a></li>
+        <li><a href="../tags/etc.html">etc</a></li>
+        <li><a href="../tags/euclid.html">euclid</a></li>
+        <li><a href="../tags/heath.html">heath</a></li>
+        <li><a href="../tags/heiberg.html">heiberg</a></li>
+        <li><a href="../tags/pacioli.html">pacioli</a></li>
+        <li><a href="../tags/palimpsest.html">palimpsest</a></li>
+        <li><a href="../tags/pappus.html">pappus</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-categories">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="../categories/codex.html">codex</a></li>
+        <li><a href="../categories/concordance.html">concordance</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../types/apparatus.html">apparatus</a></li>
+        <li><a href="../types/book.html">book</a></li>
+        <li><a href="../types/log.html">log</a></li>
+        <li><a href="../types/notes.html">notes</a></li>
+        <li><a href="../types/proposition.html">proposition</a></li>
+        <li><a href="../types/section.html">section</a></li>
+        <li><a href="../types/summary.html">summary</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../concordance.html"  >Concordance</a></li>
+        <li><a href="../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright c. 287–212 BC (Heiberg 1880–1915 · Heath 1897 & 1912) • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

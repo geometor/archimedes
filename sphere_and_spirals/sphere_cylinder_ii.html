@@ -1,0 +1,240 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>SC.II: On the Sphere and Cylinder II: Spherical Segments &amp; Eutocius’s Cubic Intersection — Sphere and Cylinder, Spirals &amp; Conoids • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/archimedes/sphere_and_spirals/sphere_cylinder_ii.html" />
+  <meta name="description" content="Book II, Proposition 2 (archimedes:sphere-and-cylinder:ii-2): Every spherical segment of height in a sphere of radius equals the cone having the same base as the segment and altitude , whence ." />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="SC.II: On the Sphere and Cylinder II: Spherical Segments &amp; Eutocius’s Cubic Intersection — Sphere and Cylinder, Spirals &amp; Conoids • GEOMETOR" />
+  <meta property="og:description" content="Book II, Proposition 2 (archimedes:sphere-and-cylinder:ii-2): Every spherical segment of height in a sphere of radius equals the cone having the same base as the segment and altitude , whence ." />
+  <meta property="og:url" content="https://geometor.github.io/archimedes/sphere_and_spirals/sphere_cylinder_ii.html" />
+  <meta property="og:image" content="https://geometor.github.io/archimedes/_static/social/sphere_and_spirals.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Archimedes of Syracuse — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SC.II: On the Sphere and Cylinder II: Spherical Segments &amp; Eutocius’s Cubic Intersection — Sphere and Cylinder, Spirals &amp; Conoids • GEOMETOR" />
+  <meta name="twitter:description" content="Book II, Proposition 2 (archimedes:sphere-and-cylinder:ii-2): Every spherical segment of height in a sphere of radius equals the cone having the same base as the segment and altitude , whence ." />
+  <meta name="twitter:image" content="https://geometor.github.io/archimedes/_static/social/sphere_and_spirals.png" />
+  <meta name="twitter:image:alt" content="Archimedes of Syracuse — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif" data-folio="Heath (1897), pp. 59–79 · Heiberg I, 194–225 & III, 130–177">
+  <header>
+    <div class="logo">
+      <a href="../index.html" title="Home">
+        <img src="../_static/logo.png" class="logo" alt="GEOMETOR archimedes"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">archimedes</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../measurement_of_a_circle/index.html"  >Circle</a>
+        </li>
+        <li>
+          <a href="../quadrature_of_the_parabola/index.html"  >Parabola</a>
+        </li>
+        <li>
+          <a href="../equilibrium_of_planes/index.html"  >Statics</a>
+        </li>
+        <li>
+          <a href="index.html" class="is-active" aria-selected="true" >Sphere & Spirals</a>
+        </li>
+        <li>
+          <a href="../the_method/index.html"  >The Method</a>
+        </li>
+        <li>
+          <a href="../book_of_lemmas/index.html"  >Lemmas</a>
+        </li>
+        <li>
+          <a href="../arenarius/index.html"  >Sand-Reckoner</a>
+        </li>
+        <li>
+          <a href="../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-folio="Heath (1897), pp. 59–79 · Heiberg I, 194–225 & III, 130–177" data-canonical-id="SC.II">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="index.html">Sphere, Spirals & Conoids</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">SC.II</span>
+          </nav>
+          <div class="book-provenance-badges">
+            <a class="book-badge folio-badge folio-link" href="https://github.com/geometor/archimedes/blob/main/resources/works/sources/heath_1897_page_numbers.json#L1760" target="_blank" rel="noopener" title="View Folio Heath (1897), pp. 59–79 · Heiberg I, 194–225 &amp; III, 130–177 (p. 59)">Folio Heath (1897), pp. 59–79 · Heiberg I, 194–225 & III, 130–177 | p. 59</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="sphere_cylinder_i.html" title="On the Sphere and Cylinder I: Assumptions 1–5 &amp; The Tomb Theorem">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="on_spirals.html" title="On Spirals: Kinematic Definition, Subtangent Rectification &amp; Quadrature"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="on-the-sphere-and-cylinder-ii-spherical-segments-eutocius-s-cubic-intersection">
+        <h1>On the Sphere and Cylinder II: Spherical Segments &amp; Eutocius’s Cubic Intersection<a class="headerlink" href="#on-the-sphere-and-cylinder-ii-spherical-segments-eutocius-s-cubic-intersection" title="Link to this heading">¶</a></h1>
+        <span class="folio-anchor" id="folio-Heath (1897), pp. 59–79 · Heiberg I, 194–225 &amp; III, 130–177" data-folio="Heath (1897), pp. 59–79 · Heiberg I, 194–225 &amp; III, 130–177" data-page="59"></span><ul>
+        <li><p><strong>Book II, Proposition 2</strong> (<a class="citation-ref" id="occ-cite-archimedes-sphere-and-cylinder-ii-2-1" href="../bibliography.html#cite-archimedes-sphere-and-cylinder-ii-2" data-cite="archimedes:sphere-and-cylinder:ii-2" title="Archimedes of Syracuse — On the Sphere and Cylinder, Book II, Prop. 2 (Heiberg I, 194–203; Heath 1897, pp. 59–62)">archimedes:sphere-and-cylinder:ii-2</a>): Every spherical segment of height <span class="geom-eq-marker" data-assert-equal="h" hidden></span> in a sphere of radius <span class="geom-eq-marker" data-assert-equal="r" hidden></span> equals the cone having the same base as the segment and altitude <span class="geom-eq-marker" data-assert-equal="h \cdot \frac{3r - h}{2r - h}" hidden></span>, whence <span class="geom-eq-marker" data-assert-equal="V_{\text{seg}} = \frac{1}{3}\pi h^2 (3r - h)" hidden></span>.</p></li>
+        <li><p><strong>Book II, Proposition 4</strong>: <em>To cut a given sphere by a plane so that the volumes of the segments have to one another a given ratio</em> <span class="geom-eq-marker" data-assert-equal="m : n" hidden></span>. Archimedes’ analysis reduces the division of diameter <span class="geom-eq-marker" data-assert-equal="2r" hidden></span> to the <strong>cubic proportion</strong>:</p>
+        <div class="math notranslate nohighlight">
+        \[(a - x) : b = c^2 : x^2, \qquad \text{i.e.} \qquad x^2(a - x) = b c^2,\]</div>
+        <p>promising to append its synthesis and <em>diorismos</em> at the end. Found missing in early copies, the authentic Doric synthesis was discovered and preserved by <a class="person-ref" id="occ-person-eutocius-1" href="../persons.html#person-eutocius" data-person="eutocius" title="Eutocius of Ascalon (c. 480–540 AD) — Author of the surviving Greek Commentaries on Archimedes">Eutocius of Ascalon</a> (<a class="citation-ref" id="occ-cite-eutocius-in-archimedem-1" href="../bibliography.html#cite-eutocius-in-archimedem" data-cite="eutocius:in-archimedem" title="Eutocius of Ascalon — Commentarii in libros De Sphaera et Cylindro, In Dimensionem Circuli, In libros De Planorum Aequilibriis (Heiberg Vol. III (Teubner, 1881 / 1915))">eutocius:in-archimedem</a>; Heath pp. 65–79): Archimedes constructs the root <span class="geom-eq-marker" data-assert-equal="x \in (0, a)" hidden></span> by intersecting the <strong>parabola</strong> <span class="geom-eq-marker" data-assert-equal="x^2 = \frac{c^2}{k} y" hidden></span> with the <strong>rectangular hyperbola</strong> <span class="geom-eq-marker" data-assert-equal="(a - x) y = b k" hidden></span>, and proves the <strong>maximum (*diorismos*)</strong> that <span class="geom-eq-marker" data-assert-equal="x^2(a - x)" hidden></span> attains its unique maximum on <span class="geom-eq-marker" data-assert-equal="(0, a)" hidden></span> at <span class="geom-eq-marker" data-assert-equal="x = \frac{2}{3}a" hidden></span> (namely <span class="geom-eq-marker" data-assert-equal="\frac{4}{27}a^3" hidden></span>), using tangent geometry completely equivalent to setting <span class="geom-eq-marker" data-assert-equal="\frac{d}{dx}[x^2(a-x)] = 0" hidden></span>!</p>
+        </li>
+        </ul>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="sphere_cylinder_i.html" title="On the Sphere and Cylinder I: Assumptions 1–5 &amp; The Tomb Theorem">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="index.html">Sphere, Spirals & Conoids</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="on_spirals.html" title="On Spirals: Kinematic Definition, Subtangent Rectification &amp; Quadrature"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../log/26.316-120000/index.html">Initial 7-Unit Book Codex, Calibrated SVG Plates & Heiberg–Heath Concordance of Archimedes</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../tags/archimedes.html">archimedes</a></li>
+        <li><a href="../tags/etc.html">etc</a></li>
+        <li><a href="../tags/euclid.html">euclid</a></li>
+        <li><a href="../tags/heath.html">heath</a></li>
+        <li><a href="../tags/heiberg.html">heiberg</a></li>
+        <li><a href="../tags/pacioli.html">pacioli</a></li>
+        <li><a href="../tags/palimpsest.html">palimpsest</a></li>
+        <li><a href="../tags/pappus.html">pappus</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-categories">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="../categories/codex.html">codex</a></li>
+        <li><a href="../categories/concordance.html">concordance</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../types/apparatus.html">apparatus</a></li>
+        <li><a href="../types/book.html">book</a></li>
+        <li><a href="../types/log.html">log</a></li>
+        <li><a href="../types/notes.html">notes</a></li>
+        <li><a href="../types/proposition.html">proposition</a></li>
+        <li><a href="../types/section.html">section</a></li>
+        <li><a href="../types/summary.html">summary</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../concordance.html"  >Concordance</a></li>
+        <li><a href="../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright c. 287–212 BC (Heiberg 1880–1915 · Heath 1897 & 1912) • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

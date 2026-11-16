@@ -6,12 +6,32 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>geometor.archimedes.concordance &mdash; GEOMETOR • archimedes</title>
+
+  <title>geometor.archimedes.concordance — Archimedes of Syracuse • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/archimedes/modules/api/geometor/archimedes/concordance/" />
+  <meta name="description" content="Concordance and provenance loader for GEOMETOR • archimedes." />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="geometor.archimedes.concordance — Archimedes of Syracuse • GEOMETOR" />
+  <meta property="og:description" content="Concordance and provenance loader for GEOMETOR • archimedes." />
+  <meta property="og:url" content="https://geometor.github.io/archimedes/modules/api/geometor/archimedes/concordance/" />
+  <meta property="og:image" content="https://geometor.github.io/archimedes/_static/social/banner.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Archimedes of Syracuse — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="geometor.archimedes.concordance — Archimedes of Syracuse • GEOMETOR" />
+  <meta name="twitter:description" content="Concordance and provenance loader for GEOMETOR • archimedes." />
+  <meta name="twitter:image" content="https://geometor.github.io/archimedes/_static/social/banner.png" />
+  <meta name="twitter:image:alt" content="Archimedes of Syracuse — GEOMETOR" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=99410eb1" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=81e79cc0" />
   <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
@@ -23,27 +43,45 @@
 <body class="book-theme-classical-serif">
   <header>
     <div class="logo">
-      <a href="../../../../../index.html">
-        <img src="../../../../../_static/logo.png" class="logo" alt="Logo"/>
+      <a href="../../../../../index.html" title="Home">
+        <img src="../../../../../_static/logo.png" class="logo" alt="GEOMETOR archimedes"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">archimedes</span>
+        </div>
       </a>
-      <div class="org-repo">
-        <span class="org">GEOMETOR</span>
-        •
-        <span class="repo">archimedes</span>
-      </div>
     </div>
     <nav aria-label="Header">
       <input type="checkbox" id="nav-Header-toggle" >
       <label for="nav-Header-toggle" >Header</label>
       <ul>
         <li>
-          <a href="../../../../../works/index.html"  >Works & Method</a>
+          <a href="../../../../../measurement_of_a_circle/index.html"  >Circle</a>
         </li>
         <li>
-          <a href="../../../../../works/persons.html"  >People</a>
+          <a href="../../../../../quadrature_of_the_parabola/index.html"  >Parabola</a>
         </li>
         <li>
-          <a href="../../../../../works/bibliography.html"  >Bibliography</a>
+          <a href="../../../../../equilibrium_of_planes/index.html"  >Statics</a>
+        </li>
+        <li>
+          <a href="../../../../../sphere_and_spirals/index.html"  >Sphere & Spirals</a>
+        </li>
+        <li>
+          <a href="../../../../../the_method/index.html"  >The Method</a>
+        </li>
+        <li>
+          <a href="../../../../../book_of_lemmas/index.html"  >Lemmas</a>
+        </li>
+        <li>
+          <a href="../../../../../arenarius/index.html"  >Sand-Reckoner</a>
+        </li>
+        <li>
+          <a href="../../../../../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../../../../persons.html"  >People</a>
         </li>
         <li>
           <a href="../../../../../about/index.html"  >About</a>
@@ -65,14 +103,11 @@
     <article class="book-layout book-reading-pane">
       <header class="book-header">
         <div class="book-header-bar">
-          <div class="book-header-identity">
-            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; archimedes</a>
-            <span class="book-header-sep">/</span>
-            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • archimedes</a>
-          </div>
-          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
-            <a class="book-crumb-link" href="../../../../index.html">Modules</a>
-          </div>
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../../../../index.html">Modules</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">geometor.archimedes.concordance</span>
+          </nav>
         </div>
         <div class="book-header-nav">
           <div class="book-nav-prev">
@@ -96,10 +131,13 @@
         <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.archimedes.concordance.REQUIRED_EUCLID_CITATION_KEYS" title="geometor.archimedes.concordance.REQUIRED_EUCLID_CITATION_KEYS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">REQUIRED_EUCLID_CITATION_KEYS</span></code></a></p></td>
         <td><p></p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.archimedes.concordance.CANONICAL_UNIT_SLUGS" title="geometor.archimedes.concordance.CANONICAL_UNIT_SLUGS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CANONICAL_UNIT_SLUGS</span></code></a></p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.archimedes.concordance.CANONICAL_BOOK_SLUGS" title="geometor.archimedes.concordance.CANONICAL_BOOK_SLUGS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CANONICAL_BOOK_SLUGS</span></code></a></p></td>
         <td><p></p></td>
         </tr>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.archimedes.concordance.TRACK_SUFFIXES" title="geometor.archimedes.concordance.TRACK_SUFFIXES"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TRACK_SUFFIXES</span></code></a></p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.archimedes.concordance.CANONICAL_UNIT_SLUGS" title="geometor.archimedes.concordance.CANONICAL_UNIT_SLUGS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CANONICAL_UNIT_SLUGS</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.archimedes.concordance.TRACK_SUFFIXES" title="geometor.archimedes.concordance.TRACK_SUFFIXES"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TRACK_SUFFIXES</span></code></a></p></td>
         <td><p></p></td>
         </tr>
         </tbody>
@@ -145,13 +183,18 @@
         <dd></dd></dl>
 
         <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.archimedes.concordance.CANONICAL_BOOK_SLUGS">
+        <span class="sig-prename descclassname"><span class="pre">geometor.archimedes.concordance.</span></span><span class="sig-name descname"><span class="pre">CANONICAL_BOOK_SLUGS</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">('measurement_of_a_circle',</span> <span class="pre">'quadrature_of_the_parabola',</span> <span class="pre">'equilibrium_of_planes',...</span></span><a class="headerlink" href="#geometor.archimedes.concordance.CANONICAL_BOOK_SLUGS" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
         <dt class="sig sig-object py" id="geometor.archimedes.concordance.CANONICAL_UNIT_SLUGS">
-        <span class="sig-prename descclassname"><span class="pre">geometor.archimedes.concordance.</span></span><span class="sig-name descname"><span class="pre">CANONICAL_UNIT_SLUGS</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">('measurement-of-a-circle',</span> <span class="pre">'equilibrium-of-planes',</span> <span class="pre">'quadrature-of-parabola',...</span></span><a class="headerlink" href="#geometor.archimedes.concordance.CANONICAL_UNIT_SLUGS" title="Link to this definition">¶</a></dt>
+        <span class="sig-prename descclassname"><span class="pre">geometor.archimedes.concordance.</span></span><span class="sig-name descname"><span class="pre">CANONICAL_UNIT_SLUGS</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">('measurement_of_a_circle',</span> <span class="pre">'quadrature_of_the_parabola',</span> <span class="pre">'equilibrium_of_planes',...</span></span><a class="headerlink" href="#geometor.archimedes.concordance.CANONICAL_UNIT_SLUGS" title="Link to this definition">¶</a></dt>
         <dd></dd></dl>
 
         <dl class="py data">
         <dt class="sig sig-object py" id="geometor.archimedes.concordance.TRACK_SUFFIXES">
-        <span class="sig-prename descclassname"><span class="pre">geometor.archimedes.concordance.</span></span><span class="sig-name descname"><span class="pre">TRACK_SUFFIXES</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">('-en.rst',</span> <span class="pre">'-summary.rst',</span> <span class="pre">'-notes.rst')</span></span><a class="headerlink" href="#geometor.archimedes.concordance.TRACK_SUFFIXES" title="Link to this definition">¶</a></dt>
+        <span class="sig-prename descclassname"><span class="pre">geometor.archimedes.concordance.</span></span><span class="sig-name descname"><span class="pre">TRACK_SUFFIXES</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">('summary.rst',</span> <span class="pre">'notes.rst')</span></span><a class="headerlink" href="#geometor.archimedes.concordance.TRACK_SUFFIXES" title="Link to this definition">¶</a></dt>
         <dd></dd></dl>
 
         <dl class="py function">
@@ -214,6 +257,11 @@
         <span class="sig-name descname"><span class="pre">ecosystem_links</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.archimedes.concordance.ConcordanceEntry.ecosystem_links" title="Link to this definition">¶</a></dt>
         <dd></dd></dl>
 
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.archimedes.concordance.ConcordanceEntry.target_doc">
+        <span class="sig-name descname"><span class="pre">target_doc</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">''</span></span><a class="headerlink" href="#geometor.archimedes.concordance.ConcordanceEntry.target_doc" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
         </dd></dl>
 
         <dl class="py function">
@@ -248,13 +296,13 @@
         <div class="book-footer-ornament">&#10086;</div>
         <div class="book-footer-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="../compile_codex/index.html" title="geometor.archimedes.compile_codex">&larr; <span class="nav-label">geometor.archimedes.compile_codex</span></a>
+            <a class="book-nav-btn" href="../compile_codex/index.html" title="geometor.archimedes.compile_codex">&larr; <span class="nav-label">Prev</span></a>
           </div>
           <div class="book-nav-center">
-            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • archimedes</a>
+            <a class="book-toc-link" href="../../../../index.html">Modules</a>
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="../sphinx_ext/index.html" title="geometor.archimedes.sphinx_ext"><span class="nav-label">geometor.archimedes.sphinx_ext</span> &rarr;</a>
+            <a class="book-nav-btn" href="../sphinx_ext/index.html" title="geometor.archimedes.sphinx_ext"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </footer>
@@ -309,9 +357,11 @@
       <h3>Types</h3>
       <ul>
         <li><a href="../../../../../types/apparatus.html">apparatus</a></li>
-        <li><a href="../../../../../types/chapter.html">chapter</a></li>
+        <li><a href="../../../../../types/book.html">book</a></li>
         <li><a href="../../../../../types/log.html">log</a></li>
         <li><a href="../../../../../types/notes.html">notes</a></li>
+        <li><a href="../../../../../types/proposition.html">proposition</a></li>
+        <li><a href="../../../../../types/section.html">section</a></li>
         <li><a href="../../../../../types/summary.html">summary</a></li>
       </ul>
     </aside>
@@ -319,8 +369,8 @@
   <footer>
     <div class="footer-nav">
       <ul>
-        <li><a href="../../../../../works/concordance.html"  >Concordance</a></li>
-        <li><a href="../../../../../works/glossary.html"  >Glossary</a></li>
+        <li><a href="../../../../../concordance.html"  >Concordance</a></li>
+        <li><a href="../../../../../glossary.html"  >Glossary</a></li>
       </ul>
     </div>
     <hr />

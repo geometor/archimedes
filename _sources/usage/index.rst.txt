@@ -61,9 +61,9 @@ Document collections throughout the site (such as the :doc:`Development & Curati
 6. People, Bibliography & Glossary Tooltips
 -------------------------------------------
 
-* **People (``:person:``)**: Historical figures (such as :person:`Archimedes of Syracuse <archimedes>`, :person:`Sir Thomas Little Heath <heath>`, :person:`Johan Ludvig Heiberg <heiberg>`, and :person:`Eratosthenes of Cyrene <eratosthenes>`) display rich biographical hover cards and link to the :doc:`People Register <../works/persons>`.
-* **Citations (``:cite:``)**: Inline citations link to authoritative editions in the :doc:`Bibliography <../works/bibliography>`.
-* **Technical Terms (``:term:``)**: Classical mathematical terms (such as *exhaustion*, *arbelos*, *salinon*, *neusis*, and *center of gravity*) link directly to entries in the :doc:`Technical Glossary <../works/glossary>`.
+* **People (``:person:``)**: Historical figures (such as :person:`Archimedes of Syracuse <archimedes>`, :person:`Sir Thomas Little Heath <heath>`, :person:`Johan Ludvig Heiberg <heiberg>`, and :person:`Eratosthenes of Cyrene <eratosthenes>`) display rich biographical hover cards and link to the :doc:`People Register <../persons>`.
+* **Citations (``:cite:``)**: Inline citations link to authoritative editions in the :doc:`Bibliography <../bibliography>`.
+* **Technical Terms (``:term:``)**: Classical mathematical terms (such as *exhaustion*, *arbelos*, *salinon*, *neusis*, and *center of gravity*) link directly to entries in the :doc:`Technical Glossary <../glossary>`.
 * **Theme Switching**: Toggle between Light and Dark themes via the header button to suit your reading environment.
 
 7. Command-Line & Python API

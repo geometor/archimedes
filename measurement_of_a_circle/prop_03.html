@@ -1,0 +1,296 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>DC.3: Proposition 3: Circumference-to-Diameter Bounds (3 10/71 &lt; π &lt; 3 1/7) — Measurement of a Circle • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/archimedes/measurement_of_a_circle/prop_03.html" />
+  <meta name="description" content="The ratio of the circumference of any circle to its diameter is less than but greater than ." />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="DC.3: Proposition 3: Circumference-to-Diameter Bounds (3 10/71 &lt; π &lt; 3 1/7) — Measurement of a Circle • GEOMETOR" />
+  <meta property="og:description" content="The ratio of the circumference of any circle to its diameter is less than but greater than ." />
+  <meta property="og:url" content="https://geometor.github.io/archimedes/measurement_of_a_circle/prop_03.html" />
+  <meta property="og:image" content="https://geometor.github.io/archimedes/_static/social/measurement_of_a_circle.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Archimedes of Syracuse — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DC.3: Proposition 3: Circumference-to-Diameter Bounds (3 10/71 &lt; π &lt; 3 1/7) — Measurement of a Circle • GEOMETOR" />
+  <meta name="twitter:description" content="The ratio of the circumference of any circle to its diameter is less than but greater than ." />
+  <meta name="twitter:image" content="https://geometor.github.io/archimedes/_static/social/measurement_of_a_circle.png" />
+  <meta name="twitter:image:alt" content="Archimedes of Syracuse — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif" data-folio="Heath (1897), pp. 93–98 · Heiberg I, 262–271">
+  <header>
+    <div class="logo">
+      <a href="../index.html" title="Home">
+        <img src="../_static/logo.png" class="logo" alt="GEOMETOR archimedes"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">archimedes</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="index.html" class="is-active" aria-selected="true" >Circle</a>
+        </li>
+        <li>
+          <a href="../quadrature_of_the_parabola/index.html"  >Parabola</a>
+        </li>
+        <li>
+          <a href="../equilibrium_of_planes/index.html"  >Statics</a>
+        </li>
+        <li>
+          <a href="../sphere_and_spirals/index.html"  >Sphere & Spirals</a>
+        </li>
+        <li>
+          <a href="../the_method/index.html"  >The Method</a>
+        </li>
+        <li>
+          <a href="../book_of_lemmas/index.html"  >Lemmas</a>
+        </li>
+        <li>
+          <a href="../arenarius/index.html"  >Sand-Reckoner</a>
+        </li>
+        <li>
+          <a href="../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-folio="Heath (1897), pp. 93–98 · Heiberg I, 262–271" data-canonical-id="DC.3">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="index.html">Measurement of a Circle</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">DC.3</span>
+          </nav>
+          <div class="book-provenance-badges">
+            <a class="book-badge folio-badge folio-link" href="https://github.com/geometor/archimedes/blob/main/resources/works/sources/heath_1897_page_numbers.json#L1998" target="_blank" rel="noopener" title="View Folio Heath (1897), pp. 93–98 · Heiberg I, 262–271 (p. 93)">Folio Heath (1897), pp. 93–98 · Heiberg I, 262–271 | p. 93</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="prop_02.html" title="Proposition 2: Circle Area to Square on Diameter as 11 : 14">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../quadrature_of_the_parabola/index.html" title="Quadrature of the Parabola"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="proposition-3-circumference-to-diameter-bounds-3-10-71-3-1-7">
+        <span id="mc-prop-3"></span><h1>Proposition 3: Circumference-to-Diameter Bounds (3 10/71 &lt; π &lt; 3 1/7)<a class="headerlink" href="#proposition-3-circumference-to-diameter-bounds-3-10-71-3-1-7" title="Link to this heading">¶</a></h1>
+        <span class="folio-anchor" id="folio-Heath (1897), pp. 93–98 · Heiberg I, 262–271" data-folio="Heath (1897), pp. 93–98 · Heiberg I, 262–271" data-page="93"></span><div class="enunciation">The ratio of the circumference of any circle to its diameter is less than <span class="geom-eq-marker" data-assert-equal="3\frac{1}{7}" hidden></span> but greater than <span class="geom-eq-marker" data-assert-equal="3\frac{10}{71}" hidden></span>.</div>
+        <section class="level-3" id="i-proof-of-the-upper-bound">
+        <h3>I. Proof of the Upper Bound (<span class="geom-eq-marker" data-assert-equal="\pi &lt; 3\frac{1}{7}" hidden></span>)<a class="headerlink" href="#i-proof-of-the-upper-bound" title="Link to this heading">¶</a></h3>
+        <span class="folio-milestone" id="folio-Heath (1897), pp. 93–96 · Heiberg I, 262–267" data-folio="Heath (1897), pp. 93–96 · Heiberg I, 262–267" data-page="94"><a class="folio-link" href="https://github.com/geometor/archimedes/blob/main/resources/works/sources/heath_1897_page_numbers.json#L1998" target="_blank" rel="noopener" title="View Folio Heath (1897), pp. 93–96 · Heiberg I, 262–267 (p. 94)">f. Heath (1897), pp. 93–96 · Heiberg I, 262–267 · p. 94</a></span>
+        <p>Let <span class="geom-ref" data-ref="AB" title="AB">AB</span> be the diameter of any circle, <span class="geom-ref" data-ref="O" title="O">O</span> its centre, <span class="geom-ref" data-ref="AC" title="AC">AC</span> the tangent at <span class="geom-ref" data-ref="A" title="A">A</span>; and let the angle <span class="geom-ref" data-ref="AOC" title="AOC">AOC</span> be one-third of a right angle (<span class="geom-eq-marker" data-assert-equal="30^\circ" hidden></span>). Then:</p>
+        <ul class="simple">
+        <li><p><span class="geom-eq-marker" data-assert-equal="OA : AC = \sqrt{3} : 1 &gt; 265 : 153" hidden></span>, and <span class="geom-eq-marker" data-assert-equal="OC : CA = 2 : 1 = 306 : 153" hidden></span>.</p></li>
+        </ul>
+        <ol class="arabic">
+        <li><p><strong>First Bisection (12-gon)</strong>: Draw <span class="geom-ref" data-ref="OD" title="OD">OD</span> bisecting <span class="geom-ref" data-ref="\angle AOC" title="\angle AOC">angleAOC</span>. By the angle-bisector theorem (<span class="justification" data-ref-target="VI.3" title="VI.3">Eucl. VI. 3</span>), <span class="geom-eq-marker" data-assert-equal="CO : OA = CD : DA" hidden></span>, so <span class="geom-eq-marker" data-assert-equal="(CO + OA) : OA = CA : DA" hidden></span>, or <span class="geom-eq-marker" data-assert-equal="(CO + OA) : CA = OA : AD" hidden></span>. Hence:</p>
+        <div class="math notranslate nohighlight">
+        \[OA : AD &gt; 571 : 153, \qquad OD^2 : AD^2 &gt; (571^2 + 153^2) : 153^2 = 349450 : 23409,\]</div>
+        <p>whence (<span class="justification" data-ref-target="I.47" title="I.47">Eucl. I. 47</span>) <span class="geom-eq-marker" data-assert-equal="OD : DA &gt; 591\frac{1}{8} : 153" hidden></span>.</p>
+        </li>
+        <li><p><strong>Second Bisection (24-gon)</strong>: Let <span class="geom-ref" data-ref="OE" title="OE">OE</span> bisect <span class="geom-ref" data-ref="\angle AOD" title="\angle AOD">angleAOD</span>. By the same composition of ratios:</p>
+        <div class="math notranslate nohighlight">
+        \[OA : AE &gt; 1162\frac{1}{8} : 153, \qquad OE : EA &gt; 1172\frac{1}{8} : 153.\]</div>
+        </li>
+        <li><p><strong>Third Bisection (48-gon)</strong>: Let <span class="geom-ref" data-ref="OF" title="OF">OF</span> bisect <span class="geom-ref" data-ref="\angle AOE" title="\angle AOE">angleAOE</span>. Then:</p>
+        <div class="math notranslate nohighlight">
+        \[OA : AF &gt; 2334\frac{1}{4} : 153, \qquad OF : FA &gt; 2339\frac{1}{4} : 153.\]</div>
+        </li>
+        <li><p><strong>Fourth Bisection (96-gon)</strong>: Let <span class="geom-ref" data-ref="OG" title="OG">OG</span> bisect <span class="geom-ref" data-ref="\angle AOF" title="\angle AOF">angleAOF</span>. Then:</p>
+        <div class="math notranslate nohighlight">
+        \[OA : AG &gt; 4673\frac{1}{2} : 153.\]</div>
+        </li>
+        </ol>
+        <p>Since <span class="geom-ref" data-ref="\angle AOC" title="\angle AOC">angleAOC</span>, which is one-third of a right angle, has been bisected four times, <span class="geom-ref" data-ref="\angle AOG" title="\angle AOG">angleAOG</span> is <span class="geom-eq-marker" data-assert-equal="\frac{1}{48}" hidden></span> of a right angle. Make <span class="geom-ref" data-ref="\angle AOH = \angle AOG" title="\angle AOH = \angle AOG">angleAOHangleAOG</span> on the opposite side of <span class="geom-ref" data-ref="OA" title="OA">OA</span>; then <span class="geom-ref" data-ref="\angle GOH" title="\angle GOH">angleGOH</span> is <span class="geom-eq-marker" data-assert-equal="\frac{1}{24}" hidden></span> of a right angle, so <span class="geom-ref" data-ref="GH" title="GH">GH</span> is one side of a regular polygon of <strong>96 sides</strong> circumscribed to the circle. Since <span class="geom-eq-marker" data-assert-equal="AB = 2 \cdot OA" hidden></span> and <span class="geom-eq-marker" data-assert-equal="GH = 2 \cdot AG" hidden></span>, the ratio of the diameter to the perimeter of the circumscribed 96-gon satisfies:</p>
+        <div class="math notranslate nohighlight">
+        \[AB : P_{96}^{\text{circ}} &gt; 4673\frac{1}{2} : (96 \times 153) = 4673\frac{1}{2} : 14688.\]</div>
+        <p>Now <span class="geom-eq-marker" data-assert-equal="\frac{14688}{4673\frac{1}{2}} = 3 + \frac{667\frac{1}{2}}{4673\frac{1}{2}} &lt; 3 + \frac{667\frac{1}{2}}{4672\frac{1}{2}} = 3\frac{1}{7}" hidden></span>. A fortiori, the circumference of the circle—being strictly less than <span class="geom-eq-marker" data-assert-equal="P_{96}^{\text{circ}}" hidden></span>—is less than <span class="geom-eq-marker" data-assert-equal="3\frac{1}{7}" hidden></span> times the diameter.</p>
+        </section>
+        <section class="level-3" id="ii-proof-of-the-lower-bound">
+        <h3>II. Proof of the Lower Bound (<span class="geom-eq-marker" data-assert-equal="\pi &gt; 3\frac{10}{71}" hidden></span>)<a class="headerlink" href="#ii-proof-of-the-lower-bound" title="Link to this heading">¶</a></h3>
+        <span class="folio-milestone" id="folio-Heath (1897), pp. 96–98 · Heiberg I, 266–271" data-folio="Heath (1897), pp. 96–98 · Heiberg I, 266–271" data-page="96"><a class="folio-link" href="https://github.com/geometor/archimedes/blob/main/resources/works/sources/heath_1897_page_numbers.json#L2019" target="_blank" rel="noopener" title="View Folio Heath (1897), pp. 96–98 · Heiberg I, 266–271 (p. 96)">f. Heath (1897), pp. 96–98 · Heiberg I, 266–271 · p. 96</a></span>
+        <p>Next let <span class="geom-ref" data-ref="AB" title="AB">AB</span> be the diameter of a circle, and let <span class="geom-ref" data-ref="AC" title="AC">AC</span>, meeting the circle in <span class="geom-ref" data-ref="C" title="C">C</span>, make the angle <span class="geom-ref" data-ref="CAB" title="CAB">CAB</span> equal to one-third of a right angle (<span class="geom-eq-marker" data-assert-equal="30^\circ" hidden></span>). Join <span class="geom-ref" data-ref="BC" title="BC">BC</span>; then <span class="geom-ref" data-ref="\angle ACB" title="\angle ACB">angleACB</span> in the semicircle is right (<span class="justification" data-ref-target="III.31" title="III.31">Eucl. III. 31</span>), and:</p>
+        <ul class="simple">
+        <li><p><span class="geom-eq-marker" data-assert-equal="AC : CB = \sqrt{3} : 1 &lt; 1351 : 780" hidden></span>, while <span class="geom-eq-marker" data-assert-equal="AB : BC = 2 : 1 = 1560 : 780" hidden></span>.</p></li>
+        </ul>
+        <ol class="arabic">
+        <li><p><strong>First Bisection (12-gon)</strong>: Let <span class="geom-ref" data-ref="AD" title="AD">AD</span> bisect <span class="geom-ref" data-ref="\angle CAB" title="\angle CAB">angleCAB</span>, meeting <span class="geom-ref" data-ref="BC" title="BC">BC</span> in <span class="geom-ref" data-ref="d" title="d">d</span> and the circle in <span class="geom-ref" data-ref="D" title="D">D</span>. Join <span class="geom-ref" data-ref="BD" title="BD">BD</span>. By similar right triangles <span class="geom-ref" data-ref="\triangle ADB \sim \triangle ACd \sim \triangle BdD" title="\triangle ADB \sim \triangle ACd \sim \triangle BdD">triangleADBsimtriangleACdsimtriangleBdD</span> (<span class="justification" data-ref-target="III.21" title="III.21">Eucl. III. 21</span>, <span class="justification" data-ref-target="VI.3" title="VI.3">Eucl. VI. 3</span>):</p>
+        <div class="math notranslate nohighlight">
+        \[AD : DB = (AB + AC) : BC &lt; 2911 : 780, \qquad AB : BD &lt; 3013\frac{3}{4} : 780.\]</div>
+        </li>
+        <li><p><strong>Second Bisection (24-gon)</strong>: Let <span class="geom-ref" data-ref="AE" title="AE">AE</span> bisect <span class="geom-ref" data-ref="\angle DAB" title="\angle DAB">angleDAB</span>, meeting the circle in <span class="geom-ref" data-ref="E" title="E">E</span>. Reducing by the factor <span class="geom-eq-marker" data-assert-equal="\frac{4}{13}" hidden></span> after composition:</p>
+        <div class="math notranslate nohighlight">
+        \[AE : EB &lt; 5924\frac{3}{4} : 780 = 1823 : 240, \qquad AB : BE &lt; 1838\frac{9}{11} : 240.\]</div>
+        </li>
+        <li><p><strong>Third Bisection (48-gon)</strong>: Let <span class="geom-ref" data-ref="AF" title="AF">AF</span> bisect <span class="geom-ref" data-ref="\angle EAB" title="\angle EAB">angleEAB</span>, meeting the circle in <span class="geom-ref" data-ref="F" title="F">F</span>. Reducing by the factor <span class="geom-eq-marker" data-assert-equal="\frac{11}{40}" hidden></span>:</p>
+        <div class="math notranslate nohighlight">
+        \[AF : FB &lt; 3661\frac{9}{11} : 240 = 1007 : 66, \qquad AB : BF &lt; 1009\frac{1}{6} : 66.\]</div>
+        </li>
+        <li><p><strong>Fourth Bisection (96-gon)</strong>: Let <span class="geom-ref" data-ref="AG" title="AG">AG</span> bisect <span class="geom-ref" data-ref="\angle FAB" title="\angle FAB">angleFAB</span>, meeting the circle in <span class="geom-ref" data-ref="G" title="G">G</span>. Then:</p>
+        <div class="math notranslate nohighlight">
+        \[AG : GB &lt; 2016\frac{1}{6} : 66, \qquad AB : BG &lt; 2017\frac{1}{4} : 66.\]</div>
+        </li>
+        </ol>
+        <p>Inverting, the side <span class="geom-ref" data-ref="BG" title="BG">BG</span> of the inscribed regular <strong>96-gon</strong> bears to the diameter <span class="geom-ref" data-ref="AB" title="AB">AB</span> a ratio greater than <span class="geom-eq-marker" data-assert-equal="66 : 2017\frac{1}{4}" hidden></span>. Hence the perimeter of the inscribed 96-gon satisfies:</p>
+        <div class="math notranslate nohighlight">
+        \[P_{96}^{\text{insc}} : AB &gt; (96 \times 66) : 2017\frac{1}{4} = 6336 : 2017\frac{1}{4} = 3 + \frac{284\frac{1}{4}}{2017\frac{1}{4}} &gt; 3\frac{10}{71},\]</div>
+        <p>since <span class="geom-eq-marker" data-assert-equal="71 \times 284\frac{1}{4} = 20181\frac{3}{4} &gt; 20172\frac{1}{2} = 10 \times 2017\frac{1}{4}" hidden></span>. A fortiori, the circumference of the circle—being strictly greater than <span class="geom-eq-marker" data-assert-equal="P_{96}^{\text{insc}}" hidden></span>—is greater than <span class="geom-eq-marker" data-assert-equal="3\frac{10}{71}" hidden></span> times the diameter.</p>
+        <p>Thus the ratio of the circumference to the diameter is less than <span class="geom-eq-marker" data-assert-equal="3\frac{1}{7}" hidden></span> and greater than <span class="geom-eq-marker" data-assert-equal="3\frac{10}{71}" hidden></span>.</p>
+        <div class="qed"></div>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="prop_02.html" title="Proposition 2: Circle Area to Square on Diameter as 11 : 14">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="index.html">Measurement of a Circle</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../quadrature_of_the_parabola/index.html" title="Quadrature of the Parabola"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../log/26.316-120000/index.html">Initial 7-Unit Book Codex, Calibrated SVG Plates & Heiberg–Heath Concordance of Archimedes</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../tags/archimedes.html">archimedes</a></li>
+        <li><a href="../tags/etc.html">etc</a></li>
+        <li><a href="../tags/euclid.html">euclid</a></li>
+        <li><a href="../tags/heath.html">heath</a></li>
+        <li><a href="../tags/heiberg.html">heiberg</a></li>
+        <li><a href="../tags/pacioli.html">pacioli</a></li>
+        <li><a href="../tags/palimpsest.html">palimpsest</a></li>
+        <li><a href="../tags/pappus.html">pappus</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-categories">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="../categories/codex.html">codex</a></li>
+        <li><a href="../categories/concordance.html">concordance</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../types/apparatus.html">apparatus</a></li>
+        <li><a href="../types/book.html">book</a></li>
+        <li><a href="../types/log.html">log</a></li>
+        <li><a href="../types/notes.html">notes</a></li>
+        <li><a href="../types/proposition.html">proposition</a></li>
+        <li><a href="../types/section.html">section</a></li>
+        <li><a href="../types/summary.html">summary</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../concordance.html"  >Concordance</a></li>
+        <li><a href="../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright c. 287–212 BC (Heiberg 1880–1915 · Heath 1897 & 1912) • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>
