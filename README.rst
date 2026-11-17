@@ -3,7 +3,12 @@ GEOMETOR • archimedes
 
 **Visit the Online Archive:** https://geometor.github.io/archimedes/
 
-**Archimedes of Syracuse • Circle, Parabola, Equilibrium, Sphere & Spirals, Lemmas, Arenarius, The Method • semantic digital archive**
+.. image:: docsrc/_static/figures/fig_archimedean_spiral.svg
+   :alt: GEOMETOR • archimedes featured geometric construction
+   :target: https://geometor.github.io/archimedes/
+   :align: center
+
+**Archimedes of Syracuse • Circle, Parabola, Equilibrium, Sphere & Spirals, Lemmas, The Sand-Reckoner, The Method • semantic digital archive**
 
 Mission
 -------
@@ -17,7 +22,7 @@ Books in This Archive
 - **`Quadrature of the Parabola <https://geometor.github.io/archimedes/quadrature_of_the_parabola/>`_** — Mechanical balance exhaustion and geometric geometric-series summation proving parabolic segment quadrature.
 - **`On the Equilibrium of Planes <https://geometor.github.io/archimedes/equilibrium_of_planes/>`_** — Foundations of theoretical statics, the law of the lever, and centers of gravity of plane figures.
 - **`Sphere and Cylinder, Spirals & Conoids <https://geometor.github.io/archimedes/sphere_and_spirals/>`_** — Surface area and volume of the sphere, kinematics and tangents of spirals, and cubatures of quadrics of revolution.
-- **`Book of Lemmas (*Liber Assumptorum*) <https://geometor.github.io/archimedes/book_of_lemmas/>`_** — Fifteen classical planar lemmas preserved by Thābit ibn Qurra, including the Arbelos, Salinon, and Archimedes' Twin Circles.
+- **`Book of Lemmas <https://geometor.github.io/archimedes/book_of_lemmas/>`_** — Fifteen classical planar lemmas preserved by Thābit ibn Qurra, including the Arbelos, Salinon, and Archimedes' Twin Circles.
 - **`The Sand-Reckoner & Semi-Regular Solids <https://geometor.github.io/archimedes/arenarius/>`_** — Structural register of the 13 Archimedean polyhedra, the Cattle Problem, and the cosmic order of numbers.
 - **`The Method of Mechanical Theorems <https://geometor.github.io/archimedes/the_method/>`_** — Archimedes' heuristic palimpsest to Eratosthenes demonstrating infinitesimal mechanical slice discovery.
 
