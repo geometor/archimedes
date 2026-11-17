@@ -26,6 +26,18 @@ Books in This Archive
 - `The Sand-Reckoner & Semi-Regular Solids <https://geometor.github.io/archimedes/arenarius/>`_ — Structural register of the 13 Archimedean polyhedra, the Cattle Problem, and the cosmic order of numbers.
 - `The Method of Mechanical Theorems <https://geometor.github.io/archimedes/the_method/>`_ — Archimedes' heuristic palimpsest to Eratosthenes demonstrating infinitesimal mechanical slice discovery.
 
+Python Package & Modules
+------------------------
+
+The ``geometor-archimedes`` Python package (``import geometor.archimedes``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
+
+- ``compile_codex.py`` — Apparatus RST generator and Book Codex structural verifier for GEOMETOR • archimedes.
+- ``concordance.py`` — Concordance and provenance loader for GEOMETOR • archimedes.
+- ``cli.py`` — Command-line interface for GEOMETOR • archimedes.
+- ``sphinx_ext.py`` — Runtime Sphinx & photon-platform/publish integration for GEOMETOR Archimedes.
+
+See the `API Reference <https://geometor.github.io/archimedes/modules/>`_ for full module documentation.
+
 Repository Contents
 -------------------
 
