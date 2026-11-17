@@ -4,7 +4,7 @@
 :nav_title: Lemmas
 :breadcrumb_title: Book of Lemmas
 :layout: book
-:book_title: Book of Lemmas (*Liber Assumptorum*)
+:book_title: Book of Lemmas
 :book_subtitle: Archimedes · Kitāb al-Maʾkhūdhāt (Thābit ibn Qurra · Borelli 1661 · Heath 1897, pp. 301–318)
 :author: Archimedes of Syracuse
 :year: c. 250 BCE / 1897
