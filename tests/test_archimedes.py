@@ -75,7 +75,7 @@ def test_seven_books_atomic_pages_and_zero_python() -> None:
         ]
         assert len(leaf_files) >= 3, f"Expected >= 3 leaf pages in {slug}, got {len(leaf_files)}"
 
-    for app_name in ("concordance.rst", "bibliography.rst", "persons.rst", "glossary.rst"):
+    for app_name in ("concordance.rst", "bibliography.rst", "people/index.rst", "glossary.rst"):
         assert (docsrc / app_name).is_file()
 
     errors = verify_codex_integrity(repo_root=root)
@@ -101,5 +101,5 @@ def test_cli_commands(capsys) -> None:
     assert "11 (.euclid-graphic)" in out
 
     written = compile_apparatus()
-    assert len(written) == 4
+    assert len(written) == 3
     assert cli_main(["verify"]) == 0

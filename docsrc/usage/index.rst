@@ -61,7 +61,7 @@ Document collections throughout the site (such as the :doc:`Development & Curati
 6. People, Bibliography & Glossary Tooltips
 -------------------------------------------
 
-* **People (``:person:``)**: Historical figures (such as :person:`Archimedes of Syracuse <archimedes>`, :person:`Sir Thomas Little Heath <heath>`, :person:`Johan Ludvig Heiberg <heiberg>`, and :person:`Eratosthenes of Cyrene <eratosthenes>`) display rich biographical hover cards and link to the :doc:`People Register <../persons>`.
+* **People (``:person:``)**: Historical figures (such as :person:`Archimedes of Syracuse <archimedes>`, :person:`Sir Thomas Little Heath <heath>`, :person:`Johan Ludvig Heiberg <heiberg>`, and :person:`Eratosthenes of Cyrene <eratosthenes>`) display rich biographical hover cards and link to the :doc:`People Register <../people/index>`.
 * **Citations (``:cite:``)**: Inline citations link to authoritative editions in the :doc:`Bibliography <../bibliography>`.
 * **Technical Terms (``:term:``)**: Classical mathematical terms (such as *exhaustion*, *arbelos*, *salinon*, *neusis*, and *center of gravity*) link directly to entries in the :doc:`Technical Glossary <../glossary>`.
 * **Theme Switching**: Toggle between Light and Dark themes via the header button to suit your reading environment.

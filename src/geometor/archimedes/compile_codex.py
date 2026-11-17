@@ -289,9 +289,10 @@ def compile_apparatus(repo_root: Path | None = None) -> list[Path]:
     outputs = {
         docsrc / "concordance.rst": render_concordance_rst(repo_root=root),
         docsrc / "bibliography.rst": render_bibliography_rst(repo_root=root),
-        docsrc / "persons.rst": render_persons_rst(repo_root=root),
         docsrc / "glossary.rst": render_glossary_rst(repo_root=root),
     }
+    if not (docsrc / "people" / "index.rst").is_file():
+        outputs[docsrc / "persons.rst"] = render_persons_rst(repo_root=root)
 
     written: list[Path] = []
     for path, content in outputs.items():
@@ -337,12 +338,13 @@ def verify_codex_integrity(repo_root: Path | None = None) -> list[str]:
             if ".. enunciation::" in text and ".. folio::" not in text:
                 errors.append(f"Primary enunciation page missing '.. folio::' marker: {slug}/{lf.name}")
 
-    for app_name in ("concordance.rst", "bibliography.rst", "persons.rst", "glossary.rst"):
+    for app_name in ("concordance.rst", "bibliography.rst", "people/index.rst", "glossary.rst"):
         ap = docsrc / app_name
         if not ap.is_file():
             errors.append(f"Missing root apparatus table: docsrc/{app_name}")
 
-    codex_rst_files = [docsrc / app for app in ("concordance.rst", "bibliography.rst", "persons.rst", "glossary.rst")]
+    codex_rst_files = [docsrc / app for app in ("concordance.rst", "bibliography.rst", "people/index.rst", "glossary.rst")]
+    codex_rst_files.extend(sorted((docsrc / "people").glob("*.rst")))
     for slug in CANONICAL_BOOK_SLUGS:
         book_p = docsrc / slug
         if book_p.is_dir():
