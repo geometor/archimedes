@@ -1,0 +1,22 @@
+{
+  "repository": "geometor/archimedes",
+  "rights_category": "public-domain",
+  "sources": [
+    {
+      "id": "heath-1897-archimedes",
+      "title": "The Works of Archimedes (1897) & Method (1912)",
+      "author": "Sir Thomas L. Heath (ed.)",
+      "year": "1897",
+      "era": "Internet Archive",
+      "languages": [
+        "English"
+      ],
+      "site_url": "https://archive.org/details/worksofarchimede00arch",
+      "local_path": "resources/heath_1897_meta.xml",
+      "pages": null,
+      "publisher": "Cambridge University Press",
+      "rights": "Public Domain (1897 / 1912)",
+      "excerpt": "Internet Archive metadata stubs for Heath 1897/1912 and Heiberg 1910–1915 Greek vols."
+    }
+  ]
+}
