@@ -1,13 +1,13 @@
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • archimedes Medallion
+   :target: https://geometor.github.io/archimedes/
+   :width: 150px
+   :align: right
+
 GEOMETOR • archimedes
 =====================
 
 **Visit the Online Archive:** https://geometor.github.io/archimedes/
-
-.. image:: docsrc/_static/logo.png
-   :alt: GEOMETOR • archimedes Medallion
-   :target: https://geometor.github.io/archimedes/
-   :width: 180px
-   :align: center
 
 .. image:: docsrc/_static/figures/fig_archimedean_spiral.svg
    :alt: GEOMETOR • archimedes featured geometric construction
