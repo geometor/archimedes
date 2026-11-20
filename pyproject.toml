@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "geometor-archimedes"
 authors = [{name = "phi ARCHITECT", email = "phi@geometor.com"}]
 description = "Scholarly Multi-Track Book Codex and Heiberg/Heath concordance of The Works of Archimedes (1897) and The Method of Archimedes (1912)."
-readme = "README.rst"
+readme = "README.md"
 requires-python = ">=3.13"
 license = {text = "MIT"}
 dynamic = ["version"]
