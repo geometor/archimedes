@@ -1,5 +1,5 @@
 :navigation: header
-:order: 12
+:order: 8
 :nav_title: Bibliography
 :type: apparatus
 
