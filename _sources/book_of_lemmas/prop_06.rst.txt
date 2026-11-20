@@ -1,5 +1,5 @@
 :canonical_id: LA.6
-:order: 4
+:order: 6
 :type: proposition
 
 Proposition 6: Maximum Inscribed Circle in the Arbelos & Pappus Chain

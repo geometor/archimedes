@@ -1,4 +1,4 @@
-:order: 21
+:order: 31
 :type: summary
 :canonical_id: equilibrium-of-planes
 :folio: Heath 1897, pp. 189–220 · Heiberg II, 142–241

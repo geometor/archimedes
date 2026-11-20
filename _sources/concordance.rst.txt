@@ -86,17 +86,17 @@ Canonical Proposition & Ecosystem Concordance
      - Seven axiomatic postulates of static balance, symmetry, superposition, and convexity of the center of gravity
      - **etc**: Axiomatic foundation of homogeneous barycentric coordinates; **hilbert**: Axiomatization of statics parallel to geometric incidence/congruence
    * - ``EP.I.6-7``
-     - :doc:`On the Equilibrium of Planes I (Props. 6 & 7) <equilibrium_of_planes/prop_06_07>`
+     - :doc:`On the Equilibrium of Planes I (Props. 6 & 7) <equilibrium_of_planes/prop_06>`
      - Heiberg II, 152–159 (2nd ed. II, 132–139); Heath 1897, pp. 192–194
      - Law of the Lever: commensurable (I.6) and incommensurable (I.7) magnitudes balance at distances reciprocally proportional to weights
      - **euclid**: V.Def.4, V.Def.5; **pappus**: Synagoge VIII (centers of gravity); **etc**: Weighted barycentric division (w₁ : w₂)
    * - ``EP.I.9-10``
-     - :doc:`On the Equilibrium of Planes I (Props. 9 & 10) <equilibrium_of_planes/prop_08_12>`
+     - :doc:`On the Equilibrium of Planes I (Props. 9 & 10) <equilibrium_of_planes/prop_09>`
      - Heiberg II, 162–169 (2nd ed. II, 140–147); Heath 1897, pp. 195–198
      - Center of gravity of any parallelogram lies at the intersection of its diagonals
      - **euclid**: I.34; **elements**: Midpoint concurrency of parallelogram diagonals
    * - ``EP.I.13-14``
-     - :doc:`On the Equilibrium of Planes I (Props. 13 & 14) <equilibrium_of_planes/prop_13_14>`
+     - :doc:`On the Equilibrium of Planes I (Props. 13 & 14) <equilibrium_of_planes/prop_13>`
      - Heiberg II, 172–183 (2nd ed. II, 150–159); Heath 1897, pp. 198–201
      - Center of gravity of any triangle lies on each median (I.13) and at the concurrency of medians (I.14) — Kimberling X(2)
      - **etc**: X(2) Centroid — barycentric (1 : 1 : 1), trilinear (bc : ca : ab); **euclid**: VI.2, VI.4; **pappus**: Synagoge VIII centroid theorems
@@ -106,7 +106,7 @@ Canonical Proposition & Ecosystem Concordance
      - Center of gravity of a trapezium divides the segment joining midpoints of parallel sides in ratio (2b + a) : (2a + b)
      - **etc**: Barycentric decomposition of quadrilaterals into triangles
    * - ``EP.II.8-10``
-     - :doc:`On the Equilibrium of Planes II (Props. 8–10) <equilibrium_of_planes/book_02>`
+     - :doc:`On the Equilibrium of Planes II (Props. 8–10) <equilibrium_of_planes/book_02_prop_08>`
      - Heiberg II, 208–241 (2nd ed. II, 182–213); Heath 1897, pp. 208–220
      - Center of gravity of any parabolic segment divides its diameter in ratio 3 : 2 from the vertex (and frustum centroid)
      - **pappus**: Pappus–Guldin centroid foundations
@@ -116,12 +116,12 @@ Canonical Proposition & Ecosystem Concordance
      - Mourning Conon of Samos, statement of Archimedes' Lemma, and announcement of mechanical + geometric quadrature
      - **euclid**: X.1, XII.2, XII.10; **hilbert**: Axiom V 1 (Archimedes' Axiom)
    * - ``QP.6-17``
-     - :doc:`Quadrature of the Parabola (Props. 6–17) <quadrature_of_the_parabola/part_01>`
+     - :doc:`Quadrature of the Parabola (Props. 6–17) <quadrature_of_the_parabola/prop_06>`
      - Heiberg II, 304–335 (2nd ed. II, 272–299); Heath 1897, pp. 238–246
      - Mechanical exhaustion via trapezium lever bounds proving parabolic segment = 4/3 of inscribed triangle
      - **etc**: Triangle & trapezium centroids applied to conic quadrature
    * - ``QP.18-24``
-     - :doc:`Quadrature of the Parabola (Props. 18–24) <quadrature_of_the_parabola/part_02>`
+     - :doc:`Quadrature of the Parabola (Props. 18–24) <quadrature_of_the_parabola/prop_18>`
      - Heiberg II, 336–353 (2nd ed. II, 300–315); Heath 1897, pp. 246–252
      - Pure geometric exhaustion via triangle tree (each tier = 1/4 previous) and exact finite identity A + B + ... + Z + Z/3 = 4A/3
      - **euclid**: IX.35, X.1; **wildberger**: Exact algebraic quadrature of parabola without limits
@@ -161,7 +161,7 @@ Canonical Proposition & Ecosystem Concordance
      - Ellipse area = πab (Prop. 4); paraboloid segment = 3/2 inscribed cone (Props. 21–22); hyperboloid & spheroid segments (Props. 25–32)
      - **euclid**: XII.10, XII.12
    * - ``LA.1-3``
-     - :doc:`Book of Lemmas (Liber Assumptorum) (Props. 1–3) <book_of_lemmas/prop_01_03>`
+     - :doc:`Book of Lemmas (Liber Assumptorum) (Props. 1–3) <book_of_lemmas/prop_01>`
      - Heiberg II, 428–431 (2nd ed. II, 510–513); Heath 1897, pp. 301–304
      - Homothetic collinearity on tangent circles (Prop. 1), semicircle tangent bisection (Prop. 2), and chord half-angle identity (Prop. 3)
      - **euclid**: III.31, VI.2; **pappus**: Synagoge IV.14
@@ -186,7 +186,7 @@ Canonical Proposition & Ecosystem Concordance
      - Angle Trisection by Neusis: inserting segment BC = r outside circle on secant through center O yields ∠AEB = (1/3)∠AOB
      - **euclid**: I.5, I.32; **pappus**: Synagoge IV.36–44 (classification of plane, solid & neusis trisections)
    * - ``LA.9-13``
-     - :doc:`Book of Lemmas (Liber Assumptorum) (Props. 9–13) <book_of_lemmas/prop_09_13>`
+     - :doc:`Book of Lemmas (Liber Assumptorum) (Props. 9–13) <book_of_lemmas/prop_11>`
      - Heiberg II, 439–443 (2nd ed. II, 520–523); Heath 1897, pp. 310–316
      - Orthogonal chords quadrance identity AO² + BO² + CO² + DO² = 4R² (Prop. 11) and polar orthocenter reciprocity (Prop. 12)
      - **wildberger**: Pure quadrance invariant Q₁ + Q₂ + Q₃ + Q₄ = D²; **pappus**: Pole-polar reciprocity & Apollonius On Contacts
@@ -211,12 +211,12 @@ Canonical Proposition & Ecosystem Concordance
      - Mechanical slice-balancing of parabolic segment (Prop. 1: 4/3 ΔABC) and sphere + cone against cylinder (Prop. 2: V = (4/3)πr³ → S = 4πr²)
      - **etc**: Triangle centroid W dividing median 2 : 1 (CK = 3KW) as fulcrum ratio
    * - ``METH.3-11``
-     - :doc:`The Method of Mechanical Theorems (Props. 3–11) <the_method/props_03_15>`
+     - :doc:`The Method of Mechanical Theorems (Props. 3–11) <the_method/prop_03>`
      - Heiberg II (2nd ed.), 446–484; Heath 1912, pp. 21–38
      - Mechanical discovery of volumes and centers of gravity of spheroids, paraboloids, hyperboloids, and spherical segments
      - **pappus**: Synagoge VIII solid centroids
    * - ``METH.12-15``
-     - :doc:`The Method of Mechanical Theorems (Props. 12–15) <the_method/props_03_15>`
+     - :doc:`The Method of Mechanical Theorems (Props. 12–15) <the_method/prop_12>`
      - Heiberg II (2nd ed.), 484–507; Heath 1912, pp. 38–51
      - Cubature of curved solids equal to rectilinear polyhedra: cylindrical ungula = 1/6 prism (Props. 12–14) & bicylinder = 2/3 cube (Prop. 15)
      - **heron**: Metrica citation of Archimedes' Method on ungula and bicylinder

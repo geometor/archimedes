@@ -1,5 +1,5 @@
 :canonical_id: LA.4
-:order: 2
+:order: 4
 :type: proposition
 
 .. _lemmas-arbelos:

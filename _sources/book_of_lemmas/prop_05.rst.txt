@@ -1,5 +1,5 @@
 :canonical_id: LA.5
-:order: 3
+:order: 5
 :type: proposition
 
 Proposition 5: Archimedes' Twin Circles

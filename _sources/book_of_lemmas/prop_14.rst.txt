@@ -1,5 +1,5 @@
 :canonical_id: LA.14
-:order: 8
+:order: 14
 :type: proposition
 
 .. _lemmas-salinon:
