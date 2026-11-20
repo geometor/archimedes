@@ -1,5 +1,5 @@
 :canonical_id: LA.7
-:order: 5
+:order: 7
 :type: proposition
 
 Proposition 7: Circumscribed & Inscribed Squares of a Circle

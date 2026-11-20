@@ -53,7 +53,19 @@ Table of Contents
    epistle
    prop_01
    prop_02
-   props_03_15
+   prop_03
+   prop_04
+   prop_05
+   prop_06
+   prop_07
+   prop_08
+   prop_09
+   prop_10
+   prop_11
+   prop_12
+   prop_13
+   prop_14
+   prop_15
 
 .. toctree::
    :hidden:

@@ -1,11 +1,11 @@
-:canonical_id: EP.I.13-14
-:order: 5
-:type: section
+:canonical_id: EP.I.13
+:order: 14
+:type: proposition
 
 .. _ep-i-13-14:
 
-Book I: Propositions 13 & 14: The Triangle Centroid X(2)
-========================================================
+Book I, Proposition 13: Triangle Centre of Gravity Lies on Each Median
+======================================================================
 
 .. folio:: Heath (1897), pp. 198–201 · Heiberg II, 168–177
    :page: 198
@@ -13,8 +13,6 @@ Book I: Propositions 13 & 14: The Triangle Centroid X(2)
 .. enunciation::
 
    **Proposition 13.** In any triangle, the :term:`centre of gravity <kentron-barous>` lies on the straight line joining any angle to the middle point of the opposite side.
-
-   **Proposition 14.** It follows at once that the centre of gravity of any triangle is at the intersection of the lines drawn from any two angles to the middle points of the opposite sides respectively.
 
 .. picture:: /_static/figures/fig_triangle_centroid.svg
    :caption: Book I, Propositions 6–7 & 13–14 — Law of the Lever and Concurrency of Medians at Triangle Centroid G = X(2)
@@ -28,7 +26,5 @@ By :just:`Prop. 9`, every inscribed parallelogram has its centre of gravity on :
    \frac{\text{Remaining Triangles}}{\text{Inscribed Parallelograms}} = \frac{PH}{HQ}.
 
 Draw :g:`KL \parallel AD` through :g:`Q` meeting :g:`BC`, :g:`AC`; since all corner triangles lie between :g:`AD` and its bounding tangents, :g:`Q` cannot lie beyond the boundary parallel through :g:`C`, implying :eq:`PH : HQ > HI : IA`, contradicting our construction! *(Archimedes also supplies a pure similarity proof decomposing :g:`\triangle ABC` into a central parallelogram :g:`FKEC` and two half-scale triangles :g:`\triangle AFE`, :g:`\triangle EBD` via :just:`Prop. 10` and :just:`Post. 5`.)*
-
-Applying **Proposition 13** to two medians :g:`AD` and :g:`BE` yields **Proposition 14**: the three medians concur at the unique barycenter :g:`G` dividing each median in the ratio :eq:`2 : 1` (:cite:`geometor:etc`, Kimberling center ``X(2)`` with homogeneous barycentric coordinates :eq:`1 : 1 : 1`).
 
 .. qed::

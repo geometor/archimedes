@@ -1,6 +1,6 @@
 :canonical_id: EP.I.15
-:order: 6
-:type: section
+:order: 16
+:type: proposition
 
 Book I: Proposition 15: Centre of Gravity of a Trapezium
 ========================================================

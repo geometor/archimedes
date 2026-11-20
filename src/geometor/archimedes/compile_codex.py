@@ -8,8 +8,6 @@ from pathlib import Path
 
 from geometor.archimedes.concordance import (
     CANONICAL_BOOK_SLUGS,
-    CANONICAL_UNIT_SLUGS,
-    TRACK_SUFFIXES,
     get_repo_root,
     load_concordance,
     load_json_resource,

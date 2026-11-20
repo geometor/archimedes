@@ -51,12 +51,31 @@ Table of Contents
    :caption: Propositions & Sections
 
    postulates
-   prop_01_05
-   prop_06_07
-   prop_08_12
-   prop_13_14
+   prop_01
+   prop_02
+   prop_03
+   prop_04
+   prop_05
+   prop_06
+   prop_07
+   prop_08
+   prop_09
+   prop_10
+   prop_11
+   prop_12
+   prop_13
+   prop_14
    prop_15
-   book_02
+   book_02_prop_01
+   book_02_prop_02
+   book_02_prop_03
+   book_02_prop_04
+   book_02_prop_05
+   book_02_prop_06
+   book_02_prop_07
+   book_02_prop_08
+   book_02_prop_09
+   book_02_prop_10
 
 .. toctree::
    :hidden:

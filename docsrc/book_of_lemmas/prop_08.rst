@@ -1,5 +1,5 @@
 :canonical_id: LA.8
-:order: 6
+:order: 8
 :type: proposition
 
 .. _lemmas-neusis:

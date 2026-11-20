@@ -205,7 +205,7 @@
         "pappus": "Synagoge VIII (centers of gravity)",
         "etc": "Weighted barycentric division (w₁ : w₂)"
       },
-      "target_doc": "equilibrium_of_planes/prop_06_07"
+      "target_doc": "equilibrium_of_planes/prop_06"
     },
     {
       "id": "EP.I.9-10",
@@ -223,7 +223,7 @@
         "euclid": "I.34",
         "elements": "Midpoint concurrency of parallelogram diagonals"
       },
-      "target_doc": "equilibrium_of_planes/prop_08_12"
+      "target_doc": "equilibrium_of_planes/prop_09"
     },
     {
       "id": "EP.I.13-14",
@@ -242,7 +242,7 @@
         "euclid": "VI.2, VI.4",
         "pappus": "Synagoge VIII centroid theorems"
       },
-      "target_doc": "equilibrium_of_planes/prop_13_14"
+      "target_doc": "equilibrium_of_planes/prop_13"
     },
     {
       "id": "EP.I.15",
@@ -276,7 +276,7 @@
       "ecosystem_links": {
         "pappus": "Pappus–Guldin centroid foundations"
       },
-      "target_doc": "equilibrium_of_planes/book_02"
+      "target_doc": "equilibrium_of_planes/book_02_prop_08"
     },
     {
       "id": "QP.Pref",
@@ -311,7 +311,7 @@
       "ecosystem_links": {
         "etc": "Triangle & trapezium centroids applied to conic quadrature"
       },
-      "target_doc": "quadrature_of_the_parabola/part_01"
+      "target_doc": "quadrature_of_the_parabola/prop_06"
     },
     {
       "id": "QP.18-24",
@@ -329,7 +329,7 @@
         "euclid": "IX.35, X.1",
         "wildberger": "Exact algebraic quadrature of parabola without limits"
       },
-      "target_doc": "quadrature_of_the_parabola/part_02"
+      "target_doc": "quadrature_of_the_parabola/prop_18"
     },
     {
       "id": "SC.I.Assump.1-5",
@@ -472,7 +472,7 @@
         "euclid": "III.31, VI.2",
         "pappus": "Synagoge IV.14"
       },
-      "target_doc": "book_of_lemmas/prop_01_03"
+      "target_doc": "book_of_lemmas/prop_01"
     },
     {
       "id": "LA.4",
@@ -562,7 +562,7 @@
         "wildberger": "Pure quadrance invariant Q₁ + Q₂ + Q₃ + Q₄ = D²",
         "pappus": "Pole-polar reciprocity & Apollonius On Contacts"
       },
-      "target_doc": "book_of_lemmas/prop_09_13"
+      "target_doc": "book_of_lemmas/prop_11"
     },
     {
       "id": "LA.14",
@@ -652,7 +652,7 @@
       "ecosystem_links": {
         "pappus": "Synagoge VIII solid centroids"
       },
-      "target_doc": "the_method/props_03_15"
+      "target_doc": "the_method/prop_03"
     },
     {
       "id": "METH.12-15",
@@ -670,7 +670,7 @@
       "ecosystem_links": {
         "heron": "Metrica citation of Archimedes' Method on ungula and bicylinder"
       },
-      "target_doc": "the_method/props_03_15"
+      "target_doc": "the_method/prop_12"
     },
     {
       "id": "SOL.1-13",

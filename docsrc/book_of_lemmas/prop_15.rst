@@ -1,5 +1,5 @@
 :canonical_id: LA.15
-:order: 9
+:order: 15
 :type: proposition
 
 Proposition 15: Pentagon, Decagon & the Golden Section

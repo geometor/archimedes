@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import xml.etree.ElementTree as ET
-from pathlib import Path
 
 from geometor.archimedes import __version__
 from geometor.archimedes.cli import main as cli_main
@@ -11,7 +10,6 @@ from geometor.archimedes.compile_codex import compile_apparatus, verify_codex_in
 from geometor.archimedes.concordance import (
     CANONICAL_UNIT_SLUGS,
     REQUIRED_EUCLID_CITATION_KEYS,
-    TRACK_SUFFIXES,
     get_repo_root,
     load_concordance,
     load_json_resource,
@@ -64,6 +62,15 @@ def test_seven_books_atomic_pages_and_zero_python() -> None:
     docsrc = root / "docsrc"
     assert len(CANONICAL_UNIT_SLUGS) == 7
 
+    expected_atomic_counts = {
+        "measurement_of_a_circle": 3,
+        "quadrature_of_the_parabola": 25,
+        "equilibrium_of_planes": 26,
+        "sphere_and_spirals": 4,
+        "the_method": 16,
+        "book_of_lemmas": 15,
+        "arenarius": 3,
+    }
     for slug in CANONICAL_UNIT_SLUGS:
         book_dir = docsrc / slug
         assert (book_dir / "index.rst").is_file()
@@ -73,7 +80,24 @@ def test_seven_books_atomic_pages_and_zero_python() -> None:
             f for f in book_dir.glob("*.rst")
             if f.name not in ("index.rst", "summary.rst", "notes.rst")
         ]
-        assert len(leaf_files) >= 3, f"Expected >= 3 leaf pages in {slug}, got {len(leaf_files)}"
+        assert len(leaf_files) == expected_atomic_counts[slug], (
+            f"Expected {expected_atomic_counts[slug]} leaf pages in {slug}, got {len(leaf_files)}"
+        )
+
+    bundled_removed = (
+        "book_of_lemmas/prop_01_03.rst",
+        "book_of_lemmas/prop_09_13.rst",
+        "equilibrium_of_planes/prop_01_05.rst",
+        "equilibrium_of_planes/prop_06_07.rst",
+        "equilibrium_of_planes/prop_08_12.rst",
+        "equilibrium_of_planes/prop_13_14.rst",
+        "equilibrium_of_planes/book_02.rst",
+        "quadrature_of_the_parabola/part_01.rst",
+        "quadrature_of_the_parabola/part_02.rst",
+        "the_method/props_03_15.rst",
+    )
+    for rel in bundled_removed:
+        assert not (docsrc / rel).exists(), f"Bundled leaf still exists: {rel}"
 
     for app_name in ("concordance.rst", "bibliography.rst", "people/index.rst", "glossary.rst"):
         assert (docsrc / app_name).is_file()
