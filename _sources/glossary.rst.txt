@@ -1,5 +1,5 @@
-:navigation: header
-:order: 16
+:navigation: footer
+:order: 60
 :nav_title: Glossary
 :type: apparatus
 

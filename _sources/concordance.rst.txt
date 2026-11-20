@@ -1,5 +1,5 @@
-:navigation: header
-:order: 14
+:navigation: footer
+:order: 50
 :nav_title: Concordance
 :type: apparatus
 
