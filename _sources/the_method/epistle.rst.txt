@@ -15,7 +15,7 @@ I sent you on a former occasion some of the theorems discovered by me, merely wr
 1. If in a right prism with a parallelogrammic base a cylinder be inscribed which has its bases in the opposite parallelograms, and its sides [generating lines] on the remaining planes (faces) of the prism, and if through the centre of the circle which is the base of the cylinder and (through) one side of the square in the plane opposite to it a plane be drawn, the plane so drawn will cut off from the cylinder a segment (:term:`cylindrical ungula <ungula>`) which is bounded by two planes and the surface of the cylinder... and the segment cut off from the cylinder is **one-sixth part of the whole prism**.
 2. If in a cube a cylinder be inscribed which has its bases in the opposite parallelograms and touches with its surface the remaining four planes (faces), and if there also be inscribed in the same cube another cylinder which has its bases in other parallelograms and touches with its surface the remaining four planes (faces), then the figure bounded by the surfaces of the cylinders, which is within both cylinders (:term:`bicylinder <bicylinder>`), is **two-thirds of the whole cube**.”
 
-Seeing that :person:`Eratosthenes <eratosthenes>` is an earnest scholar of philosophy and mathematics, :person:`Archimedes <archimedes>` sets forth in this book the **peculiar mechanical method** (:term:`ἔφοδος <ephodion>`) whereby one can investigate geometric problems via mechanics:
+Seeing that you, :person:`Eratosthenes <eratosthenes>`, are an earnest scholar of philosophy and mathematics, I have thought fit to set forth in this book the **peculiar mechanical method** (:term:`ἔφοδος <ephodion>`) whereby one may investigate geometrical questions through mechanics:
 
 .. epigraph::
 
@@ -24,4 +24,4 @@ Seeing that :person:`Eratosthenes <eratosthenes>` is an earnest scholar of philo
 Lemmas 1–11 (pp. 14–15)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Archimedes opens by summarizing 11 statical and geometric lemmas from *Equilibrium of Planes* and *Conoids and Spheroids* (including the centroids of lines, triangles, cones—at :eq:`\frac{3}{4}` of the axis from the vertex, Lemma 10!—and cylinders), before unveiling his slice-balancing investigations.
+Before proceeding to the propositions, I assume eleven statical and geometrical lemmas already proved in *On the Equilibrium of Planes* and *On Conoids and Spheroids*—concerning centres of gravity of lines, triangles, cylinders, and cones (whose centre of gravity divides the axis in the ratio :eq:`3 : 1` from the vertex, Lemma 10).

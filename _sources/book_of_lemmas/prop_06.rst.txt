@@ -15,7 +15,7 @@ Proposition 6: Maximum Inscribed Circle in the Arbelos & Pappus Chain
 .. picture:: /_static/figures/fig_arbelos_inscribed.svg
    :caption: Book of Lemmas, Proposition 6 — Circle Tangent to All Three Semicircles of the Arbelos (GH : AB = 6 : 19 for 3 : 2) & Pappus Chain
 
-By repeated application of **Proposition 1** through the three points of contact, Archimedes proves that for :eq:`AC : CB = 3 : 2`, :eq:`GH : AB = 6 : 19`, and in general if :eq:`AC : CB = \lambda : 1`, then:
+By repeated application of **Proposition 1** through the three points of contact, for :eq:`AC : CB = 3 : 2` it follows that :eq:`GH : AB = 6 : 19`, and in general if :eq:`AC : CB = \lambda : 1`, then:
 
 .. math::
 
