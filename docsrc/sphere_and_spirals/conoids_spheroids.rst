@@ -8,7 +8,7 @@ On Conoids and Spheroids: Paraboloids, Hyperboloids & Spheroids
 .. folio:: Heath (1897), pp. 99–150 · Heiberg I, 272–499
    :page: 99
 
-In 32 propositions (:cite:`archimedes:conoids-and-spheroids`), Archimedes extends exhaustion by inscribed and circumscribed cylinder-slices ("gnomons" of equal thickness) to affine-scaled quadric surfaces of revolution:
+By inscribed and circumscribed cylindrical slices ("gnomons" of equal thickness, :cite:`archimedes:conoids-and-spheroids`), the areas and volumes of ellipses, paraboloids, hyperboloids, and spheroids of revolution are determined as follows:
 
 * **Proposition 4** *(Area of the Ellipse)*: The area of any ellipse with semi-axes :eq:`a, b` bears to the circle on its major axis :eq:`2a` the ratio :eq:`b : a` (and equals the circle whose radius is the geometric mean :eq:`\sqrt{ab}`, i.e. :eq:`\text{Area} = \pi ab`).
 * **Propositions 21 & 22** (:term:`Right-Angled Conoid / Paraboloid <orthogonion-konoeides>`): Any segment cut from a paraboloid of revolution by a plane (perpendicular or oblique to the axis!) is **once and a half** (:eq:`\frac{3}{2}`) of the cone having the same base and the same axis (hence **one-half** of the enveloping cylinder, since ordinates-squared grow linearly :eq:`y^2 \propto x` and :eq:`\sum_{k=1}^n k \sim \frac{1}{2}n^2`).

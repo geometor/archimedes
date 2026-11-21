@@ -36,7 +36,7 @@ Therefore, **the circular section of the sphere together with the circular secti
 
 Since the large cylinder (radius :eq:`2r`, height :eq:`2r`) is :eq:`8` elementary cones (radius :eq:`r`, height :eq:`r`) and Cone :g:`AEF` (radius :eq:`2r`, height :eq:`2r`) is :eq:`8 \times \frac{1}{3}`—or in Archimedes' scaling, :eq:`\text{Cylinder} = 3 \cdot \text{Cone } AEF`—subtracting leaves **Sphere = 4 elementary cones** (:eq:`\frac{4}{3}\pi r^3`), and the circumscribed cylinder (radius :eq:`r`, height :eq:`2r`, equal to :eq:`6` cones) equals :eq:`\frac{3}{2}` of the sphere!
 
-**Autobiographical Note on the Surface of the Sphere** (Heath 1912, p. 21): Immediately after Prop. 2, Archimedes writes:
+**Corollary on the Surface of the Sphere** (Heath 1912, p. 21):
 
 .. epigraph::
 

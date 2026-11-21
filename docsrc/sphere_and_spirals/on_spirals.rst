@@ -12,7 +12,7 @@ Kinematic Definition & Discrete Sum of Squares
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * **Definition 1** (Heath p. 154): If a straight line drawn in a plane revolve at a uniform rate about one extremity which remains fixed, and return to the position from which it started, and if, at the same time as the line revolves, a point move at a uniform rate along the straight line beginning from the extremity which remains fixed, the point will describe a :term:`spiral <helix>` (*ἕλιξ*) in the plane (:eq:`r = a\theta`).
-* **Proposition 10** *(Discrete Integral of Squares)*: Given :eq:`n` lines :eq:`A_1, A_2, \dots, A_n` in arithmetic progression :eq:`k \cdot d` (:eq:`k = 1, \dots, n`), Archimedes proves the exact double inequality:
+* **Proposition 10** *(Discrete Integral of Squares)*: Given :eq:`n` lines :eq:`A_1, A_2, \dots, A_n` in arithmetic progression :eq:`k \cdot d` (:eq:`k = 1, \dots, n`), the following exact double inequality holds:
 
   .. math::
 
