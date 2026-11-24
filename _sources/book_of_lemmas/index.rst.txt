@@ -7,7 +7,9 @@
 :book_title: Book of Lemmas
 :book_subtitle: Archimedes · Kitāb al-Maʾkhūdhāt (Thābit ibn Qurra · Borelli 1661 · Heath 1897, pp. 301–318)
 :author: Archimedes of Syracuse
-:year: c. 250 BCE / 1897
+:year: -250
+:year_label: ca. 250 BCE
+:edition_year: 1897
 :excerpt: Fifteen planar gemstones preserved in Arabic by Thābit ibn Qurra: the Arbelos (Prop. 4), Twin Circles (Prop. 5), Pappus chain (Prop. 6), Neusis trisection (Prop. 8), Salinon (Prop. 14), and golden section (Prop. 15).
 
 .. _works-book-of-lemmas:

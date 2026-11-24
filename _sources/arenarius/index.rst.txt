@@ -7,7 +7,9 @@
 :book_title: The Sand-Reckoner & Semi-Regular Solids
 :book_subtitle: Archimedes of Syracuse · Arenarius, Stomachion & Pappus V.19 (Heiberg II · Heath 1897)
 :author: Archimedes of Syracuse
-:year: c. 250 BCE / 1897
+:year: -250
+:year_label: ca. 250 BCE
+:edition_year: 1897
 :excerpt: Pappus V.19 census of the thirteen Archimedean semi-regular polyhedra, the 14-piece Stomachion square dissection, and The Sand-Reckoner preserving Aristarchus's heliocentric cosmos and myriad-octad powers.
 
 .. _works-semi-regular-solids-arenarius:

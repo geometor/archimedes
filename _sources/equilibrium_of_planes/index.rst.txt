@@ -7,7 +7,9 @@
 :book_title: On the Equilibrium of Planes
 :book_subtitle: Archimedes of Syracuse · De Planorum Aequilibriis (Heiberg II, 142–241 · Heath 1897, pp. 189–220)
 :author: Archimedes of Syracuse
-:year: c. 250 BCE / 1897
+:year: -250
+:year_label: ca. 250 BCE
+:edition_year: 1897
 :excerpt: Axiomatic statics, commensurable and incommensurable Law of the Lever (I.6–7), triangle centroid X(2) (I.13–14), and 3:2 parabolic segment centroid (II.8).
 
 .. _works-equilibrium-of-planes:
