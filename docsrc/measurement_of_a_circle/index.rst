@@ -7,7 +7,9 @@
 :book_title: Measurement of a Circle
 :book_subtitle: Archimedes of Syracuse · Dimensio Circuli (Heiberg I, 258–271 · Heath 1897, pp. 91–98)
 :author: Archimedes of Syracuse
-:year: c. 250 BCE / 1897
+:year: -250
+:year_label: ca. 250 BCE
+:edition_year: 1897
 :excerpt: Double exhaustion of circle area by a right triangle (A = ½Cr) and rational 96-gon bisection bounding 3 10/71 < π < 3 1/7.
 
 .. _works-measurement-of-a-circle:

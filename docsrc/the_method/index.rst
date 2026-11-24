@@ -7,7 +7,9 @@
 :book_title: The Method of Mechanical Theorems
 :book_subtitle: Archimedes of Syracuse · The Method Addressed to Eratosthenes (Heiberg 1907 · Heath 1912)
 :author: Archimedes of Syracuse
-:year: c. 250 BCE / 1912
+:year: -250
+:year_label: ca. 250 BCE
+:edition_year: 1912
 :excerpt: Deciphered by Heiberg from the Constantinople Palimpsest: Archimedes' secret mechanical slice-balancing discovery of the parabola, sphere, ungula (1/6 prism), and bicylinder (2/3 cube).
 
 .. _works-method-of-mechanical-theorems:

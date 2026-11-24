@@ -7,7 +7,9 @@
 :book_title: Sphere and Cylinder, Spirals & Conoids
 :book_subtitle: Archimedes of Syracuse · Heiberg (1880–1881) & Heath (1897, pp. 1–188)
 :author: Archimedes of Syracuse
-:year: c. 250 BCE / 1897
+:year: -250
+:year_label: ca. 250 BCE
+:edition_year: 1897
 :excerpt: Curved surface area, volume, and 2:3 Tomb Theorem of the sphere and cylinder, Eutocius's Doric cubic intersection, spiral subtangent rectification, and quadrics of revolution.
 
 .. _works-sphere-spirals-conoids:

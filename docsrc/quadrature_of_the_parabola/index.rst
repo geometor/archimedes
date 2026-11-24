@@ -7,7 +7,9 @@
 :book_title: Quadrature of the Parabola
 :book_subtitle: Archimedes of Syracuse · Quadratura Parabolae (Heiberg II, 294–353 · Heath 1897, pp. 233–252)
 :author: Archimedes of Syracuse
-:year: c. 250 BCE / 1897
+:year: -250
+:year_label: ca. 250 BCE
+:edition_year: 1897
 :excerpt: Mechanical balance quadrature and pure geometric exhaustion of the parabolic segment proving Area = 4/3 Triangle ABC via Archimedes' Lemma and 1/4^n series.
 
 .. _works-quadrature-of-parabola:
